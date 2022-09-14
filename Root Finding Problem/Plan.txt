@@ -1,0 +1,52 @@
+Methods:
+    Root Finding Problem:
+        Import following functions from methods module
+        Ask user what method they want
+        Call that method
+
+    Functional Iteration-
+        Define functions to ask the user for the function f, tolerance, and max iterations
+        Also want a function to ask user for their initial guess
+        Define a function g that will be looking for the fixed point/root of f
+        Define a function table and makeTable that will make a table in the case the user wants one
+        Finally define a function that will do the functional iteration
+
+        def fn():
+            Ask user for function they want the root of
+            return that function
+
+        def tol():
+            Ask user for tolerance
+            return tolerance
+
+        def initialGuess():
+            Ask user for initial guess
+            return initial guess
+
+        def maxIter():
+            Ask user for maximum number of iterations
+            return max
+
+        def g(f, x):
+            Define gval as the function: x - eval(f)
+            return gval
+            This is computing if x is a fixed point of g
+
+        def wantTable():
+            Ask user if they want a table
+            return that choice
+
+        def table(a, b, c):
+            print a table with a being the iteration, b being guess for the root, c being the error
+
+        def functionalIteration():
+            call f(), initialGuess(), tol(), maxIter()
+            then call wantTable()
+            define error = 10 * tol
+            create if else statement for if they want the table
+            if yes:
+                create while loop for iterations less than max iter and error less than tol
+                    define x1 as g evaluated at initial guess
+                    calculate new error
+                    let initial be x1
+                    call table with three values wanted
