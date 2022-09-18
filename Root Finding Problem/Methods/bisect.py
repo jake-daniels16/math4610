@@ -31,7 +31,7 @@ def table(a,b,c):
 
 def bisectMethod():
     fun = fn()
-    a, b = eval(input("Enter interval for function as (a,b) where b>a: "))
+    a, b = eval(input("Enter interval for function as (a,b) where b > a: "))
     fa = f(fun, a)
     fb = f(fun, b)
     tol = tolerance()
