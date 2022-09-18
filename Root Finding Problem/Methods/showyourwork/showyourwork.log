@@ -1,0 +1,1221 @@
+"e","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","195009","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+","","45","195341","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","CS1400 - 001
+# Assignment ??","17","208902","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","M","","17","208912","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","M",,"18","208973","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","A","","18","208993","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","A",,"19","208997","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","T","","19","209003","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","T",,"20","209005","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","H","","20","209023","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","H",,"21","209024","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","21","209667","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","21","209689","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","21","209731","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"22","209758","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","4","","22","210295","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","4",,"23","210298","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","23","210318","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","23","210430","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","6","","23","210431","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","6",,"24","210438","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","24","210469","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","24","211195","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","1","","24","211196","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","1",,"25","211195","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","25","211298","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"26","211301","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+","","27","212696","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+","","28","212753","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","28","213512","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"29","213514","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","29","213527","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","29","213633","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","m","","29","213634","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","m",,"30","213641","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","30","213649","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","30","213878","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","30","213879","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"31","213885","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","31","213911","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","31","213915","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","31","213916","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"32","213922","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","32","213934","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","32","214059","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","32","214060","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"33","214071","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","33","214295","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"34","214303","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","34","214522","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"35","214657","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","35","214681","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"36","214684","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","35","214888","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","n","34","215056","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","t","33","215244","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","r","32","215452","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","o","31","215612","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","p","30","215881","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","m","29","216036","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","i","28","217083","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"c","import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def bisectMethod():
+    fun = fn()
+    a, b = eval(input(""Enter interval for function as (a,b) where b>a: ""))
+    fa = f(fun, a)
+    fb = f(fun, b)
+    tol = tolerance()
+    choice = wantTable()
+    k = int(-np.log(tol / np.abs(b - a)) / np.log(2)) + 1
+    if choice == 1:
+        for i in range(1, k):
+            error = np.abs(b-a)
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(""Both endpoints are roots no table could be formed."")
+                    break
+                elif fa == 0:
+                    print(""The left endpoint, "", a, "", is a root no table could be formed."")
+                    break
+                elif fb == 0:
+                    print(""The right endpoint, "", b, "", is a root no table could be formed."")
+                    break
+                elif fc == 0:
+                    table(i, c, error)
+                    break
+            table(i, c, error)
+    elif choice == 2:
+        for i in range(1, k):
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                c = "" ""
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(a, ""and"", b, ""are roots"")
+                    break
+                elif fa == 0:
+                    print(a, ""is a root"")
+                    c = ""given above""
+                    break
+                elif fb == 0:
+                    print(b, ""is a root"")
+                    c = ""given above""
+                    break
+                elif fc == 0:
+                    print(c, ""is a root"")
+                    c = ""given above""
+                    break
+        print(""Root approximation: "", c)",,"28","244087","bisect.py","1.1.1 for 2021-2022 @t1","0"
+"p","import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def bisectMethod():
+    fun = fn()
+    a, b = eval(input(""Enter interval for function as (a,b) where b>a: ""))
+    fa = f(fun, a)
+    fb = f(fun, b)
+    tol = tolerance()
+    choice = wantTable()
+    k = int(-np.log(tol / np.abs(b - a)) / np.log(2)) + 1
+    if choice == 1:
+        for i in range(1, k):
+            error = np.abs(b-a)
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(""Both endpoints are roots no table could be formed."")
+                    break
+                elif fa == 0:
+                    print(""The left endpoint, "", a, "", is a root no table could be formed."")
+                    break
+                elif fb == 0:
+                    print(""The right endpoint, "", b, "", is a root no table could be formed."")
+                    break
+                elif fc == 0:
+                    table(i, c, error)
+                    break
+            table(i, c, error)
+    elif choice == 2:
+        for i in range(1, k):
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                c = "" ""
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(a, ""and"", b, ""are roots"")
+                    break
+                elif fa == 0:
+                    print(a, ""is a root"")
+                    c = ""given above""
+                    break
+                elif fb == 0:
+                    print(b, ""is a root"")
+                    c = ""given above""
+                    break
+                elif fc == 0:
+                    print(c, ""is a root"")
+                    c = ""given above""
+                    break
+        print(""Root approximation: "", c)",,"28","247901","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def bisectMethod():
+    fun = fn()
+    a, b = eval(input(""Enter interval for function as (a,b) where b>a: ""))
+    fa = f(fun, a)
+    fb = f(fun, b)
+    tol = tolerance()
+    choice = wantTable()
+    k = int(-np.log(tol / np.abs(b - a)) / np.log(2)) + 1
+    if choice == 1:
+        for i in range(1, k):
+            error = np.abs(b-a)
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(""Both endpoints are roots no table could be formed."")
+                    break
+                elif fa == 0:
+                    print(""The left endpoint, "", a, "", is a root no table could be formed."")
+                    break
+                elif fb == 0:
+                    print(""The right endpoint, "", b, "", is a root no table could be formed."")
+                    break
+                elif fc == 0:
+                    table(i, c, error)
+                    break
+            table(i, c, error)
+    elif choice == 2:
+        for i in range(1, k):
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                c = "" ""
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(a, ""and"", b, ""are roots"")
+                    break
+                elif fa == 0:
+                    print(a, ""is a root"")
+                    c = ""given above""
+                    break
+                elif fb == 0:
+                    print(b, ""is a root"")
+                    c = ""given above""
+                    break
+                elif fc == 0:
+                    print(c, ""is a root"")
+                    c = ""given above""
+                    break
+        print(""Root approximation: "", c)","","28","247909","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","if choice == 1:
+        for i in range(1, k):
+            error = np.abs(b-a)
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(""Both endpoints are roots no table could be formed."")
+                    break
+                elif fa == 0:
+                    print(""The left endpoint, "", a, "", is a root no table could be formed."")
+                    break
+                elif fb == 0:
+                    print(""The right endpoint, "", b, "", is a root no table could be formed."")
+                    break
+                elif fc == 0:
+                    table(i, c, error)
+                    break
+            table(i, c, error)
+    elif choice == 2:","852","264027","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","851","265072","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","   ","848","265072","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","
+","848","265379","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","848","274422","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","882","274424","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","907","274425","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","930","274425","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","958","274425","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1002","274425","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1047","274425","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1067","274431","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1081","274431","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1111","274433","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1129","274433","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1145","274435","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1175","274436","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1193","274438","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1209","274439","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1245","274441","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1279","274442","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1327","274442","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1345","274443","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1375","274445","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1413","274445","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1447","274446","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1465","274448","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1495","274448","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1533","274449","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1567","274450","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1585","274451","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1615","274452","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1653","274453","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1687","274454","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","1693","274456","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","t","604","296410","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","c","603","296518","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","e","602","296661","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","s","601","296967","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","i","600","297135","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","b","599","297250","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","599","297478","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"600","297486","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","600","297525","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","600","297571","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","600","297572","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"601","297578","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","w","","601","297628","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","w",,"602","297628","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","602","297892","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"603","297892","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","603","298071","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"604","298071","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","604","298169","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"605","298169","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","s","","605","298227","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","s",,"606","298228","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","newtons","599","298678","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","bisect","","599","298679","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+    ","","151","313359","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","bisect","604","313359","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","newtons","","604","313360","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","152","313367","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+","","154","314209","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","d","","153","314879","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","d",,"154","314879","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","d
+
+","153","314899","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","d 
+
+","","153","314899","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","154","315067","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","154","315068","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"155","315076","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","155","315142","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"156","315163","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","156","316057","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"157","316059","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","157","317895","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"158","317902","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","158","317940","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","158","318188","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","P","","158","318189","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","P",,"159","318188","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","159","318524","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"160","318526","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","160","318610","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"161","318610","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","161","318827","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"162","318830","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","e","161","319251","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","m","","161","319322","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","m",,"162","319322","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","162","319331","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","162","319403","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","162","319404","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"163","319403","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","163","320195","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","164","320212","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","(",,"164","320235","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k",")",,"165","320433","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",":","","165","321015","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k",":",,"166","321017","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+","","168","321414","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","    ","","167","321420","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","171","324561","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"172","324563","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","172","324594","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","172","324659","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","172","324660","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"173","324661","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","173","324668","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","173","325580","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","173","325592","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"174","325593","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","174","326442","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"175","326442","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","175","326841","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"176","326843","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","176","327061","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"177","327061","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","177","327093","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","177","327173","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","177","327174","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"178","327177","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","178","327183","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","178","327416","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","178","327417","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"179","327424","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","u","","179","327524","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","u",,"180","327541","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","180","327586","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"181","327591","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","181","328321","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","182","328327","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","(",,"182","328328","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","""","","182","330621","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","""","","183","330625","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","""",,"183","330625","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","K","","183","330988","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","K",,"184","330989","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","184","330999","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","K ","183","331407","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","E","","183","331650","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","E",,"184","331652","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","184","331704","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","184","331915","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","184","331916","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"185","331916","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","185","332093","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"186","332093","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","e","185","332514","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","185","332552","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"186","332552","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","186","332558","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","186","332661","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","186","332662","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"187","332661","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","187","332747","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"188","332748","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","188","332873","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"189","332873","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","d","","189","333048","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","d",,"190","333048","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","190","333068","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","190","333349","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","190","333350","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"191","333349","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","191","333430","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"192","333430","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","192","333613","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"193","333613","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","v","","193","333720","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","v",,"194","333721","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","a","","194","333923","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","a",,"195","333931","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","195","334063","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"196","334063","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","196","334205","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"197","334205","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","v","","197","334316","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","v",,"198","334316","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","198","334465","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"199","334468","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","199","334574","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"200","334574","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","h","","200","336829","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","h",,"201","336831","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","201","336849","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","201","337708","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","201","337709","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"202","337708","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","202","337863","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"203","337872","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","203","337929","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"204","337931","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",":","","204","338345","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k",":",,"205","338346","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","205","338596","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"206","338597","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+    ","","208","342138","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","213","342402","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"214","342402","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","214","342425","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","214","342478","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","214","342479","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"215","342478","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","215","342483","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","215","342629","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","215","342630","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"216","342649","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","u","","216","342710","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","u",,"217","342725","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","217","342838","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"218","342853","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","218","342928","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"219","342946","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","219","343000","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"220","343000","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","220","343205","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"221","343205","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","221","343219","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","221","343338","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","221","343339","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"222","343351","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","    
+","","702","354766","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","706","355289","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"707","355291","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","p","221","355319","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","221","355320","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","","702","355319","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","707","355320","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","221","355320","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","221","355321","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","707","358580","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","707","358581","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"708","358592","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","708","358757","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"709","358758","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","709","359548","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"710","359550","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","710","359854","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"711","359856","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","711","362977","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"712","362978","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","712","362985","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","712","363867","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","P","","712","363868","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","P",,"713","363886","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","rime","","713","364404","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","717","364444","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","718","364449","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","a, b = eval(input(""Enter interval for function as (a,b) where b>a: ""))
+    fa = f(fun, a)
+    fb = f(fun, b)","724","380531","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","723","380857","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","   ","720","380865","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","
+","720","381135","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"c","def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0",,"153","398867","fnIter.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+    ","","273","404858","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","    ","274","404862","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","
+","","276","405238","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"p","def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0",,"275","405870","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0","","275","405879","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","    
+","","815","410255","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","819","410713","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"820","410713","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","820","410747","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","i ","819","411740","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","819","411878","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"820","411878","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","820","411903","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","820","412681","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","820","412682","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"821","412698","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","821","412828","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"822","412828","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","822","413478","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"823","413479","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","823","413555","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"824","413555","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","824","414095","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"825","414095","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","825","414104","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","825","414256","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","825","414257","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"826","414263","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","826","414902","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"827","414921","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","827","415296","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"828","415315","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","ialGuess","","828","415724","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","836","415739","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","837","415739","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","choice = wantTable()","865","420990","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","864","421276","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","   ","861","421276","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","   ","","861","423275","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","864","423277","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","choice = wantTable()","","865","423279","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","#","","865","426582","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","#",,"866","426586","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","866","426952","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"867","426953","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","k = int(-np.log(tol / np.abs(b - a)) / np.log(2)) + 1","892","434022","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","892","434030","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"893","434032","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","nitialGuess()","825","434038","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","825","434039","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," #","852","434038","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," #","","852","434038","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","879","434038","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","825","434038","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","nitialGuess()","","825","434039","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","893","434279","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","893","434280","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"894","434307","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","894","434419","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"895","434435","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","895","434512","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"896","434539","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","896","434614","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"897","434616","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","897","434705","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"898","434712","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","898","435682","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"899","435683","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","899","435791","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"900","435791","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","1","","900","438285","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","1",,"901","438285","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","901","438367","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"902","438369","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","902","439316","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"903","439316","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","*","","903","440120","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","*",,"904","440121","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","904","440602","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"905","440602","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","905","441314","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"906","441315","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","906","441329","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","906","441377","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","906","441378","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"907","441385","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","907","441391","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","907","441589","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","l","","907","441590","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","l",,"908","441594","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","908","441812","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"909","441812","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","908","442537","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"c","while error > tol and iter < mI:",,"982","454476","fnIter.py","1.1.1 for 2021-2022 @t1","0"
+"p","while error > tol and iter < mI:",,"913","460244","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","for i in range(1, k)","913","460244","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","while error > tol and iter < mI","","913","460245","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"c","def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI",,"329","469875","fnIter.py","1.1.1 for 2021-2022 @t1","0"
+"e","    
+","","861","484808","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","m","","865","485206","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","m",,"866","485206","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","m
+    ","865","485215","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","    m 
+","","861","485216","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","866","485662","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","I","","866","485663","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","I",,"867","485674","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","867","486035","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"868","486036","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","868","486849","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"869","486850","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","869","486980","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"870","486983","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","m","","870","487185","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","m",,"871","487187","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","871","487202","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","871","487315","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","a","","871","487316","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","a",,"872","487326","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","872","487444","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"873","487458","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","I","","873","489029","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","I",,"874","489042","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","ter","","874","489461","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","877","489474","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","878","489475","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","c = .5 * (a + b)
+        fc = f(fun, c)
+        if fa * fb > 0:
+            print(""Pick different a and b"")
+            print(""f(a) x f(b) is positive"")
+            c = "" ""
+            break
+        elif fa * fc < 0:
+            b = c
+            fb = fc
+        elif fb * fc < 0:
+            a = c
+            fa = fc
+        elif fb * fa * fc == 0:
+            if fa == fb == 0:
+                print(a, ""and"", b, ""are roots"")
+                break
+            elif fa == 0:
+                print(a, ""is a root"")
+                c = ""given above""
+                break
+            elif fb == 0:
+                print(b, ""is a root"")
+                c = ""given above""
+                break
+            elif fc == 0:
+                print(c, ""is a root"")
+                c = ""given above""
+                break
+    print(""Root approximation: "", c)","973","506649","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","973","597490","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"974","597492","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","974","597514","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","974","597536","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","974","597537","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"975","597538","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","975","597544","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","n ","974","598789","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","974","598827","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","974","602975","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","974","602976","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"975","602994","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","975","603993","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"976","603993","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","976","604419","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"977","604419","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","977","604887","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"978","604887","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","978","605697","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"979","605697","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","979","605715","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","979","605875","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","v","","979","605876","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","v",,"980","605889","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","a","","980","605970","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","a",,"981","605991","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","l","","981","606040","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","l",,"982","606045","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","982","607047","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","983","607060","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","(",,"983","607061","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","983","608243","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"984","608245","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","984","608251","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","984","608322","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","u","","984","608323","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","u",,"985","608322","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","985","608334","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","985","608592","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","985","608593","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"986","608595","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",",","","986","608990","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k",",",,"987","608991","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","987","609203","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"988","609206","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","988","609471","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"989","609471","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","989","609495","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","989","610186","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","989","610187","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"990","610204","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","        
+","","992","612424","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","1000","615219","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"1001","615220","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1001","615229","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1001","615397","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","'","","1001","615398","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","'","","1002","615398","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","'",,"1002","615398","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1002","615616","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1003","615624","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1003","615647","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","x ","1002","616492","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","'","1002","617708","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","'","1001","617711","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","1001","619102","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"1002","619102","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1002","619125","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1002","620393","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","1002","620394","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"1003","620418","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1003","621208","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1004","621210","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","1004","621565","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"1005","621566","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1005","621637","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1006","621638","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","1006","622290","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"1007","622290","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1007","622290","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1007","622510","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","v","","1007","622511","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","v",,"1008","622533","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","a","","1008","622584","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","a",,"1009","622601","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","l","","1009","623046","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","l",,"1010","623055","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","1010","623913","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","1011","623913","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","(",,"1011","623913","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","1011","624327","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"1012","624327","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1012","624340","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1012","624391","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","1012","624392","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"1013","624391","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1013","624403","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1013","624826","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",",","","1013","624827","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k",",",,"1014","624834","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1014","624997","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1015","624997","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1015","625350","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1016","625351","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1016","625360","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1016","625792","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","1016","625793","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"1017","625835","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","        
+","","1019","628659","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1027","629691","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1028","629691","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1028","629699","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1028","630587","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","1","","1028","630588","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","1",,"1029","630635","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1029","631031","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1030","631031","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","1030","631772","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"1031","631773","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1031","632119","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1032","632122","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1032","633192","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1033","633194","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1033","633202","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1033","633351","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","1033","633352","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"1034","633405","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1034","633831","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1035","633831","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","-","","1035","652666","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","-",,"1036","652666","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1036","653509","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1037","653509","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","1037","654267","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"1038","654269","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1038","654281","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1038","654488","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","1038","654489","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"1039","654507","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1039","654716","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1040","654716","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","/","","1040","655586","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","/",,"1041","655586","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1041","655739","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1042","655739","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","f","","1042","656129","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","f",,"1043","656137","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1043","656144","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1043","656234","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","1043","656235","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"1044","656258","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","1044","657016","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"1045","657063","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","        
+","","1046","657920","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","1054","658484","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"1055","658486","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1055","658495","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1055","658696","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","1055","658697","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"1056","658706","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","p","1055","658990","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","n","1054","659139","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","1054","659251","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"1055","659253","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1055","659270","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1055","659394","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","1055","659395","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"1056","659422","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","1056","659538","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"1057","659556","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","1057","659646","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"1058","659664","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","1058","659707","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"1059","659727","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1059","659820","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1060","659822","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","1060","660583","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"1061","660584","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1061","660701","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1062","660701","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","1062","661199","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"1063","661199","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1063","661224","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1063","661349","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","1063","661350","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"1064","661356","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",".","","1064","661641","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k",".",,"1065","661643","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1065","661677","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1065","662049","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","a","","1065","662050","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","a",,"1066","662057","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","b","","1066","662125","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","b",,"1067","662127","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1067","662133","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1067","662244","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","s","","1067","662245","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","s",,"1068","662244","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1068","662249","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1068","663533","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","1068","663534","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","1069","663533","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","(",,"1069","663539","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1069","667071","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1070","667074","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1070","667082","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1070","667440","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","2","","1070","667441","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","2",,"1071","667474","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","2","1070","668259","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","1","","1070","668368","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","1",,"1071","668368","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1071","668390","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1072","668697","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","-","","1072","668855","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","-",,"1073","668855","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1073","668967","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1074","668967","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1074","669432","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1075","669433","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1075","669513","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1075","670482","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","1075","670483","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"1076","670522","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","        
+","","1078","672443","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","1086","673437","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"1087","673437","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1087","673453","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1087","673656","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","1087","673657","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"1088","673665","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1088","673682","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1088","674197","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","1088","674198","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"1089","674219","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","1089","674283","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"1090","674298","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1090","674490","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1091","674491","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","1091","675341","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"1092","675342","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1092","675607","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1093","675607","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","1093","675775","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"1094","675777","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1094","675793","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1094","675853","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","1094","675854","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"1095","675853","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1095","675865","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1095","675957","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","1095","675958","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"1096","675984","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","1096","676035","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"1097","676050","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1097","676194","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1098","676195","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","+","","1098","677244","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","+",,"1099","677252","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1099","677518","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1100","677520","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","1","","1100","677660","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","1",,"1101","677660","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","        
+","","1102","680392","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1110","683713","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1111","683713","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1111","683723","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1111","685942","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","1111","685943","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"1112","685963","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1112","686286","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1113","686286","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","1113","686904","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"1114","686905","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1114","687080","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1115","687081","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1115","687649","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1116","687650","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1116","687662","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1116","688013","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","1","","1116","688014","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","1",,"1117","688022","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","        
+","","1118","689844","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1125","690436","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","   ","1122","690436","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","1122","707529","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"1123","707531","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1123","707539","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1123","707693","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","1123","707694","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"1124","707709","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","1124","707776","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"1125","707795","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","1125","707877","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"1126","707918","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","1126","707988","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"1127","708001","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","(","","1127","708649","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",")","","1128","708649","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","(",,"1128","708650","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","""","","1128","709165","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","""","","1129","709166","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","""",,"1129","709166","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","R","","1129","709594","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","R",,"1130","709596","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1130","709614","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1130","709869","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","1130","709870","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"1131","709869","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","1131","709975","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"1132","709975","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","1132","710073","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"1133","710081","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1133","710192","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1134","710194","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","a","","1134","710374","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","a",,"1135","710374","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1135","710423","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1135","710655","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","1135","710656","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"1136","710657","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","p","","1136","710819","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","p",,"1137","710819","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","1137","710942","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"1138","710942","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","1138","711084","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"1139","711084","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1139","711227","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1140","711235","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","1140","711400","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"1141","711400","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","m","","1141","711514","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","m",,"1142","711515","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","a","","1142","711604","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","a",,"1143","711604","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","1143","711696","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"1144","711697","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","1144","711801","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"1145","711801","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","o","","1145","711868","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","o",,"1146","711868","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","n","","1146","711957","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","n",,"1147","711960","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1147","712168","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1148","712168","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1147","712776","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",":","","1147","713359","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k",":",,"1148","713359","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1148","714347","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1149","714347","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1150","715539","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1151","715539","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1150","716888","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",",","","1150","717185","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k",",",,"1151","717187","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1151","717354","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"1152","717354","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","x","","1152","717557","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","x",,"1153","717557","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","1153","717581","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","1153","718259","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","1153","718260","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"1154","718294","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","    
+","","928","728227","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","i","","932","728631","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","i",,"933","728631","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","i
+    ","932","728638","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","    i 
+","","928","728639","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e",""," ","933","728766","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","t","","933","728767","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","t",,"934","728773","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","e","","934","728980","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","e",,"935","728989","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","r","","935","729051","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","r",,"936","729058","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","936","729152","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"937","729153","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","=","","937","730136","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","=",,"938","730137","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e"," ","","938","730302","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k"," ",,"939","730302","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","0","","939","730465","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"k","0",,"940","730465","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","n","788","950023","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","u","787","950153","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","un","","787","950596","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","un","787","955174","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","n","996","955174","newtons.py","1.1.1 for 2021-2022 @t1","0"
+"e","","u","995","955392","newtons.py","1.1.1 for 2021-2022 @t1","0"
