@@ -7,17 +7,13 @@ def fn():
     f = input("Enter function you want to find the roots for (in terms of x): ")
     return f
 
-def fPrime():
-    fp = input("Enter derivative here: ")
-    return fp
-
 def f(fn, x):
     fval = eval(fn)
     return fval
 
-def initialGuess():
-    x0 = eval(input("Input initial guess for root here: "))
-    return x0
+def initialGuesses():
+    x0, x1 = eval(input("Input initial guesses for root here as (x0, x1): "))
+    return x0, x1
 
 def tolerance():
     tol = eval(input("Input tolerance here: "))
@@ -37,20 +33,22 @@ def wantTable():
 def table(a,b,c):
     print("(1)" , a, " (2) ", b, " (3) ", c)
 
-def newtonsMethod():
+def secantMethod():
     fun = fn()
-    fp = fPrime()
-    x0 = initialGuess()
+    x0, x1 = initialGuesses()
     tol = tolerance()
     mI = maxIter()
     # choice = wantTable()
     error = 10 * tol
     iter = 0
+    f0 = f(fun, x0)
+    f1 = f(fun, x1)
     while error > tol and iter < mI:
-        f0 = f(fun, x0)
-        fp0 = f(fp, x0)
-        x1 = x0 - f0 / fp0
-        error = np.abs(x1 - x0)
+        x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+        error = np.abs(x2 - x1)
         iter = iter + 1
         x0 = x1
-    print("Root approximation: ", x0)
+        x1 = x2
+        f0 = f1
+        f1 = f(fun, x2)
+    print("Root approximation: ", x1)
