@@ -57,7 +57,7 @@ def newtonHybrid():
                 if fa * fc < 0:
                     b = c
                     fb = fc
-                else:
+                elif fb * fc < 0:
                     a = c
                     fa = fc
             error = np.abs(b - a)
