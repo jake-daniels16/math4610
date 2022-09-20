@@ -38,17 +38,28 @@ def secantMethod():
     x0, x1 = initialGuesses()
     tol = tolerance()
     mI = maxIter()
-    # choice = wantTable()
+    choice = wantTable()
     error = 10 * tol
     iter = 0
     f0 = f(fun, x0)
     f1 = f(fun, x1)
-    while error > tol and iter < mI:
-        x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
-        error = np.abs(x2 - x1)
-        iter = iter + 1
-        x0 = x1
-        x1 = x2
-        f0 = f1
-        f1 = f(fun, x2)
-    print("Root approximation: ", x1)
+    if choice == 1:
+        while error > tol and iter < mI:
+            x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+            error = np.abs(x2 - x1)
+            table(iter + 1, x2, error)
+            iter = iter + 1
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+    elif choice == 2:
+        while error > tol and iter < mI:
+            x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+            error = np.abs(x2 - x1)
+            iter = iter + 1
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+        print("Root approximation: ", x1)

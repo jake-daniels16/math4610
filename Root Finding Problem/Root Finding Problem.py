@@ -8,7 +8,7 @@ from Methods.secant import secantMethod
 from Methods.newtHybrid import newtonHybrid
 from Methods.secantHybrid import secantHybrid
 
-print("Methods")
+print("Methods:")
 print("\t1) Fixed Point Iteration")
 print("\t2) Bisect Method")
 print("\t3) Newton's Method")

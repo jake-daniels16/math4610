@@ -43,14 +43,24 @@ def newtonsMethod():
     x0 = initialGuess()
     tol = tolerance()
     mI = maxIter()
-    # choice = wantTable()
+    choice = wantTable()
     error = 10 * tol
     iter = 0
-    while error > tol and iter < mI:
-        f0 = f(fun, x0)
-        fp0 = f(fp, x0)
-        x1 = x0 - f0 / fp0
-        error = np.abs(x1 - x0)
-        iter = iter + 1
-        x0 = x1
-    print("Root approximation: ", x0)
+    if choice == 1:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            table(iter + 1, x1, error)
+            iter = iter + 1
+            x0 = x1
+    elif choice == 2:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+        print("Root approximation: ", x0)

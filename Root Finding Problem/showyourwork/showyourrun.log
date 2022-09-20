@@ -1,0 +1,224 @@
+"r","3","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Root Finding Problem/Root Finding Problem.py""",,"PythonRunner",,"1195947","2"
+"o","3",,"Methods
+",,"stdout","1196868","2"
+"o","3",,"	1) Fixed Point Iteration
+",,"stdout","1196868","2"
+"o","3",,"	2) Bisect Method
+",,"stdout","1196868","2"
+"o","3",,"	3) Newton's Method
+",,"stdout","1196868","2"
+"o","3",,"	4) Secant Method
+",,"stdout","1196868","2"
+"o","3",,"	5) Newton/Bisect Hybrid
+",,"stdout","1196868","2"
+"o","3",,"	6) Secant/Bisect Hybrid
+",,"stdout","1196868","2"
+"o","3",,"What method do you want to do? ",,"stdout","1196868","2"
+"o","3",,"Enter function you want to find the roots for (in terms of x): ",,"stdout","1200240","2"
+"o","3",,"Enter derivative here: ",,"stdout","1223010","2"
+"o","3",,"Input initial guess for root here: ",,"stdout","1243434","2"
+"o","3",,"Input tolerance here: ",,"stdout","1246497","2"
+"o","3",,"Input max number of iterations here: ",,"stdout","1249609","2"
+"o","3",,"Root approximation:  30.531117073485603
+",,"stdout","1251041","2"
+"o","3",,"
+Process finished with exit code 0
+",,"system","1251063","2"
+"r","4","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Root Finding Problem/Root Finding Problem.py""",,"PythonRunner",,"1258022","2"
+"o","4",,"Methods
+",,"stdout","1258194","2"
+"o","4",,"	1) Fixed Point Iteration
+",,"stdout","1258194","2"
+"o","4",,"	2) Bisect Method
+",,"stdout","1258194","2"
+"o","4",,"	3) Newton's Method
+",,"stdout","1258194","2"
+"o","4",,"	4) Secant Method
+",,"stdout","1258194","2"
+"o","4",,"	5) Newton/Bisect Hybrid
+",,"stdout","1258194","2"
+"o","4",,"	6) Secant/Bisect Hybrid
+",,"stdout","1258194","2"
+"o","4",,"What method do you want to do? ",,"stdout","1258194","2"
+"o","4",,"Enter function you want to find the roots for (in terms of x): ",,"stdout","1262274","2"
+"o","4",,"Enter derivative here: ",,"stdout","1268117","2"
+"o","4",,"Input initial guess for root here: ",,"stdout","1280305","2"
+"o","4",,"Input tolerance here: ",,"stdout","1281793","2"
+"o","4",,"Input max number of iterations here: ",,"stdout","1284535","2"
+"o","4",,"C:\Users\jdsoc\Documents\math4610\Root Finding Problem\Methods\newtons.py:52: RuntimeWarning: divide by zero encountered in double_scalars
+",,"stderr","1285533","2"
+"o","4",,"  x1 = x0 - f0 / fp0
+",,"stderr","1285534","2"
+"o","4",,"Root approximation:  nan
+",,"stdout","1285534","2"
+"o","4",,"C:\Users\jdsoc\Documents\math4610\Root Finding Problem\Methods\newtons.py:52: RuntimeWarning: invalid value encountered in double_scalars
+",,"stderr","1285534","2"
+"o","4",,"  x1 = x0 - f0 / fp0
+",,"stderr","1285534","2"
+"o","4",,"
+Process finished with exit code 0
+",,"system","1285546","2"
+"r","5","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Root Finding Problem/Root Finding Problem.py""",,"PythonRunner",,"1293881","2"
+"o","5",,"Methods
+",,"stdout","1294056","2"
+"o","5",,"	1) Fixed Point Iteration
+",,"stdout","1294056","2"
+"o","5",,"	2) Bisect Method
+",,"stdout","1294056","2"
+"o","5",,"	3) Newton's Method
+",,"stdout","1294056","2"
+"o","5",,"	4) Secant Method
+",,"stdout","1294056","2"
+"o","5",,"	5) Newton/Bisect Hybrid
+",,"stdout","1294056","2"
+"o","5",,"	6) Secant/Bisect Hybrid
+",,"stdout","1294056","2"
+"o","5",,"What method do you want to do? ",,"stdout","1294056","2"
+"o","5",,"Enter function you want to find the roots for (in terms of x): ",,"stdout","1308437","2"
+"o","5",,"Enter derivative here: ",,"stdout","1315084","2"
+"o","5",,"Input initial guess for root here: ",,"stdout","1323718","2"
+"o","5",,"Input tolerance here: ",,"stdout","1326656","2"
+"o","5",,"Input max number of iterations here: ",,"stdout","1329380","2"
+"o","5",,"Root approximation:  -8.80999858950826e-27
+",,"stdout","1330921","2"
+"o","5",,"
+Process finished with exit code 0
+",,"system","1330946","2"
+"r","6","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Root Finding Problem/Root Finding Problem.py""",,"PythonRunner",,"3246809","2"
+"o","6",,"Methods:
+",,"stdout","3249717","2"
+"o","6",,"	1) Fixed Point Iteration
+",,"stdout","3249717","2"
+"o","6",,"	2) Bisect Method
+",,"stdout","3249717","2"
+"o","6",,"	3) Newton's Method
+",,"stdout","3249717","2"
+"o","6",,"	4) Secant Method
+",,"stdout","3249717","2"
+"o","6",,"	5) Newton/Bisect Hybrid
+",,"stdout","3249717","2"
+"o","6",,"	6) Secant/Bisect Hybrid
+",,"stdout","3249717","2"
+"o","6",,"What method do you want to do? ",,"stdout","3249717","2"
+"o","6",,"Enter function you want to find the roots for (in terms of x): ",,"stdout","3252685","2"
+"o","6",,"Input initial guesses for root here as (x0, x1): ",,"stdout","3260177","2"
+"o","6",,"Input tolerance here: ",,"stdout","3272944","2"
+"o","6",,"Input max number of iterations here: ",,"stdout","3276254","2"
+"o","6",,"Root approximation:  1.549984207858443e-15
+",,"stdout","3278544","2"
+"o","6",,"
+Process finished with exit code 0
+",,"system","3278566","2"
+"r","7","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Root Finding Problem/Root Finding Problem.py""",,"PythonRunner",,"4215651","2"
+"o","7",,"Methods:
+",,"stdout","4218884","2"
+"o","7",,"	1) Fixed Point Iteration
+",,"stdout","4218884","2"
+"o","7",,"	2) Bisect Method
+",,"stdout","4218884","2"
+"o","7",,"	3) Newton's Method
+",,"stdout","4218884","2"
+"o","7",,"	4) Secant Method
+",,"stdout","4218884","2"
+"o","7",,"	5) Newton/Bisect Hybrid
+",,"stdout","4218884","2"
+"o","7",,"	6) Secant/Bisect Hybrid
+",,"stdout","4218884","2"
+"o","7",,"What method do you want to do? ",,"stdout","4218884","2"
+"o","7",,"Enter function you want to find the roots for (in terms of x): ",,"stdout","4221932","2"
+"o","7",,"Enter derivative here: ",,"stdout","4227614","2"
+"o","7",,"Input initial guess for root here: ",,"stdout","4237036","2"
+"o","7",,"Input tolerance here: ",,"stdout","4239415","2"
+"o","7",,"Input max number of iterations here: ",,"stdout","4242234","2"
+"o","7",,"Do you want a table?
+",,"stdout","4243222","2"
+"o","7",,"	1) Yes
+",,"stdout","4243222","2"
+"o","7",,"	2) No
+",,"stdout","4243222","2"
+"o","7",,"Enter here: ",,"stdout","4243222","2"
+"o","7",,"(1) 1  (2)  -0.5  (3)  1.0
+",,"stdout","4244993","2"
+"o","7",,"(1) 2  (2)  -0.16666666666666669  (3)  0.3333333333333333
+",,"stdout","4244993","2"
+"o","7",,"(1) 3  (2)  -0.023809523809523808  (3)  0.14285714285714288
+",,"stdout","4244993","2"
+"o","7",,"(1) 4  (2)  -0.0005537098560354364  (3)  0.023255813953488372
+",,"stdout","4244993","2"
+"o","7",,"(1) 5  (2)  -3.0642493416461764e-07  (3)  0.0005534034311012718
+",,"stdout","4244993","2"
+"o","7",,"(1) 6  (2)  -9.389621148813321e-14  (3)  3.0642484026840615e-07
+",,"stdout","4244993","2"
+"o","7",,"(1) 7  (2)  -8.80999858950826e-27  (3)  9.38962114881244e-14
+",,"stdout","4244993","2"
+"o","7",,"
+Process finished with exit code 0
+",,"system","4245008","2"
+"r","8","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Root Finding Problem/Root Finding Problem.py""",,"PythonRunner",,"4639320","2"
+"o","8",,"Methods:
+",,"stdout","4642069","2"
+"o","8",,"	1) Fixed Point Iteration
+",,"stdout","4642069","2"
+"o","8",,"	2) Bisect Method
+",,"stdout","4642069","2"
+"o","8",,"	3) Newton's Method
+",,"stdout","4642069","2"
+"o","8",,"	4) Secant Method
+",,"stdout","4642069","2"
+"o","8",,"	5) Newton/Bisect Hybrid
+",,"stdout","4642069","2"
+"o","8",,"	6) Secant/Bisect Hybrid
+",,"stdout","4642069","2"
+"o","8",,"What method do you want to do? ",,"stdout","4642069","2"
+"o","8",,"Enter function you want to find the roots for (in terms of x): ",,"stdout","4645042","2"
+"o","8",,"Input initial guesses for root here as (x0, x1): ",,"stdout","4651892","2"
+"o","8",,"Input tolerance here: ",,"stdout","4655503","2"
+"o","8",,"Input max number of iterations here: ",,"stdout","4658436","2"
+"o","8",,"Do you want a table?
+",,"stdout","4659389","2"
+"o","8",,"	1) Yes
+",,"stdout","4659389","2"
+"o","8",,"	2) No
+",,"stdout","4659389","2"
+"o","8",,"Enter here: ",,"stdout","4659389","2"
+"o","8",,"(1) 1  (2)  0.7615941559557649  (3)  0.23840584404423515
+",,"stdout","4660843","2"
+"o","8",,"(1) 2  (2)  -6.145115192053641  (3)  6.9067093480094055
+",,"stdout","4660843","2"
+"o","8",,"(1) 3  (2)  0.7607373842425833  (3)  6.905852576296224
+",,"stdout","4660843","2"
+"o","8",,"(1) 4  (2)  0.7598809490516972  (3)  0.0008564351908860734
+",,"stdout","4660843","2"
+"o","8",,"(1) 5  (2)  -2.4117305197619667  (3)  3.171611468813664
+",,"stdout","4660843","2"
+"o","8",,"(1) 6  (2)  0.7185207502140756  (3)  3.1302512699760423
+",,"stdout","4660843","2"
+"o","8",,"(1) 7  (2)  0.6782842464737974  (3)  0.04023650374027821
+",,"stdout","4660843","2"
+"o","8",,"(1) 8  (2)  -1.6152103158907716  (3)  2.293494562364569
+",,"stdout","4660843","2"
+"o","8",,"(1) 9  (2)  0.5850439821307694  (3)  2.200254298021541
+",,"stdout","4660843","2"
+"o","8",,"(1) 10  (2)  0.5001671785336054  (3)  0.08487680359716399
+",,"stdout","4660843","2"
+"o","8",,"(1) 11  (2)  -0.6389152674058604  (3)  1.1390824459394657
+",,"stdout","4660843","2"
+"o","8",,"(1) 12  (2)  0.2719161660239241  (3)  0.9108314334297845
+",,"stdout","4660843","2"
+"o","8",,"(1) 13  (2)  0.13879672313573155  (3)  0.13311944288819255
+",,"stdout","4660843","2"
+"o","8",,"(1) 14  (2)  -0.04740627021736338  (3)  0.18620299335309493
+",,"stdout","4660843","2"
+"o","8",,"(1) 15  (2)  0.00687409861557263  (3)  0.05428036883293601
+",,"stdout","4660843","2"
+"o","8",,"(1) 16  (2)  0.0003193254984228877  (3)  0.006554773117149742
+",,"stdout","4660844","2"
+"o","8",,"(1) 17  (2)  -2.202990601857084e-06  (3)  0.00032152848902474476
+",,"stdout","4660844","2"
+"o","8",,"(1) 18  (2)  7.035826268411442e-10  (3)  2.203694184483925e-06
+",,"stdout","4660844","2"
+"o","8",,"(1) 19  (2)  1.549984207858443e-15  (3)  7.035810768569363e-10
+",,"stdout","4660844","2"
+"o","8",,"
+Process finished with exit code 0
+",,"system","4660859","2"
