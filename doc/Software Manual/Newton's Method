@@ -63,6 +63,18 @@ def maxIter():
     mI = eval(input("Input max number of iterations here: "))
     return mI
 
+# Here is the function that will ask the user if they want a table, and return their decision
+def wantTable():
+    print("Do you want a table?")
+    print("\t1) Yes")
+    print("\t2) No")
+    choice = eval(input("Enter here: "))
+    return choice
+
+# Here is the function that will actually create the table, that will print lines with the wanted values
+def table(a,b,c):
+    print("(1)" , a, " (2) ", b, " (3) ", c)
+
 # Below is the function that actually compiles all these functions to compute the approximation
 def newtonsMethod():
     # Below we are asking the user for everything they want
@@ -72,26 +84,46 @@ def newtonsMethod():
     tol = tolerance()
     mI = maxIter()
     
+    # This is where the user is asked if they want a table
+    choice = wantTable()
+    
     # We set an iteration counter and an initial error so that we can make the following while loop
     error = 10 * tol
     iter = 0
     
-    # This while loop will run until the error is less than the tolerance or we hit the maximum number of iterations
-    while error > tol and iter < mI:
+    # 1 corresponds to when the user selects, yes, they want a table
+    if choice == 1:
     
-        # Here we compute the values of the function and derivative and save them as variables
-        f0 = f(fun, x0)
-        fp0 = f(fp, x0)
-        
-        # We compute the approximation of the root
-        x1 = x0 - f0 / fp0
-        
-        # Update error and iteration number to make sure the loop is updated to see if it needs to stop
-        error = np.abs(x1 - x0)
-        iter = iter + 1
-        
-        # Reset initial variable as initial approximation to continue the loop and obtain the next approximation
-        x0 = x1
-        
-    # Take the last approximation given once loop ends and print it for the user to see
-    print("Root approximation: ", x0)
+      # This while loop will run until the error is less than the tolerance or we hit the maximum number of iterations
+      while error > tol and iter < mI:
+
+          # Here we compute the values of the function and derivative and save them as variables
+          f0 = f(fun, x0)
+          fp0 = f(fp, x0)
+
+          # We compute the approximation of the root
+          x1 = x0 - f0 / fp0
+
+          # Update error and iteration number to make sure the loop is updated to see if it needs to stop
+          error = np.abs(x1 - x0)
+          iter = iter + 1
+          
+          # By passing the iterations, approximation, and error into this table function we create the wanted table
+          table(iter, x1, error)
+
+          # Reset initial variable as initial approximation to continue the loop and obtain the next approximation
+          x0 = x1
+          
+    # 2 corresponds to when the user does not want a table so we remove the table function and add the last print statement
+    elif choice == 2:
+    
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+   
+       # Take the last approximation given once loop ends and print it for the user to see
+       print("Root approximation: ", x0)
