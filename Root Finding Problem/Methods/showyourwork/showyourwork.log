@@ -4850,3 +4850,430 @@ def table(a,b,c):
             f0 = f1
             f1 = f(fun, x2)
         print(""Root approximation: "", x1)",,"714","4487812","secant.py","1.1.1 for 2021-2022 @t1","2"
+"e","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuesses():
+    x0, x1 = eval(input(""Input initial guesses for root here as (x0, x1): ""))
+    return x0, x1
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def secantMethod():
+    fun = fn()
+    x0, x1 = initialGuesses()
+    tol = tolerance()
+    mI = maxIter()
+    choice = wantTable()
+    error = 10 * tol
+    iter = 0
+    f0 = f(fun, x0)
+    f1 = f(fun, x1)
+    if choice == 1:         while error > tol and iter < mI:
+            x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+            error = np.abs(x2 - x1)
+            table(iter + 1, x2, error)
+            iter = iter + 1
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+    elif choice == 2:         while error > tol and iter < mI:
+            x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+            error = np.abs(x2 - x1)
+            iter = iter + 1
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+        print(""Root approximation: "", x1)
+","0","1663954071441","secant.py","1.1.1 for 2021-2022 @t1","-1"
+"e","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuesses():
+    x0, x1 = eval(input(""Input initial guesses for root here as (x0, x1): ""))
+    return x0, x1
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def secantMethod():
+    fun = fn()
+    x0, x1 = initialGuesses()
+    tol = tolerance()
+    mI = maxIter()
+    choice = wantTable()
+    error = 10 * tol
+    iter = 0
+    f0 = f(fun, x0)
+    f1 = f(fun, x1)
+    if choice == 1:
+        while error > tol and iter < mI:
+            x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+            error = np.abs(x2 - x1)
+            table(iter + 1, x2, error)
+            iter = iter + 1
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+    elif choice == 2:
+        while error > tol and iter < mI:
+            x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+            error = np.abs(x2 - x1)
+            iter = iter + 1
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+        print(""Root approximation: "", x1)
+","","0","1663954071441","secant.py","1.1.1 for 2021-2022 @t1","-1"
+"a","Move Cursor",,,"1538","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"4743","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"4844","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"4959","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5060","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5167","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5277","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5391","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5491","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5608","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5713","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5828","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"5935","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"6051","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"6152","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"6259","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Copy",,,"8633","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"c","import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def fPrime():
+    fp = input(""Enter derivative here: "")
+    return fp
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def newtonsMethod():
+    fun = fn()
+    fp = fPrime()
+    x0 = initialGuess()
+    tol = tolerance()
+    mI = maxIter()
+    choice = wantTable()
+    error = 10 * tol
+    iter = 0
+    if choice == 1:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            table(iter + 1, x1, error)
+            iter = iter + 1
+            x0 = x1
+    elif choice == 2:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+        print(""Root approximation: "", x0)",,"28","8898","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","EditorChange",,,"1441601","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","EditorChange",,,"2087858","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","EditorChange",,,"2899741","newtons.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3044863","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3044979","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045087","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045197","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045314","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045423","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045540","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045671","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045771","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045871","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3045980","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046094","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046203","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046306","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046417","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046521","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046621","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046738","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046860","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3046971","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3047087","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3047189","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3141198","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3141314","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3141423","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3141538","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3141639","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3141741","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3141857","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3141971","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3142080","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Copy",,,"3144206","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"c","def newtonHybrid():
+    fun = fn()
+    fp = fPrime()
+    a, b = eval(input(""Enter interval for function as (a,b) where b > a: ""))
+    tol = tolerance()
+    mI = maxIter()
+    # choice = wantTable()
+    x0 = .5 * (a + b)
+    error = 10 * tol
+    iter = 0
+    while error > tol and iter < mI:
+        f0 = f(fun, x0)
+        fp0 = f(fp, x0)
+        x1 = x0 - f0 / fp0
+        newtError = np.abs(x1 - x0)
+        if newtError > error:
+            fa = f(fun, a)
+            fb = f(fun, b)
+            for i in range(1, 4):
+                c = .5 * (a + b)
+                fc = f(fun, c)
+                if fa * fc < 0:
+                    b = c
+                    fb = fc
+                elif fb * fc < 0:
+                    a = c
+                    fa = fc
+            error = np.abs(b - a)
+            x0 = .5 * (a + b)
+        else:
+            x0 = x1
+            error = newtError
+            iter = iter + 1
+    print(""Root approximation: "", x0)",,"666","3144213","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3164641","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3164755","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3164857","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3164959","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3165062","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3165164","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3165294","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3165421","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Move Cursor",,,"3165524","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Copy",,,"3167460","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"c","def newtonHybrid():
+    fun = fn()
+    fp = fPrime()
+    a, b = eval(input(""Enter interval for function as (a,b) where b > a: ""))
+    tol = tolerance()
+    mI = maxIter()
+    # choice = wantTable()
+    x0 = .5 * (a + b)
+    error = 10 * tol
+    iter = 0
+    while error > tol and iter < mI:
+        f0 = f(fun, x0)
+        fp0 = f(fp, x0)
+        x1 = x0 - f0 / fp0
+        newtError = np.abs(x1 - x0)
+        if newtError > error:
+            fa = f(fun, a)
+            fb = f(fun, b)
+            for i in range(1, 4):
+                c = .5 * (a + b)
+                fc = f(fun, c)
+                if fa * fc < 0:
+                    b = c
+                    fb = fc
+                elif fb * fc < 0:
+                    a = c
+                    fa = fc
+            error = np.abs(b - a)
+            x0 = .5 * (a + b)
+        else:
+            x0 = x1
+            error = newtError
+            iter = iter + 1
+    print(""Root approximation: "", x0)",,"666","3167460","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","EditorChange",,,"3968098","newtHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","(","","922","4090193","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","(",,"923","4090314","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",")","","951","4092825","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k",")",,"952","4092833","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","j","","965","4099138","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","j",,"966","4099154","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4100062","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","j","965","4100109","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4100123","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","t","964","4100126","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4100130","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","w","963","4100147","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4100151","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","e","962","4100152","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","ewt","","962","4100660","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4100705","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","newt","961","4100706","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","s","","961","4100864","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","s",,"962","4100865","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","962","4100928","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","962","4100934","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","e","","962","4100935","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","e",,"963","4100946","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","963","4100976","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","963","4101184","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","c","","963","4101185","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","c",,"964","4101187","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","964","4101235","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","964","4108216","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","newtError","999","4108216","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","s","","999","4108223","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","s",,"1000","4108224","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","964","4108274","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","1002","4108274","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","964","4108275","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","1000","4108354","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","e","","1000","4108355","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","e",,"1001","4108355","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","1002","4108362","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","1001","4108564","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","c","","1001","4108565","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","c",,"1002","4108607","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","E","","1002","4109146","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","E",,"1003","4109168","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","r","","1003","4109417","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","r",,"1004","4109434","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","r","","1004","4109659","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","r",,"1005","4109681","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","o","","1005","4109784","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","o",,"1006","4109802","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","r","","1006","4109835","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","r",,"1007","4109848","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4149739","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","r","1515","4149747","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4149879","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","o","1514","4149883","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4150019","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","r","1513","4150021","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4150151","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","r","1512","4150153","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4150282","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","E","1511","4150284","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4150411","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","t","1510","4150415","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4150532","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","w","1509","4150537","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4150646","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","e","1508","4150649","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4150765","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","n","1507","4150769","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","s","","1507","4150916","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","s",,"1508","4150917","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","1001","4150941","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","cError","","1001","4150942","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","cError","1001","4150941","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","1001","4150942","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","","","1482","4150941","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","1503","4150941","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","1508","4151010","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","e","","1508","4151011","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","e",,"1509","4151011","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","1509","4151025","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","1509","4151184","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","c","","1509","4151185","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","c",,"1510","4151194","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Choose Lookup Item",,,"4151908","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","Error","","1510","4152020","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","1269","4396995","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k"," ",,"1270","4397090","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",">","","1270","4398485","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k",">",,"1271","4398486","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","1271","4399125","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k"," ",,"1272","4399127","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4400408","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e",""," ","1271","4400408","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"a","Backspace",,,"4400606","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","",">","1270","4400627","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","<","","1270","4401582","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","<",,"1271","4401584","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e"," ","","1271","4401906","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k"," ",,"1272","4401909","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"e","0","","1272","4402215","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"
+"k","0",,"1273","4402217","secantHybrid.py","1.1.1 for 2021-2022 @t1","3"

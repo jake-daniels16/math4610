@@ -41,9 +41,9 @@ def secantHybrid():
     f0 = f(fun, x0)
     f1 = f(fun, x1)
     while error > tol and iter < mI:
-        x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
-        newtError = np.abs(x2 - x1)
-        if newtError > error:
+        x2 = x1 - ((f1 * (x1 - x0)) / (f1 - f0))
+        secError = np.abs(x2 - x1)
+        if secError > error:
             fa = f0
             fb = f1
             for i in range(1, 4):
@@ -52,7 +52,7 @@ def secantHybrid():
                 if fa * fc < 0:
                     b = c
                     fb = fc
-                elif fb * fc:
+                elif fb * fc < 0:
                     a = c
                     fa = fc
             error = np.abs(b - a)
@@ -62,6 +62,6 @@ def secantHybrid():
             x1 = x2
             f0 = f1
             f1 = f(fun, x2)
-            error = newtError
+            error = secError
             iter = iter + 1
     print("Root approximation: ", x1)
