@@ -26,8 +26,20 @@ def logisticEquation(a, b, p0):
     tval, xval = explicitEuler(p, p0, 0, 10, 100)
     return tval, xval
 
-tApprox, xApprox = logisticEquation(0.2, 0.0005, 10.0)
-plt.plot(tApprox, xApprox)
+tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0)
+tApprox2, xApprox2 = logisticEquation(0.01, 0.0005, 10.0)
+tApprox3, xApprox3 = logisticEquation(2.0, 0.0005, 10.0)
+plt.plot(tApprox1, xApprox1, color='red')
+plt.xlabel('t')
+plt.ylabel('x')
+plt.show()
+plt.plot(tApprox2, xApprox2, color='blue')
+plt.xlabel('t')
+plt.ylabel('x')
+plt.show()
+plt.plot(tApprox3, xApprox3, color='green')
+plt.xlabel('t')
+plt.ylabel('x')
 plt.show()
 
 
