@@ -21,6 +21,4 @@ def dataFitting(x, y, n):
     detA = a11 * a22 - a12 * a21
     b = (b1 * a22 - b2 * a12) / detA
     a = (b2 * a11 - b1 * a21) / detA
-    return print("y = ", a, "x + ", b)
-
-
+    return a, b

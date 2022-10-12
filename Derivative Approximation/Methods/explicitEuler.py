@@ -41,9 +41,3 @@ plt.plot(tApprox3, xApprox3, color='green')
 plt.xlabel('t')
 plt.ylabel('P(t)')
 plt.show()
-
-
-
-
-
-
