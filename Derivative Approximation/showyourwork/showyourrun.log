@@ -1,0 +1,311 @@
+"r","26","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"3799853","1"
+"o","26",,"Traceback (most recent call last):
+",,"stderr","3803404","1"
+"o","26",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\Explicit Euler.py"", line 5, in <module>
+",,"stderr","3803404","1"
+"o","26",,"    import matplotlib.pyplot as plt
+",,"stderr","3803441","1"
+"o","26",,"ModuleNotFoundError: No module named 'matplotlib'
+",,"stderr","3803441","1"
+"o","26",,"
+Process finished with exit code 1
+",,"system","3803461","1"
+"r","27","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"3828434","1"
+"o","27",,"Traceback (most recent call last):
+",,"stderr","3828617","1"
+"o","27",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\Explicit Euler.py"", line 5, in <module>
+",,"stderr","3828617","1"
+"o","27",,"    import matplotlib.pyplot as plt
+",,"stderr","3828617","1"
+"o","27",,"ModuleNotFoundError: No module named 'matplotlib'
+",,"stderr","3828617","1"
+"o","27",,"
+Process finished with exit code 1
+",,"system","3828636","1"
+"Run.Program","3","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665508902684","Explicit Euler.py",,,,,,
+"o","3",,"
+Process finished with exit code 0
+",,"system","1665508921346",,,,,,,
+"Run.Program","4","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509004785","Explicit Euler.py",,,,,,
+"o","4",,"
+Process finished with exit code 0
+",,"system","1665509013172",,,,,,,
+"Run.Program","5","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509187482","Explicit Euler.py",,,,,,
+"o","5",,"
+Process finished with exit code 0
+",,"system","1665509194014",,,,,,,
+"Run.Program","6","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509214901","Explicit Euler.py",,,,,,
+"o","6",,"Traceback (most recent call last):
+",,"stderr","1665509215637",,,,,,,
+"o","6",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\Explicit Euler.py"", line 29, in <module>
+",,"stderr","1665509215637",,,,,,,
+"o","6",,"    tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0, color='red')
+",,"stderr","1665509215671",,,,,,,
+"o","6",,"TypeError: logisticEquation() got an unexpected keyword argument 'color'
+",,"stderr","1665509215671",,,,,,,
+"o","6",,"
+Process finished with exit code 1
+",,"system","1665509215727",,,,,,,
+"Run.Program","7","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509248789","Explicit Euler.py",,,,,,
+"o","7",,"
+Process finished with exit code 0
+",,"system","1665509251732",,,,,,,
+"Run.Program","8","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509266819","Explicit Euler.py",,,,,,
+"o","8",,"
+Process finished with exit code 0
+",,"system","1665509275012",,,,,,,
+"Run.Program","9","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509284056","Explicit Euler.py",,,,,,
+"o","9",,"
+Process finished with exit code 0
+",,"system","1665509311935",,,,,,,
+"Run.Program","10","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509502256","Explicit Euler.py",,,,,,
+"o","10",,"
+Process finished with exit code -1
+",,"system","1665509548422",,,,,,,
+"Run.Program","11","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509584270","Explicit Euler.py",,,,,,
+"o","11",,"
+Process finished with exit code 0
+",,"system","1665509604632",,,,,,,
+"Run.Program","12","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665509850766","Explicit Euler.py",,,,,,
+"o","12",,"
+Process finished with exit code 0
+",,"system","1665509875086",,,,,,,
+"Run.Program","3","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Explicit Euler.py""",,"PythonRunner",,"1665595009963","Explicit Euler.py",,,,,,
+"o","3",,"
+Process finished with exit code 0
+",,"system","1665595016060",,,,,,,
+"Run.Program","10","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/Data Fitting.py""",,"PythonRunner",,"1665596101805","Data Fitting.py",,,,,,
+"o","10",,"y =  -0.013871376778266133 x +  -0.11840202632508127
+",,"stdout","1665596105061",,,,,,,
+"o","10",,"
+Process finished with exit code 0
+",,"system","1665596105076",,,,,,,
+"Run.Program","11","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/testing.py""",,"PythonRunner",,"1665596630557","testing.py",,,,,,
+"o","11",,"Traceback (most recent call last):
+",,"stderr","1665596634050",,,,,,,
+"o","11",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\testing.py"", line 5, in <module>
+",,"stderr","1665596634050",,,,,,,
+"o","11",,"    from Methods.SecondDerivative import secondDerivative
+",,"stderr","1665596634076",,,,,,,
+"o","11",,"ModuleNotFoundError: No module named 'Methods.SecondDerivative'
+",,"stderr","1665596634076",,,,,,,
+"o","11",,"
+Process finished with exit code 1
+",,"system","1665596634098",,,,,,,
+"Run.Program","12","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/testing.py""",,"PythonRunner",,"1665596824889","testing.py",,,,,,
+"o","12",,"h values | approximations | exact | difference
+",,"stdout","1665596828286",,,,,,,
+"o","12",,"1.0  |  0.08888433309385912  |  -0.03235131011796782  |  0.12123564321182695
+",,"stdout","1665596828286",,,,,,,
+"o","12",,"0.5  |  -0.10999942340177273  |  -0.03235131011796782  |  -0.07764811328380491
+",,"stdout","1665596828286",,,,,,,
+"o","12",,"0.25  |  -0.07472439472298283  |  -0.03235131011796782  |  -0.04237308460501501
+",,"stdout","1665596828286",,,,,,,
+"o","12",,"0.125  |  -0.06930444457864604  |  -0.03235131011796782  |  -0.03695313446067822
+",,"stdout","1665596828286",,,,,,,
+"o","12",,"0.0625  |  -0.06807675204221697  |  -0.03235131011796782  |  -0.03572544192424915
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.03125  |  -0.0677769923768814  |  -0.03235131011796782  |  -0.03542568225891358
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.015625  |  -0.06770248904469156  |  -0.03235131011796782  |  -0.03535117892672374
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.0078125  |  -0.0676838903286523  |  -0.03235131011796782  |  -0.03533258021068448
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.00390625  |  -0.0676792423422512  |  -0.03235131011796782  |  -0.03532793222428338
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.001953125  |  -0.06767808045242418  |  -0.03235131011796782  |  -0.035326770334456366
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.0009765625  |  -0.06767778999164875  |  -0.03235131011796782  |  -0.035326479873680934
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.00048828125  |  -0.06767771738668671  |  -0.03235131011796782  |  -0.03532640726871889
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.000244140625  |  -0.06767769937869161  |  -0.03235131011796782  |  -0.035326389260723796
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"0.0001220703125  |  -0.06767769472207874  |  -0.03235131011796782  |  -0.03532638460411092
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"6.103515625e-05  |  -0.06767769576981664  |  -0.03235131011796782  |  -0.03532638565184882
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"3.0517578125e-05  |  -0.0676776971668005  |  -0.03235131011796782  |  -0.03532638704883268
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"1.52587890625e-05  |  -0.06767769902944565  |  -0.03235131011796782  |  -0.03532638891147783
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"7.62939453125e-06  |  -0.0676778256893158  |  -0.03235131011796782  |  -0.03532651557134798
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"3.814697265625e-06  |  -0.06767797470092773  |  -0.03235131011796782  |  -0.03532666458295992
+",,"stdout","1665596828287",,,,,,,
+"o","12",,"y =  0.10731660268254077 x +  -0.017626706846345153
+",,"stdout","1665596828442",,,,,,,
+"o","12",,"
+Process finished with exit code 0
+",,"system","1665596828477",,,,,,,
+"Run.Program","13","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/testing.py""",,"PythonRunner",,"1665596874785","testing.py",,,,,,
+"o","13",,"h values | approximations | exact | difference
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"1.0  |  0.08888433309385912  |  -0.03235131011796782  |  0.12123564321182695
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.5  |  -0.10999942340177273  |  -0.03235131011796782  |  -0.07764811328380491
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.25  |  -0.07472439472298283  |  -0.03235131011796782  |  -0.04237308460501501
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.125  |  -0.06930444457864604  |  -0.03235131011796782  |  -0.03695313446067822
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.0625  |  -0.06807675204221697  |  -0.03235131011796782  |  -0.03572544192424915
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.03125  |  -0.0677769923768814  |  -0.03235131011796782  |  -0.03542568225891358
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.015625  |  -0.06770248904469156  |  -0.03235131011796782  |  -0.03535117892672374
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.0078125  |  -0.0676838903286523  |  -0.03235131011796782  |  -0.03533258021068448
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.00390625  |  -0.0676792423422512  |  -0.03235131011796782  |  -0.03532793222428338
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.001953125  |  -0.06767808045242418  |  -0.03235131011796782  |  -0.035326770334456366
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.0009765625  |  -0.06767778999164875  |  -0.03235131011796782  |  -0.035326479873680934
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.00048828125  |  -0.06767771738668671  |  -0.03235131011796782  |  -0.03532640726871889
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.000244140625  |  -0.06767769937869161  |  -0.03235131011796782  |  -0.035326389260723796
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"0.0001220703125  |  -0.06767769472207874  |  -0.03235131011796782  |  -0.03532638460411092
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"6.103515625e-05  |  -0.06767769576981664  |  -0.03235131011796782  |  -0.03532638565184882
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"3.0517578125e-05  |  -0.0676776971668005  |  -0.03235131011796782  |  -0.03532638704883268
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"1.52587890625e-05  |  -0.06767769902944565  |  -0.03235131011796782  |  -0.03532638891147783
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"7.62939453125e-06  |  -0.0676778256893158  |  -0.03235131011796782  |  -0.03532651557134798
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"3.814697265625e-06  |  -0.06767797470092773  |  -0.03235131011796782  |  -0.03532666458295992
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"y =  -0.013871376778266133 x +  -0.11840202632508127
+",,"stdout","1665596875172",,,,,,,
+"o","13",,"
+Process finished with exit code 0
+",,"system","1665596875189",,,,,,,
+"Run.Program","14","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/testing.py""",,"PythonRunner",,"1665596960565","testing.py",,,,,,
+"o","14",,"h values | approximations | exact | difference
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"1.0  |  0.08888433309385912  |  -0.03235131011796782  |  0.12123564321182695
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.5  |  -0.10999942340177273  |  -0.03235131011796782  |  -0.07764811328380491
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.25  |  -0.07472439472298283  |  -0.03235131011796782  |  -0.04237308460501501
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.125  |  -0.06930444457864604  |  -0.03235131011796782  |  -0.03695313446067822
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.0625  |  -0.06807675204221697  |  -0.03235131011796782  |  -0.03572544192424915
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.03125  |  -0.0677769923768814  |  -0.03235131011796782  |  -0.03542568225891358
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.015625  |  -0.06770248904469156  |  -0.03235131011796782  |  -0.03535117892672374
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.0078125  |  -0.0676838903286523  |  -0.03235131011796782  |  -0.03533258021068448
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.00390625  |  -0.0676792423422512  |  -0.03235131011796782  |  -0.03532793222428338
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.001953125  |  -0.06767808045242418  |  -0.03235131011796782  |  -0.035326770334456366
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.0009765625  |  -0.06767778999164875  |  -0.03235131011796782  |  -0.035326479873680934
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.00048828125  |  -0.06767771738668671  |  -0.03235131011796782  |  -0.03532640726871889
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.000244140625  |  -0.06767769937869161  |  -0.03235131011796782  |  -0.035326389260723796
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"0.0001220703125  |  -0.06767769472207874  |  -0.03235131011796782  |  -0.03532638460411092
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"6.103515625e-05  |  -0.06767769576981664  |  -0.03235131011796782  |  -0.03532638565184882
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"3.0517578125e-05  |  -0.0676776971668005  |  -0.03235131011796782  |  -0.03532638704883268
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"1.52587890625e-05  |  -0.06767769902944565  |  -0.03235131011796782  |  -0.03532638891147783
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"7.62939453125e-06  |  -0.0676778256893158  |  -0.03235131011796782  |  -0.03532651557134798
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"3.814697265625e-06  |  -0.06767797470092773  |  -0.03235131011796782  |  -0.03532666458295992
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"y =  -0.013871376778266133 x +  -0.11840202632508127
+",,"stdout","1665596960937",,,,,,,
+"o","14",,"
+Process finished with exit code 0
+",,"system","1665596960965",,,,,,,
+"Run.Program","15","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/testing.py""",,"PythonRunner",,"1665596986784","testing.py",,,,,,
+"o","15",,"y =  -0.013871376778266133 x +  -0.11840202632508127
+",,"stdout","1665596987122",,,,,,,
+"o","15",,"
+Process finished with exit code 0
+",,"system","1665596987136",,,,,,,
+"Run.Program","16","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/testing.py""",,"PythonRunner",,"1665597043679","testing.py",,,,,,
+"o","16",,"Traceback (most recent call last):
+",,"stderr","1665597044326",,,,,,,
+"o","16",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\testing.py"", line 5, in <module>
+",,"stderr","1665597044326",,,,,,,
+"o","16",,"    from Methods.secondDerivative import secondDeriv
+",,"stderr","1665597044326",,,,,,,
+"o","16",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\Methods\secondDerivative.py"", line 28, in <module>
+",,"stderr","1665597044326",,,,,,,
+"o","16",,"    test()
+",,"stderr","1665597044341",,,,,,,
+"o","16",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\Methods\secondDerivative.py"", line 23, in test
+",,"stderr","1665597044341",,,,,,,
+"o","16",,"    hVals, fVals, diff = secondDerivative(lambda x: (x - np.pi / 2) * np.tan(x) * np.tan(x) / (x * x + 65), np.pi / 4, 1.0, exact)
+",,"stderr","1665597044341",,,,,,,
+"o","16",,"NameError: name 'secondDerivative' is not defined",,"stderr","1665597044341",,,,,,,
+"o","16",,". Did you mean: 'secondDeriv'?
+",,"stderr","1665597044413",,,,,,,
+"o","16",,"
+Process finished with exit code 1
+",,"system","1665597044436",,,,,,,
+"Run.Program","17","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/testing.py""",,"PythonRunner",,"1665597051223","testing.py",,,,,,
+"o","17",,"h values | approximations | exact | difference
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"1.0  |  0.08888433309385912  |  -0.03235131011796782  |  0.12123564321182695
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.5  |  -0.10999942340177273  |  -0.03235131011796782  |  -0.07764811328380491
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.25  |  -0.07472439472298283  |  -0.03235131011796782  |  -0.04237308460501501
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.125  |  -0.06930444457864604  |  -0.03235131011796782  |  -0.03695313446067822
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.0625  |  -0.06807675204221697  |  -0.03235131011796782  |  -0.03572544192424915
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.03125  |  -0.0677769923768814  |  -0.03235131011796782  |  -0.03542568225891358
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.015625  |  -0.06770248904469156  |  -0.03235131011796782  |  -0.03535117892672374
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.0078125  |  -0.0676838903286523  |  -0.03235131011796782  |  -0.03533258021068448
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.00390625  |  -0.0676792423422512  |  -0.03235131011796782  |  -0.03532793222428338
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.001953125  |  -0.06767808045242418  |  -0.03235131011796782  |  -0.035326770334456366
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.0009765625  |  -0.06767778999164875  |  -0.03235131011796782  |  -0.035326479873680934
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.00048828125  |  -0.06767771738668671  |  -0.03235131011796782  |  -0.03532640726871889
+",,"stdout","1665597051632",,,,,,,
+"o","17",,"0.000244140625  |  -0.06767769937869161  |  -0.03235131011796782  |  -0.035326389260723796
+",,"stdout","1665597051633",,,,,,,
+"o","17",,"0.0001220703125  |  -0.06767769472207874  |  -0.03235131011796782  |  -0.03532638460411092
+",,"stdout","1665597051633",,,,,,,
+"o","17",,"6.103515625e-05  |  -0.06767769576981664  |  -0.03235131011796782  |  -0.03532638565184882
+",,"stdout","1665597051633",,,,,,,
+"o","17",,"3.0517578125e-05  |  -0.0676776971668005  |  -0.03235131011796782  |  -0.03532638704883268
+",,"stdout","1665597051633",,,,,,,
+"o","17",,"1.52587890625e-05  |  -0.06767769902944565  |  -0.03235131011796782  |  -0.03532638891147783
+",,"stdout","1665597051633",,,,,,,
+"o","17",,"7.62939453125e-06  |  -0.0676778256893158  |  -0.03235131011796782  |  -0.03532651557134798
+",,"stdout","1665597051633",,,,,,,
+"o","17",,"3.814697265625e-06  |  -0.06767797470092773  |  -0.03235131011796782  |  -0.03532666458295992
+",,"stdout","1665597051633",,,,,,,
+"o","17",,"y =  -0.013871376778266133 x +  -0.11840202632508127
+",,"stdout","1665597051633",,,,,,,
+"o","17",,"
+Process finished with exit code 0
+",,"system","1665597051663",,,,,,,
+"Run.Program","18","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/testing.py""",,"PythonRunner",,"1665597082271","testing.py",,,,,,
+"o","18",,"y =  -0.013871376778266133 x +  -0.11840202632508127
+",,"stdout","1665597082484",,,,,,,
+"o","18",,"
+Process finished with exit code 0
+",,"system","1665597082525",,,,,,,
