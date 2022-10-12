@@ -24,3 +24,5 @@ def test():
     print("h values | approximations | exact | difference")
     for i in range (0, 19):
         print(hVals[i], " | ", fVals[i], " | ", exact, " | ",  diff[i])
+
+test()
