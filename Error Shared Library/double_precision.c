@@ -6,22 +6,27 @@ double doublePrecision();
 
 double doublePrecision()
 {
-    double one = 1.0;
-    double eps = 1.0;
+    double one = 1.0d;
+    double deps = 1.0d;
+    double appone = 1.0d;
+    double count = 0.0;
     for(int i = 1.0; i < 101; i++)
     {
-        double diff = one - (one + eps);
-        if(diff == 0.0)
+        appone = one + deps;
+        if(fabs(appone - one) == 0.0d)
         {
-            return eps;
+            count = count + 1.0;
+            printf("loops: %f\n", count);
+            printf("double precision machine epsilon: %f", deps);
+            break;
         } else {
-            eps = 0.5 * eps;
+            deps = deps * 0.5d;
+            count = count + 1.0;
         }
     }
 }
 
 int main()
 {
-    double precision = doublePrecision();
-    printf("double precision: %f\n", precision);
+    doublePrecision();
 }

@@ -5695,3 +5695,207 @@ main()",,,,,
 "X-Action","Deleting file Explicit Euler.py",,,"1665597302426","testing.py","1.1.4 for 2021-2022 @t1",,"Deleting file Explicit Euler.py",,,,,
 "X-Action","Deleting file Data Fitting.py",,,"1665597308356","testing.py","1.1.4 for 2021-2022 @t1",,"Deleting file Data Fitting.py",,,,,
 "X-Action","EditorChange",,,"1665597362161","testing.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","Outside edit","","","1665850816469",".gitignore","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","Outside edit","","","1665850816666","Second Derivative.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def secondDerivative(f, x0, h, exact):
+    f0 = f(x0)
+    diff = []
+    fV = []
+    hV = []
+    for i in range (1, 20):
+        hV.append(h)
+        f1 = f(x0 + h)
+        f2 = f(x0 - h)
+        fval = (f1 - 2 * f0 + f2) / (h * h)
+        fV.append(fval)
+        diff.append(fval - exact)
+        h = h / 2
+    return hV, fV, diff
+
+exact = 16 * (-np.pi ** 3 + 3 * np.pi ** 2 - 1040 * np.pi + 1040) / (np.pi ** 2 + 1040) ** 2
+hVals, fVals, diff = secondDerivative(lambda x: (x - np.pi / 2) * np.tan(x) * np.tan(x) / (x * x + 65), np.pi / 4, 1.0, exact)
+print(""h values | approximations | exact | difference"")
+ or i in range (0, 19):
+    print(hVals[i], "" | "", fVals[i], "" | "", exact, "" | "",   diff[i])","0","1665850816666","Second Derivative.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","0","1665850816666","Second Derivative.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Outside edit","","","1665850816740","Data Fitting.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def dataFitting(x, y, n):
+    a11 = n+1
+    a12 = x[0]
+    for i in range(1, n):
+        a12 = a12 + x[i]
+    a21 = a12
+    a22 = x[0] * x[0]
+    for i in range(1, n):
+        a22 = a22 + x[i] * x[i]
+    b1 = y[0]
+    for i in range(1, n):
+        b1 = b1 + y[i]
+    b2 = x[0] * y[0]
+    for i in range(1, n):
+        b2 = b2 + x[i] * y[i]
+    detA = a11 * a22 - a12 * a21
+    b = (b1 * a22 - b2 * a12) / detA
+    a = (b2 * a11 - b1 * a21) / detA
+    return print(""y = "", a, ""x + "", b)
+
+def secondDerivative(f, x0, h, exact):
+    f0 = f(x0)
+    diff = []
+    fV = []
+    hV = []
+    for i in range (1, 20):
+        hV.append(h)
+        f1 = f(x0 + h)
+        f2 = f(x0 - h)
+        fval = (f1 - 2 * f0 + f2) / (h * h)
+        fV.append(fval)
+        diff.append(fval - exact)
+        h = h / 2
+    return hV, fV, diff
+
+exact = -0.0548915699521
+h, f, di f = secondDerivative(lambda x: (x - np.pi / 2) * np.tan(x) * np.tan(x) / (x * x + 65), 1.0, 1.0, exact)
+ ataFitting(h, diff, 19)
+
+","0","1665850816740","Data Fitting.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","0","1665850816740","Data Fitting.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Outside edit","","","1665850816789","Explicit Euler.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+def explicitEuler(f, x0, t0, T, n):
+    h = (T - t0) / n
+    f0 = f(t0, x0)
+    tval = []
+    xval = []
+    tval.append(t0)
+    xval.append(x0)
+    for i in range(1, n):
+        t1 = t0 + h
+        x1 = x0 + h * f0
+        x0 = x1
+        t0 = t1
+        tval.append(t0)
+        xval.append(x0)
+        f0 = f(t0, x0)
+    return tval, xval
+
+def logisticEquation(a, b, p0):
+    p = lambda t, x: a * x - b * x * x
+    tval, pval = explicitEuler(p, p0, 0, 10, 100)
+    return tval, pval
+
+tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0)
+tApprox2, xApprox2 = logisticEquation(0.01, 0.0005, 10.0)
+tApprox3, xApprox3 = logisticEquation(2.0, 0.0005, 10.0)
+plt.plot(tApprox1, xApprox1, color='red')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox2, xApprox2, color='blue')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox3, xApprox3, color='green')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+
+
+
+
+
+
+","0","1665850816789","Explicit Euler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","0","1665850816789","Explicit Euler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Outside edit","","","1665850816816","testing.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","Outside edit","","","1665850816836","Data Fitting.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","Outside edit","","","1665850816902","secondDerivative.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def secondDerivative(f, x0, h, exact):
+    f0 = f(x0)
+    diff = []
+    fV = []
+    hV = []
+    for i in range (1, 20):
+        hV.append(h)
+        f1 = f(x0 + h)
+        f2 = f(x0 - h)
+        fval = (f1 - 2 * f0 + f2) / (h * h)
+        fV.append(fval)
+        diff.append(fval - exact)
+        h = h / 2
+    return hV, fV, diff
+
+exact = 16 * (-np.pi ** 3 + 3 * np.pi ** 2 - 1040 * np.pi + 1040) / (np.pi ** 2 + 1040) ** 2
+hVals, fVals, diff = secondDerivative(lambda x: (x - np.pi / 2) * np.tan(x) * np.tan(x) / (x * x + 65), np.pi / 4, 1.0, exact)
+print(""h values | approximations | exact | difference"")
+for i in range (0, 19):
+    print(hVals[i], "" | "", fVals[i], "" | "", exact, "" | "",  diff[i])
+","0","1665850816902","secondDerivative.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","0","1665850816902","secondDerivative.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Outside edit","","","1665850816918","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+def explicitEuler(f, x0, t0, T, n):
+    h = (T - t0) / n
+    f0 = f(t0, x0)
+    tval = []
+    xval = []
+    tval.append(t0)
+    xval.append(x0)
+    for i in range(1, n):
+        t1 = t0 + h
+        x1 = x0 + h * f0
+        x0 = x1
+        t0 = t1
+        tval.append(t0)
+        xval.append(x0)
+        f0 = f(t0, x0)
+    return tval, xval
+
+def logisticEquation(a, b, p0):
+    p = lambda t, x: a * x - b * x * x
+    tval, pval = explicitEuler(p, p0, 0, 10, 100)
+    return tval, pval
+
+tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0)
+tApprox2, xApprox2 = logisticEquation(0.01, 0.0005, 10.0)
+tApprox3, xApprox3 = logisticEquation(2.0, 0.0005, 10.0)
+plt.plot(tApprox1, xApprox1, color='red')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox2, xApprox2, color='blue')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox3, xApprox3, color='green')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+","0","1665850816918","explicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","0","1665850816919","explicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","ShowYourWork Init","","","1665850817276",,"1.1.4 for 2021-2022 @t1",,"Init",,,,,

@@ -6,21 +6,27 @@ float singlePrecision();
 
 float singlePrecision()
 {
-    float one = 1.0;
-    float eps = 1.0;
+    float one = 1.0f;
+    float seps = 1.0f;
+    float appone = 1.0f;
+    double count = 0.0;
     for(int i = 1.0; i < 101; i++)
     {
-        float diff = one - (one + eps);
-        if(diff = 0.0){
-            return eps;
+        appone = one + seps;
+        if(fabs(appone - one) == 0.0f)
+        {
+            count = count + 1.0;
+            printf("loops: %f\n", count);
+            printf("single precision machine epsilon = %f", seps);
+            break;
         } else {
-            eps = 0.5 * eps;
+            seps = 0.5f * seps;
+            count = count + 1.0;
         }
     }
 }
 
 int main()
 {
-    double precision = singlePrecision();
-    printf("single precision %f\n", precision);
+    singlePrecision();
 }

@@ -2894,3 +2894,61 @@ for i in range (0, 19):
 "X-Action","EditorChange",,,"1665597522557","secondDerivative.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
 "Run.Program","Start",,,"1665597530722","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
 "Run.Program","Exit","0",,"1665597573430","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+from Methods.Second_Derivative
+f 
+
+def main():
+    e import secondDeriva_ataFitt import dataFittinging import dataFittingxa= -0.0548915699521
+    hVals, fVals, diff = secondDerivative(lambda x: (x - np.pi / 2) * np.tan(x) * np.tan(x) / (x * x + 65), np.pi / 4,
+                                          1.0, exact)
+    a, b = dataFitting(hVals, diff, 19)
+    print(""y = "", a, ""x + "", b)
+main()
+
+
+","0","1665850816816","testing.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","0","1665850816816","testing.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def dataFitting(x, y, n):
+    a11 = n+1
+    a12 = x[0]
+    for i in range(1, n):
+        a12 = a12 + x[i]
+    a21 = a12
+    a22 = x[0] * x[0]
+    for i in range(1, n):
+        a22 = a22 + x[i] * x[i]
+    b1 = y[0]
+    for i in range(1, n):
+        b1 = b1 + y[i]
+    b2 = x[0] * y[0]
+    for i in range(1, n):
+        b2 = b2 + x[i] * y[i]
+    detA = a11 * a22 - a12 * a21
+    b = (b1 * a22 - b2 * a12) / detA
+    a = (b2 * a11 - b1 * a21) / detA
+    return a, b 
+
+
+","0","1665850816836","Data Fitting.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","0","1665850816836","Data Fitting.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Left",,,"1665850969225","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Left",,,,,
+"X-Action","Right",,,"1665850969257","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1665850969412","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1665850969581","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1665850970139","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1665850970315","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1665850970487","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1665850970879","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","EditorChange",,,"1665851010081","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","EditorChange",,,"1665851018952","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"Run.Program","Start",,,"1665851187203","secondDerivative.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1665851190614","secondDerivative.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
