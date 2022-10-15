@@ -8,3 +8,5 @@ This is a repository for my MATH 4610 code. The first code to be added to this r
 [Root Finding Code (C)](https://github.com/jake-daniels16/math4610/tree/main/RF%20Shared%20Library)
 
 [Derivative Approximation Code](https://github.com/jake-daniels16/math4610/tree/main/Derivative%20Approximation)
+
+[Error Routines](https://github.com/jake-daniels16/math4610/tree/main/Error%20Shared%20Library)
