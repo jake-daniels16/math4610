@@ -25,8 +25,3 @@ double doublePrecision()
         }
     }
 }
-
-int main()
-{
-    doublePrecision();
-}

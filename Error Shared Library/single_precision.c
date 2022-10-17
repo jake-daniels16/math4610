@@ -25,8 +25,3 @@ float singlePrecision()
         }
     }
 }
-
-int main()
-{
-    singlePrecision();
-}
