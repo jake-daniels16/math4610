@@ -3,6 +3,8 @@ This is a repository for my MATH 4610 code. The first code to be added to this r
 
 [Software Manual](https://github.com/jake-daniels16/math4610/tree/main/doc/Software%20Manual)
 
+[Tasksheet Table of Contents](https://github.com/jake-daniels16/math4610/blob/main/Tasksheet_ToC.md)
+
 [Root Finding Code (Python)](https://github.com/jake-daniels16/math4610/tree/main/Root%20Finding%20Problem)
 
 [Root Finding Code (C)](https://github.com/jake-daniels16/math4610/tree/main/RF%20Shared%20Library)
@@ -11,4 +13,4 @@ This is a repository for my MATH 4610 code. The first code to be added to this r
 
 [Error Routines](https://github.com/jake-daniels16/math4610/tree/main/Error%20Shared%20Library)
 
-[Tasksheet Table of Contents](https://github.com/jake-daniels16/math4610/blob/main/Tasksheet_ToC.md)
+
