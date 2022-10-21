@@ -34,7 +34,7 @@ def secantHybrid():
     a, b = eval(input("Enter interval for function as (a,b) where b > a: "))
     tol = tolerance()
     mI = maxIter()
-    # choice = wantTable()
+    choice = wantTable()
     x0, x1 = a, b
     error = 10 * tol
     iter = 0
@@ -44,6 +44,8 @@ def secantHybrid():
         x2 = x1 - ((f1 * (x1 - x0)) / (f1 - f0))
         secError = np.abs(x2 - x1)
         if secError > error:
+            a = x1
+            b = x2
             fa = f0
             fb = f1
             for i in range(1, 4):
@@ -55,8 +57,13 @@ def secantHybrid():
                 elif fb * fc < 0:
                     a = c
                     fa = fc
+                else:
+                    break
             error = np.abs(b - a)
+            iter = iter + 1
             x0, x1 = a, b
+            f0 = fa
+            f1 = fb
         else:
             x0 = x1
             x1 = x2

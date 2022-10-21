@@ -1187,3 +1187,46 @@ else:
 "a","ShowYourWork Init","","","000","ShowYourWork Init","1.1.1 for 2021-2022 @t1","6"
 "a","ShowYourWork Init","","","000","ShowYourWork Init","1.1.1 for 2021-2022 @t1","7"
 "a","ShowYourWork Init","","","000","ShowYourWork Init","1.1.1 for 2021-2022 @t1","8"
+"X-Action","Outside edit","","","1666374990179","newtons.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","Outside edit","","","1666374990242","Root Finding Problem.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"File.Edit","","","0","1666374990242","Root Finding Problem.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+from Methods.fnIter import functionalIteration
+from Methods.bisect import bisectMethod
+from Methods.newtons import newtonsMethod
+from Methods.secant import secantMethod
+from Methods.newtHybrid import newtonHybrid
+from Methods.secantHybrid import secantHybrid
+
+print(""Methods:"")
+print(""\t1) Fixed Point Iteration"")
+print(""\t2) Bisect Method"")
+print(""\t3) Newton's Method"")
+print(""\t4) Secant Method"")
+print(""\t5) Newton/Bisect Hybrid"")
+print(""\t6) Secant/Bisect Hybrid"")
+
+choice = eval(input(""What method do you want to do? ""))
+if choice == 1:
+    functionalIteration()
+elif choice == 2:
+    bisectMethod()
+elif choice == 3:
+    newtonsMethod()
+elif choice == 4:
+    secantMethod()
+elif choice == 5:
+    newtonHybrid()
+elif choice == 6:
+    secantHybrid()
+else:
+    print(""Did not enter valid method run again"")
+","","0","1666374990242","Root Finding Problem.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Outside edit","","","1666374990244",".gitignore","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","Outside edit","","","1666374990262","secant.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","Outside edit","","","1666374990280","newtHybrid.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","Outside edit","","","1666374990325","bisect.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","Outside edit","","","1666374990380","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","ShowYourWork Init","","","1666374990419",,"1.1.4 for 2021-2022 @t1",,"Init",,,,,

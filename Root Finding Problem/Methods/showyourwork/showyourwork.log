@@ -5511,3 +5511,526 @@ def secantHybrid():
 "a","EditorChange",,,"1913598","secant.py","1.1.1 for 2021-2022 @t1","4"
 "a","EditorChange",,,"2013617","secant.py","1.1.1 for 2021-2022 @t1","4"
 "a","EditorChange",,,"2072160","secant.py","1.1.1 for 2021-2022 @t1","4"
+"File.Edit","","","0","1666374990179","newtons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def fPrime():
+    fp = input(""Enter derivative here: "")
+    return fp
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def newtonsMethod():
+    fun = fn()
+    fp = fPrime()
+    x0 = initialGuess()
+    tol = tolerance()
+    mI = maxIter()
+    choice = wantTable()
+    error = 10 * tol
+    iter = 0
+    if choice == 1:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            table(iter + 1, x1, error)
+            iter = iter + 1
+            x0 = x1
+    elif choice == 2:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+        print(""Root approximation: "", x0)
+","","0","1666374990179","newtons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","0","1666374990263","secant.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuesses():
+    x0, x1 = eval(input(""Input initial guesses for root here as (x0, x1): ""))
+    return x0, x1
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def secantMethod():
+    fun = fn()
+    x0, x1 = initialGuesses()
+    tol = tolerance()
+    mI = maxIter()
+    choice = wantTable()
+    error = 10 * tol
+    iter = 0
+    f0 = f(fun, x0)
+    f1 = f(fun, x1)
+    if choice == 1:
+        while error > tol and iter < mI:
+            x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+            error = np.abs(x2 - x1)
+            table(iter + 1, x2, error)
+            iter = iter + 1
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+    elif choice == 2:
+        while error > tol and iter < mI:
+            x2 = x1 - (f1 * (x1 - x0)) / (f1 - f0)
+            error = np.abs(x2 - x1)
+            iter = iter + 1
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+        print(""Root approximation: "", x1)
+","","0","1666374990263","secant.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","0","1666374990280","newtHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def fPrime():
+    fp = input(""Enter derivative here: "")
+    return fp
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def newtonHybrid():
+    fun = fn()
+    fp = fPrime()
+    a, b = eval(input(""Enter interval for function as (a,b) where b > a: ""))
+    tol = tolerance()
+    mI = maxIter()
+    # choice = wantTable()
+    x0 = .5 * (a + b)
+    error = 10 * tol
+    iter = 0
+    while error > tol and iter < mI:
+        f0 = f(fun, x0)
+        fp0 = f(fp, x0)
+        x1 = x0 - f0 / fp0
+        newtError = np.abs(x1 - x0)
+        if newtError > error:
+            fa = f(fun, a)
+            fb = f(fun, b)
+            for i in range(1, 4):
+                c = .5 * (a + b)
+                fc = f(fun, c)
+                if fa * fc < 0:
+                    b = c
+                    fb = fc
+                elif fb * fc < 0:
+                    a = c
+                    fa = fc
+            error = np.abs(b - a)
+            x0 = .5 * (a + b)
+        else:
+            x0 = x1
+            error = newtError
+            iter = iter + 1
+    print(""Root approximation: "", x0)
+
+","","0","1666374990280","newtHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","0","1666374990325","bisect.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def bisectMethod():
+    fun = fn()
+    a, b = eval(input(""Enter interval for function as (a,b) where b > a: ""))
+    fa = f(fun, a)
+    fb = f(fun, b)
+    tol = tolerance()
+    choice = wantTable()
+    k = int(-np.log(tol / np.abs(b - a)) / np.log(2)) + 1
+    if choice == 1:
+        for i in range(1, k):
+            error = np.abs(b-a)
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(""Both endpoints are roots no table could be formed."")
+                    break
+                elif fa == 0:
+                    print(""The left endpoint, "", a, "", is a root no table could be formed."")
+                    break
+                elif fb == 0:
+                    print(""The right endpoint, "", b, "", is a root no table could be formed."")
+                    break
+                elif fc == 0:
+                    table(i, c, error)
+                    break
+            table(i, c, error)
+    elif choice == 2:
+        for i in range(1, k):
+            c = .5 * (a + b)
+            fc = f(fun, c)
+            if fa * fb > 0:
+                print(""Pick different a and b"")
+                print(""f(a) x f(b) is positive"")
+                c = "" ""
+                break
+            elif fa * fc < 0:
+                b = c
+                fb = fc
+            elif fb * fc < 0:
+                a = c
+                fa = fc
+            elif fb * fa * fc == 0:
+                if fa == fb == 0:
+                    print(a, ""and"", b, ""are roots"")
+                    break
+                elif fa == 0:
+                    print(a, ""is a root"")
+                    c = ""given above""
+                    break
+                elif fb == 0:
+                    print(b, ""is a root"")
+                    c = ""given above""
+                    break
+                elif fc == 0:
+                    print(c, ""is a root"")
+                    c = ""given above""
+                    break
+        print(""Root approximation: "", c)","","0","1666374990325","bisect.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","0","1666374990380","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def secantHybrid():
+    fun = fn()
+    a, b = eval(input(""Enter interval for function as (a,b) where b > a: ""))
+    tol = tolerance()
+    mI = maxIter()
+    # choice = wantTable()
+    x0, x1 = a, b
+    error = 10 * tol
+    iter = 0
+    f0 = f(fun, x0)
+    f1 = f(fun, x1)
+    while error > tol and iter < mI:
+        x2 = x1 - ((f1 * (x1 - x0)) / (f1 - f0))
+        secError = np.abs(x2 - x1)
+        if secError > error:
+            fa = f0
+            fb = f1
+            for i in range(1, 4):
+                c = .5 * (a + b)
+                fc = f(fun, c)
+                if fa * fc < 0:
+                    b = c
+                    fb = fc
+                elif fb * fc < 0:
+                    a = c
+                    fa = fc
+            error = np.abs(b - a)
+            x0, x1 = a, b
+        else:
+            x0 = x1
+            x1 = x2
+            f0 = f1
+            f1 = f(fun, x2)
+            error = secError
+            iter = iter + 1
+    print(""Root approximation: "", x1)
+","","0","1666374990380","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","            
+","","1389","1666375053244","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","1401","1666375055491","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"1402","1666375055547","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","0","","1402","1666375055569","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"1403","1666375055572","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit"," ","","1403","1666375057683","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1404","1666375057691","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","1404","1666375058137","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"1405","1666375058139","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","1405","1666375058307","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1406","1666375058309","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","f","","1406","1666375058714","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"1407","1666375058720","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","a","","1407","1666375058877","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"1408","1666375058890","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit",";","","1408","1666375059721","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",";",,"1409","1666375059726","secantHybrid.py","1.1.4 for 2021-2022 @t1",,";",,,,,
+"File.Edit","    
+        ","","1418","1666375059839","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","1422","1666375060490","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"1423","1666375060492","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","1 = fb;","","1423","1666375061236","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","",";","1429","1666375064333","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",";","1408","1666375065249","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    
+        ","","1371","1666375069558","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","i","","1375","1666375069735","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"1376","1666375069736","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","","        i
+    ","1367","1666375069786","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    i 
+        ","","1371","1666375069786","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1376","1666375069839","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","1376","1666375069840","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"1377","1666375069850","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","1377","1666375069869","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1377","1666375069950","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","1377","1666375069951","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"1378","1666375069956","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","1378","1666375069970","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1378","1666375070024","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","1378","1666375070025","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"1379","1666375070029","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","1379","1666375070040","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1379","1666375070161","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","1379","1666375070165","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1380","1666375070167","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","1380","1666375070826","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"1381","1666375070835","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","1381","1666375071109","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1382","1666375071109","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","1382","1666375071332","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"1383","1666375071334","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","1383","1666375071348","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1383","1666375071403","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","1383","1666375071404","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"1384","1666375071413","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","1384","1666375071434","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1384","1666375071534","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","1384","1666375071535","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"1385","1666375071536","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","1385","1666375071545","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1385","1666375071614","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","1385","1666375071615","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"1386","1666375071622","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","1386","1666375071624","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1386","1666375071764","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","1386","1666375071764","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1387","1666375071772","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","+","","1387","1666375072394","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","+",,"1388","1666375072395","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"+",,,,,
+"File.Edit"," ","","1388","1666375072632","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1389","1666375072632","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","1","","1389","1666375072781","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"1390","1666375072782","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit","
+        ","","1025","1666375096190","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","1025","1666375096202","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","a","","1029","1666375096621","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"1030","1666375096624","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","","        a
+    ","1021","1666375096635","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    a 
+        ","","1025","1666375096636","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1030","1666375097268","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","1030","1666375097300","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1031","1666375097310","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","1031","1666375097316","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"1032","1666375097317","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","1032","1666375097322","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1033","1666375097325","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","x","","1033","1666375097564","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"1034","1666375097567","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","1034","1666375097577","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1034","1666375098072","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","1","","1034","1666375098073","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"1035","1666375098113","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit","
+            ","","1048","1666375099569","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","b","","1048","1666375099843","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"1049","1666375099843","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit"," ","","1049","1666375099880","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1049","1666375100782","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","1049","1666375100790","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1050","1666375100791","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","1050","1666375101381","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"1051","1666375101383","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","1051","1666375101485","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"1052","1666375101487","secantHybrid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","x2","","1052","1666375102140","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","        
+            ","","1379","1666375122962","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1386","1666375123402","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","1383","1666375123408","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","1383","1666375123737","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"1384","1666375123741","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","l","","1384","1666375123832","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"1385","1666375123833","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","s","","1385","1666375123933","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"1386","1666375123935","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","e","","1386","1666375123946","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"1387","1666375123951","secantHybrid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit",":","","1387","1666375128533","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","",":","1387","1666375129639","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","        
+        ","","1396","1666375130302","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","1404","1666375130316","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","1407","1666375132244","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","1404","1666375132252","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","1403","1666375132383","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","1400","1666375132387","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","1399","1666375132545","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","1396","1666375132556","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","1395","1666375132717","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","1392","1666375132777","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","1391","1666375132944","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","1388","1666375132950","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","1388","1666375133367","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",":","","1387","1666375133936","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"1388","1666375133938","secantHybrid.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit","                    break
+","","1389","1666375134911","secantHybrid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","753","1666375144316","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","#","752","1666375144555","secantHybrid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
