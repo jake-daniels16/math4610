@@ -8405,3 +8405,9 @@ plt.plot(tApprox9, xApprox9, color='green')
 plt.xlabel('t')
 plt.ylabel('P(t)')
 plt.show()",,,,,
+"Run.Program","Start",,,"1666644710811","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1666644797484","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Start",,,"1666644803250","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1666644828411","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Start",,,"1666644855332","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1666644879855","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,

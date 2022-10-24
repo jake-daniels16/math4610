@@ -436,3 +436,35 @@ Process finished with exit code 0
 "o","9",,"
 Process finished with exit code 0
 ",,"system","1666643830961",,,,,,,
+"Run.Program","10","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/logisticEqn.py""",,"PythonRunner",,"1666644710811","logisticEqn.py",,,,,,
+"o","10",,"Traceback (most recent call last):
+",,"stderr","1666644755973",,,,,,,
+"o","10",,"  File ""C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook\__init__.py"", line 307, in process
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"    func(*args, **kwargs)
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"  File ""C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py"", line 3290, in <lambda>
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"    ""close_event"", lambda e: manager.destroy())
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"  File ""C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backends\_backend_tk.py"", line 531, in destroy
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"    self._window_dpi.trace_remove('write', self._window_dpi_cbname)
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"  File ""C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py"", line 455, in trace_remove
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"    self._tk.deletecommand(cbname)
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"_tkinter.TclError: can't delete Tcl command
+",,"stderr","1666644755974",,,,,,,
+"o","10",,"
+Process finished with exit code 0
+",,"system","1666644797483",,,,,,,
+"Run.Program","11","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/logisticEqn.py""",,"PythonRunner",,"1666644803250","logisticEqn.py",,,,,,
+"o","11",,"
+Process finished with exit code 0
+",,"system","1666644828411",,,,,,,
+"Run.Program","12","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/logisticEqn.py""",,"PythonRunner",,"1666644855332","logisticEqn.py",,,,,,
+"o","12",,"
+Process finished with exit code 0
+",,"system","1666644879853",,,,,,,
