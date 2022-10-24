@@ -3983,3 +3983,98 @@ def newtonsMethod(f, df, x0, tol, maxIter, choice):
             iter = iter + 1
             x0 = x1
     return x0",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def newtonsMethod(f, df, x0, tol, maxIter, choice):
+error = 10 * tolle()
+    iter = 0
+    if choice == ""y"":
+        while error > tol and iter < max ter:
+            f0 = f(x0)
+            df0 = df(x0)
+            x1 = x0 - f0 / df0
+            error = np.abs(x1 - x0)
+            table(iter + 1, x1, error)
+            iter = iter + 1
+            x0 = x1
+    elif choice == ""n"":
+        while error > tol and iter <  mxIter:
+            f0 = f(x0)
+            df0 = df(x0)
+            x1 = x0 - f0 / df 0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+    return x0
+
+","0","1666642541168","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def newtonsMethod(f, df, x0, tol, maxIter, choice):
+    error = 10 * tol
+    iter = 0
+    if choice == ""y"":
+        while error > tol and iter < maxIter:
+            f0 = f(x0)
+            df0 = df(x0)
+            x1 = x0 - f0 / df0
+            error = np.abs(x1 - x0)
+            table(iter + 1, x1, error)
+            iter = iter + 1
+            x0 = x1
+    elif choice == ""n"":
+        while error > tol and iter < maxIter:
+            f0 = f(x0)
+            df0 = df(x0)
+            x1 = x0 - f0 / df0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+    return x0
+
+","","0","1666642541168","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666642669364","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+def explicitEuler(f, x0, t0, T, n):
+    h = (T - t0) / n
+    f0 = f(t0, x0)
+    tval = []
+    xval = []
+    tval.append(t0)
+    xval.append(x0)
+    for i in range(1, n):
+        t1 = t0 + h
+        x1 = x0 + h * f0
+        x0 = x1
+        t0 = t1
+        tval.append(t0)
+        xval.append(x0)
+        f0 = f(t0, x0)
+    return tval, xval
+
+
+","","0","1666642669409","explicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666642669683","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","421","1666642669685","explicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666642670071","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","420","1666642670073","explicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","EditorChange",,,"1666642674224","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,

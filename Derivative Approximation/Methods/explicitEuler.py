@@ -20,24 +20,3 @@ def explicitEuler(f, x0, t0, T, n):
         xval.append(x0)
         f0 = f(t0, x0)
     return tval, xval
-
-def logisticEquation(a, b, p0):
-    p = lambda t, x: a * x - b * x * x
-    tval, pval = explicitEuler(p, p0, 0, 10, 100)
-    return tval, pval
-
-tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0)
-tApprox2, xApprox2 = logisticEquation(0.01, 0.0005, 10.0)
-tApprox3, xApprox3 = logisticEquation(2.0, 0.0005, 10.0)
-plt.plot(tApprox1, xApprox1, color='red')
-plt.xlabel('t')
-plt.ylabel('P(t)')
-plt.show()
-plt.plot(tApprox2, xApprox2, color='blue')
-plt.xlabel('t')
-plt.ylabel('P(t)')
-plt.show()
-plt.plot(tApprox3, xApprox3, color='green')
-plt.xlabel('t')
-plt.ylabel('P(t)')
-plt.show()

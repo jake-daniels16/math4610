@@ -20,3 +20,4 @@ hon_stubs/-624978923/matplotlib/__init__.py
 /Methods/newt.py
 /Methods/implicitEuler.py
 /logisticEqn.py
+/Methods/explicitEuler.py
