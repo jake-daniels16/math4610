@@ -2952,3 +2952,948 @@ def dataFitting(x, y, n):
 "X-Action","EditorChange",,,"1665851018952","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
 "Run.Program","Start",,,"1665851187203","secondDerivative.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
 "Run.Program","Exit","0",,"1665851190614","secondDerivative.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1666634633289","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1666634634284","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"p","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def fPrime():
+    fp = input(""Enter derivative here: "")
+    return fp
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def newtonsMethod():
+    fun = fn()
+    fp = fPrime()
+    x0 = initialGuess()
+    tol = tolerance()
+    mI = maxIter()
+    choice = wantTable()
+    error = 10 * tol
+    iter = 0
+    if choice == 1:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            table(iter + 1, x1, error)
+            iter = iter + 1
+            x0 = x1
+    elif choice == 2:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+        print(""Root approximation: "", x0)",,"0","1666634640028","newt.py","1.1.4 for 2021-2022 @t1",,"# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def fPrime():
+    fp = input(""Enter derivative here: "")
+    return fp
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def newtonsMethod():
+    fun = fn()
+    fp = fPrime()
+    x0 = initialGuess()
+    tol = tolerance()
+    mI = maxIter()
+    choice = wantTable()
+    error = 10 * tol
+    iter = 0
+    if choice == 1:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            table(iter + 1, x1, error)
+            iter = iter + 1
+            x0 = x1
+    elif choice == 2:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+        print(""Root approximation: "", x0)",,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1666634640077","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","MATH 4610
+
+import numpy as np
+
+def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def fPrime():
+    fp = input(""Enter derivative here: "")
+    return fp
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+
+def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice
+
+def table(a,b,c):
+    print(""(1)"" , a, "" (2) "", b, "" (3) "", c)
+
+def newtonsMethod():
+    fun = fn()
+    fp = fPrime()
+    x0 = initialGuess()
+    tol = tolerance()
+    mI = maxIter()
+    choice = wantTable()
+    error = 10 * tol
+    iter = 0
+    if choice == 1:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            table(iter + 1, x1, error)
+            iter = iter + 1
+            x0 = x1
+    elif choice == 2:
+        while error > tol and iter < mI:
+            f0 = f(fun, x0)
+            fp0 = f(fp, x0)
+            x1 = x0 - f0 / fp0
+            error = np.abs(x1 - x0)
+            iter = iter + 1
+            x0 = x1
+        print(""Root approximation: "", x0)","","17","1666634640078","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","def fn():
+    f = input(""Enter function you want to find the roots for (in terms of x): "")
+    return f
+
+def fPrime():
+    fp = input(""Enter derivative here: "")
+    return fp
+
+def f(fn, x):
+    fval = eval(fn)
+    return fval
+
+def initialGuess():
+    x0 = eval(input(""Input initial guess for root here: ""))
+    return x0
+
+def tolerance():
+    tol = eval(input(""Input tolerance here: ""))
+    return tol
+
+def maxIter():
+    mI = eval(input(""Input max number of iterations here: ""))
+    return mI
+","48","1666634655110","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","48","1666634656004","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","def wantTable():
+    print(""Do you want a table?"")
+    print(""\t1) Yes"")
+    print(""\t2) No"")
+    choice = eval(input(""Enter here: ""))
+    return choice","48","1666634662540","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","49","1666634662807","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","48","1666634663836","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","130","1666634682818","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"131","1666634682912","newt.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit",",","","131","1666634683300","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"132","1666634683309","newt.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit","","f,","130","1666634683747","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f, df, x0, tol, maxIter","","130","1666634687534","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","()","251","1666634691891","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",")","233","1666634693959","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","(","232","1666634694291","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","231","1666634695907","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","c","230","1666634697894","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","229","1666634698031","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","228","1666634698540","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","227","1666634698583","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","226","1666634698604","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","l","225","1666634698780","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","o","224","1666634698980","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","223","1666634699182","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","222","1666634699394","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","=","221","1666634699592","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","220","1666634699792","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","l","219","1666634700027","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","o","218","1666634700255","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","217","1666634700445","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","216","1666634700635","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","213","1666634700646","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","213","1666634700876","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","fun = fn()
+    fp = fPrime()
+    x0 = initialGuess()
+    mI = maxIter","160","1666634705568","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","159","1666634705916","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","156","1666634705919","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","156","1666634706186","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",",","","153","1666634709996","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"154","1666634709998","newt.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","154","1666634710339","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"155","1666634710386","newt.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","",", ","153","1666634710849","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",", d","","153","1666634711395","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"156","1666634711402","newt.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","e","","156","1666634712157","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"157","1666634712161","newt.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","c","","157","1666634712164","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"158","1666634712165","newt.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit","i","","158","1666634712166","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"159","1666634712168","newt.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","159","1666634712222","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","159","1666634712781","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","s","","159","1666634712782","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"160","1666634712792","newt.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","i","","160","1666634713133","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"161","1666634713142","newt.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","o","","161","1666634713274","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"162","1666634713281","newt.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","n","","162","1666634713381","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"163","1666634713383","newt.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","","decision","155","1666634720998","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","c","","155","1666634721002","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"156","1666634721002","newt.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","156","1666634721022","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","156","1666634721140","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","156","1666634721141","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"157","1666634721141","newt.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","o","","157","1666634721297","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"158","1666634721301","newt.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","i","","158","1666634721367","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"159","1666634721367","newt.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","c","","159","1666634721464","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"160","1666634721466","newt.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit","e","","160","1666634721638","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"161","1666634721638","newt.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","","choice = wantTable()","168","1666634724582","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","167","1666634724752","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","164","1666634724761","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","164","1666634724970","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","1","215","1666634727192","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","""","","215","1666634727512","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","""","","215","1666634727530","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","""",,"216","1666634727538","newt.py","1.1.4 for 2021-2022 @t1",,"""",,,,,
+"File.Edit","y","","216","1666634727960","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","y",,"217","1666634727962","newt.py","1.1.4 for 2021-2022 @t1",,"y",,,,,
+"File.Edit","","hoice):","156","1666634727970","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ):
+    choice = wantTable()","","156","1666634727971","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","238","1666634727970","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","iter = 0
+    ","210","1666634727970","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","error = 10 * tol","189","1666634727971","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","iter = 0","","189","1666634727972","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","156","1666634727971","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","hoice","","156","1666634727972","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","choice = wantTable()","164","1666634727971","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","error = 10 * tol","","164","1666634727972","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","217","1666634728001","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","217","1666634728002","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"218","1666634728003","newt.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","s","","218","1666634728064","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"219","1666634728066","newt.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","","2","492","1666634730924","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","""","","492","1666634731289","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","""","","492","1666634731291","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","""",,"493","1666634731292","newt.py","1.1.4 for 2021-2022 @t1",,"""",,,,,
+"File.Edit","n","","493","1666634731886","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"494","1666634731887","newt.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","","s","218","1666634734291","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","217","1666634734442","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",",","283","1666634740735","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","282","1666634740904","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","u","281","1666634741085","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","280","1666634741294","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","280","1666634742425","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","307","1666634744340","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",",","306","1666634744502","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","305","1666634744690","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","304","1666634744925","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","258","1666634753386","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"259","1666634753390","newt.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","217","1666634753438","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","a","259","1666634753438","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","fun, ","","281","1666634753438","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","fp, ","","310","1666634753438","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","fun, ","281","1666634753439","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","fp, ","305","1666634753439","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a ","","259","1666634753439","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","217","1666634753439","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","259","1666634753572","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","259","1666634753573","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"260","1666634753573","newt.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","260","1666634753581","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","260","1666634754565","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","261","1666634754566","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"262","1666634754575","newt.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","e","","262","1666634754691","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"263","1666634754707","newt.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","r","","263","1666634754745","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"264","1666634754753","newt.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","","I","529","1666634757052","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","529","1666634757245","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"530","1666634757247","newt.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit",""," ","260","1666634757266","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","ter","","261","1666634757267","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","260","1666634757266","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","ter","262","1666634757267","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","489","1666634757266","newt.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","528","1666634757266","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","530","1666634757405","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","530","1666634757406","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"531","1666634757414","newt.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit","I","","531","1666634757981","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","I",,"532","1666634757993","newt.py","1.1.4 for 2021-2022 @t1",,"I",,,,,
+"File.Edit","t","","532","1666634758156","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"533","1666634758163","newt.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","e","","533","1666634758260","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"534","1666634758266","newt.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","r","","534","1666634758333","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"535","1666634758343","newt.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","\","","535","1666634758794","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+        ","","536","1666634758797","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","        ","","545","1666634758868","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","552","1666634760000","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","549","1666634760007","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","548","1666634760245","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","545","1666634760253","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","544","1666634760427","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","541","1666634760430","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","540","1666634760648","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","537","1666634760652","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","536","1666634761106","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","\","535","1666634761751","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","560","1666634765471","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",",","559","1666634765636","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","558","1666634765822","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","u","557","1666634766000","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","556","1666634766205","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","583","1666634768275","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",",","582","1666634768422","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","581","1666634768602","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","580","1666634768851","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","print(""Root approximation: "", x0)","707","1666634782491","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","706","1666634782697","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","703","1666634782707","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","703","1666634783101","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"704","1666634783103","newt.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","704","1666634783113","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","704","1666634783300","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","704","1666634783301","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"705","1666634783310","newt.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","u","","705","1666634783446","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"706","1666634783466","newt.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","r","","706","1666634783507","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"707","1666634783508","newt.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","n","","707","1666634783623","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"708","1666634783625","newt.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","708","1666634783744","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"709","1666634783748","newt.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","708","1666634783981","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","707","1666634784115","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","706","1666634784254","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","u","705","1666634784386","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","704","1666634784481","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","704","1666634784593","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"705","1666634784595","newt.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","705","1666634784603","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","705","1666634784757","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","705","1666634784758","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"706","1666634784776","newt.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","u","","706","1666634785026","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"707","1666634785051","newt.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","r","","707","1666634785121","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"708","1666634785131","newt.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","n","","708","1666634785235","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"709","1666634785267","newt.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","709","1666634785395","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"710","1666634785398","newt.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","x","","710","1666634786040","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"711","1666634786042","newt.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit","0","","711","1666634786821","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"712","1666634786821","newt.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit"," ","","712","1666634786838","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+   ","","712","1666634789798","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","    ","713","1666634789804","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","0","574","1666634864556","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","573","1666634864706","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","572","1666634864807","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","572","1666634866078","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"573","1666634866080","newt.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","574","1666634866088","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","573","1666634866133","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","573","1666634866134","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"574","1666634866135","newt.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","575","1666634866147","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","df ","572","1666634866627","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","fp0","","572","1666634866628","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","d","","572","1666634866761","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","p","574","1666634866762","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Keystroke","0",,"575","1666634866762","newt.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","d","","578","1666634869368","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"579","1666634869375","newt.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","579","1666634869389","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","p","302","1666634873226","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","578","1666634873226","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","301","1666634873350","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","301","1666634873451","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"302","1666634873452","newt.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","","d","301","1666634873465","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","fp","","301","1666634873466","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","fp","301","1666634873466","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d ","","301","1666634873467","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","302","1666634873501","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","302","1666634873502","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"303","1666634873503","newt.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","303","1666634873513","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","f ","302","1666634873954","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","302","1666634875528","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","d","","307","1666634875529","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"308","1666634875536","newt.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","308","1666634875545","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","308","1666634878322","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","341","1666634878322","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"342","1666634878324","newt.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","342","1666634878332","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," fp","342","1666634879008","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","342","1666634879009","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","p","614","1666634884649","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","613","1666634884768","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","613","1666634885061","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"614","1666634885069","newt.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","","f","342","1666634885090","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," fp","","342","1666634885091","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","588","1666634885090","newt.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","616","1666634885090","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," fp","342","1666634885090","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","342","1666634885091","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","614","1666634885125","newt.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","614","1666634885126","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"615","1666634885126","newt.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","615","1666634885131","newt.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1666634910912","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1666634911102","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","S1400 - 001
+# Assignment ??","18","1666634916149","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","C","17","1666634916281","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1666634916614","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1666634916616","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1666634916624","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1666634918020","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","ATH 4610","","18","1666634918021","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1666634919083","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1666634919221","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","i","","28","1666634920005","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"29","1666634920007","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","m","","29","1666634920130","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"30","1666634920130","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","p","","30","1666634920303","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"31","1666634920304","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","o","","31","1666634920365","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"32","1666634920368","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","r","","32","1666634920716","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"33","1666634920719","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","t","","33","1666634920891","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"34","1666634920893","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","34","1666634920978","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"35","1666634920978","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","n","","35","1666634921122","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"36","1666634921127","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","u","","36","1666634921305","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"37","1666634921310","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","m","","37","1666634921480","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"38","1666634921480","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","p","","38","1666634921574","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"39","1666634921574","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","y","","39","1666634921759","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","y",,"40","1666634921759","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"y",,,,,
+"File.Edit"," ","","40","1666634921904","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"41","1666634921904","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","a","","41","1666634921999","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"42","1666634921999","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","s","","42","1666634922094","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"43","1666634922096","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","43","1666634922135","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"44","1666634922140","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","n","","44","1666634922302","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"45","1666634922302","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","p","","45","1666634922396","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"46","1666634922396","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","
+","","47","1666634922691","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1666634922949","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","
+","48","1666634927878","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","i","","47","1666634928711","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"48","1666634928712","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","48","1666634928720","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","48","1666634928873","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","48","1666634928874","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"49","1666634928882","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","p","","49","1666634928999","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"50","1666634929007","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","o","","50","1666634929036","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"51","1666634929042","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","r","","51","1666634929173","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"52","1666634929194","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","t","","52","1666634929336","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"53","1666634929343","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","53","1666634929453","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"54","1666634929454","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","53","1666634930380","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","52","1666634930889","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","51","1666634930920","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","o","50","1666634930948","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","49","1666634930981","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","m","48","1666634931015","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","47","1666634931047","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","47","1666634931080","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","46","1666634931228","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"47","1666634931228","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","47","1666634931271","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","f ","46","1666634931832","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","47","1666634933624","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","47","1666634935626","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"48","1666634935626","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","r","","48","1666634935815","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"49","1666634935815","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","o","","49","1666634935882","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"50","1666634935882","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","m","","50","1666634935979","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"51","1666634935979","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","51","1666634936214","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"52","1666634936214","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","M","","52","1666634936435","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"53","1666634936438","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit","e","","53","1666634936657","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"54","1666634936657","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","t","","54","1666634936732","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"55","1666634936732","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","55","1666634936796","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"56","1666634936798","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","o","","56","1666634936891","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"57","1666634936891","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","d","","57","1666634936982","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"58","1666634936988","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","s.newt import newtonsMethod","","58","1666634938544","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","86","1666634939580","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","87","1666634940164","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","d","","87","1666634941830","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"88","1666634941836","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","e","","88","1666634942016","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"89","1666634942018","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","f","","89","1666634942102","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"90","1666634942104","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","90","1666634942282","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"91","1666634942290","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","I","","91","1666634942548","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","I",,"92","1666634942548","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"I",,,,,
+"File.Edit"," ","","92","1666634942592","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","I ","91","1666634942936","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","i","","91","1666634943097","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"92","1666634943101","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","92","1666634943114","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","92","1666634943239","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","92","1666634943240","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"93","1666634943260","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","p","","93","1666634943426","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"94","1666634943426","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","l","","94","1666634943735","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"95","1666634943735","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","i","","95","1666634943952","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"96","1666634943952","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","c","","96","1666634944136","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"97","1666634944143","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit","i","","97","1666634944284","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"98","1666634944284","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","t","","98","1666634944418","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"99","1666634944423","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","99","1666634944529","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"100","1666634944531","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","99","1666634944974","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","E","","99","1666634945191","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","E",,"100","1666634945192","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"E",,,,,
+"File.Edit"," ","","100","1666634945198","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","100","1666634945421","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","100","1666634945422","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"101","1666634945421","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","l","","101","1666634945545","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"102","1666634945550","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","e","","102","1666634945617","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"103","1666634945617","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","r","","103","1666634945664","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"104","1666634945666","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","(","","104","1666634946885","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","105","1666634946895","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"105","1666634946897","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","l","","105","1666635050477","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"106","1666635050491","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","106","1666635050511","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","106","1666635050671","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","106","1666635050672","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"107","1666635050678","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","m","","107","1666635050862","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"108","1666635050865","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","b","","108","1666635051292","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"109","1666635051293","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit","d","","109","1666635051620","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"110","1666635051623","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","a","","110","1666635052304","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"111","1666635052304","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit",":","","111","1666635053232","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"112","1666635053232","implicitEuler.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit"," ","","112","1666635053634","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"113","1666635053640","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","112","1666635063442","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",":","111","1666635063564","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","110","1666635063703","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","d","109","1666635063838","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","b","108","1666635063967","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","m","107","1666635064093","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","106","1666635064232","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","l","105","1666635064420","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","105","1666635064718","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"106","1666635064721","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit",",","","106","1666635072063","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"107","1666635072068","implicitEuler.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","107","1666635072223","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"108","1666635072223","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","x","","108","1666635072333","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"109","1666635072335","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit","0","","109","1666635073192","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"110","1666635073193","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit"," ","","110","1666635073372","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"111","1666635073372","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","110","1666635073790","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",",","","110","1666635074005","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"111","1666635074008","implicitEuler.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","111","1666635074176","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"112","1666635074181","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","t","","112","1666635074307","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"113","1666635074307","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","113","1666635074341","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","113","1666635074386","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","113","1666635074387","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"114","1666635074386","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","","o","113","1666635075340","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","0","","113","1666635075671","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"114","1666635075671","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit",",","","114","1666635079819","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"115","1666635079825","implicitEuler.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","115","1666635080038","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"116","1666635080038","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","T","","116","1666635080461","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","T",,"117","1666635080462","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"T",,,,,
+"File.Edit"," ","","117","1666635080470","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","117","1666635080895","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",",","","117","1666635080896","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"118","1666635080896","implicitEuler.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","118","1666635081091","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"119","1666635081092","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","h","","119","1666635081333","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"120","1666635081333","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","120","1666635081352","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","120","1666635082461","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",":","","121","1666635082462","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"122","1666635082464","implicitEuler.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit","
+","","123","1666635083459","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","123","1666635083462","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","h","119","1666635092864","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","119","1666635093228","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","h","119","1666635093552","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","119","1666635093553","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"120","1666635093554","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","","n","119","1666635093564","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h ","","119","1666635093565","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","h","119","1666635093564","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","119","1666635093565","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","120","1666635095194","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","123","1666635095195","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","123","1666635095197","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","h","","127","1666635159530","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"128","1666635159530","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","128","1666635161325","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"129","1666635161337","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","129","1666635183126","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"130","1666635183130","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit","","    ","131","1666635200847","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","130","1666635262324","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"131","1666635262324","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","(T - t0) / n
+    f0 = f(t0, x0)
+    tval = []
+    xval = []
+    tval.append(t0)
+    xval.append(x0)
+    for i in range(1, n):
+        t1 = t0 + h
+        x1 = newtonsMethod(lambda x: x - x0 - h * f(t1, x), lambda x: 1 - h * f(t1, x), x0, 10e-10, 100, ""n"")
+        x0 = x1
+        t0 = t1
+        tval.append(t0)
+        xval.append(x0)
+        f0 = f(t0, x0)
+    return tval, xval","","131","1666635263564","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","0","228","1666635266937","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","x","227","1666635267080","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","227","1666635268490","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"228","1666635268500","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","228","1666635268515","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","228","1666635268571","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","0","","228","1666635268572","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"229","1666635268573","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit"," ","","229","1666635268577","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","f0 ","227","1666635391724","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","0","","227","1666635391725","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","x","","227","1666635392596","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"228","1666635392596","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","228","1666635392607","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","228","1666635431838","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","0","319","1666635431838","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","x","318","1666635432038","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","317","1666635432241","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","-","316","1666635432468","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","316","1666635432730","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","322","1666635436699","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"323","1666635436701","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit",")","","331","1666635439673","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"332","1666635439680","implicitEuler.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit"," ","","323","1666635442602","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"324","1666635442604","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","a","","323","1666635447364","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"324","1666635447364","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","325","1666635447387","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","324","1666635448730","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","*","","324","1666635448731","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","*",,"325","1666635448730","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"*",,,,,
+"File.Edit","","*","324","1666635449895","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","323","1666635450116","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","(","322","1666635452004","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","321","1666635452692","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","321","1666635456787","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","(","","322","1666635456790","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","a","","323","1666635456792","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","*","","324","1666635456795","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","*","324","1666635456923","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","323","1666635456924","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","323","1666635457568","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",")","331","1666635458182","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","(","322","1666635458905","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","316","1666635460240","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","-","","316","1666635460244","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","317","1666635460245","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","x","","318","1666635460248","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","0","","319","1666635460251","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","0","379","1666635567841","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","0","378","1666635568026","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","1","377","1666635568196","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","5","","377","1666635568887","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","5",,"378","1666635568887","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"5",,,,,
+"File.Edit","0","","378","1666635568960","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"379","1666635568966","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","","0","374","1666635570893","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","1","373","1666635571050","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","-","372","1666635571236","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","371","1666635571382","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","0","370","1666635571572","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","1","369","1666635571732","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","369","1666635572370","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"370","1666635572371","implicitEuler.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","370","1666635572382","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","370","1666635573037","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","0","","370","1666635573038","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"371","1666635573048","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","0","","371","1666635573055","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"372","1666635573063","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","0","","372","1666635573067","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"373","1666635573079","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","0","","373","1666635573111","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"374","1666635573114","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","0","","374","1666635573315","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"375","1666635573320","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","0","","375","1666635573507","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"376","1666635573513","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","0","","376","1666635573696","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"377","1666635573696","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","1","","377","1666635574835","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"378","1666635574836","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit","d","","355","1666635612219","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"356","1666635612219","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","356","1666635612255","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," d","354","1666635625923","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","355","1666635680478","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"356","1666635680480","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","107","1666635684219","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"108","1666635684222","implicitEuler.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","107","1666635684572","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," d","","107","1666635684640","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"109","1666635684641","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","110","1666635684651","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","109","1666635684668","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","109","1666635684669","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"110","1666635684670","implicitEuler.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit",",","","110","1666635684954","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"111","1666635684956","implicitEuler.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit",""," df,","107","1666635685353","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," df,","","107","1666635754772","implicitEuler.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","127","1666635754772","implicitEuler.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit","","","474","1666635754772","implicitEuler.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit","","       f0 = f(t0, x0)","475","1666635754773","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","474","1666635754968","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","474","1666635755487","implicitEuler.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Copy","def logisticEquation(a, b, p0):
+    p = lambda t, x: a * x - b * x * x
+    tval, pval = explicitEuler(p, p0, 0, 10, 100)
+    return tval, pval
+
+tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0)
+tApprox2, xApprox2 = logisticEquation(0.01, 0.0005, 10.0)
+tApprox3, xApprox3 = logisticEquation(2.0, 0.0005, 10.0)
+plt.plot(tApprox1, xApprox1, color='red')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox2, xApprox2, color='blue')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox3, xApprox3, color='green')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()",,"421","1666635798145","explicitEuler.py","1.1.4 for 2021-2022 @t1",,"def logisticEquation(a, b, p0):
+    p = lambda t, x: a * x - b * x * x
+    tval, pval = explicitEuler(p, p0, 0, 10, 100)
+    return tval, pval
+
+tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0)
+tApprox2, xApprox2 = logisticEquation(0.01, 0.0005, 10.0)
+tApprox3, xApprox3 = logisticEquation(2.0, 0.0005, 10.0)
+plt.plot(tApprox1, xApprox1, color='red')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox2, xApprox2, color='blue')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox3, xApprox3, color='green')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()",,,,,

@@ -17,3 +17,6 @@ hon_stubs/-624978923/matplotlib/__init__.py
 /secondDerivative.py
 /explicitEuler.py
 /Methods/secondDerivative.py
+/Methods/newt.py
+/Methods/implicitEuler.py
+/logisticEqn.py
