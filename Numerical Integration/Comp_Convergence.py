@@ -24,4 +24,6 @@ def dataFitting(x, y, n):
     a = (b2 * a11 - b1 * a21) / detA
     return a, b
 
+def compConv():
+
 
