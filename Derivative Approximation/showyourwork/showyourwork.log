@@ -6433,3 +6433,162 @@ plt.show()","","144","1666635843018","logisticEqn.py","1.1.4 for 2021-2022 @t1",
 "X-Keystroke","x",,"512","1666635941399","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
 "File.Edit","4","","512","1666635941759","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
 "X-Keystroke","4",,"513","1666635941789","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"Run.Program","Start",,,"1666636082824","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","1",,"1666636098674","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"File.Edit","
+","","47","1666636105237","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","i","","47","1666636105615","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"48","1666636105616","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","m","","48","1666636105662","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"49","1666636105662","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","49","1666636105690","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","49","1666636105866","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","49","1666636105867","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"50","1666636105891","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","r","","50","1666636106055","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"51","1666636106065","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","o","","51","1666636106109","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"52","1666636106110","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","","o","51","1666636106380","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","50","1666636106523","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","50","1666636106629","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"51","1666636106630","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit"," ","","51","1666636106638","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","51","1666636106758","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","51","1666636106759","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"52","1666636106766","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","t","","52","1666636106953","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"53","1666636106958","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","53","1666636107095","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"54","1666636107096","logisticEqn.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","m","","54","1666636107538","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"55","1666636107539","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","55","1666636107555","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","55","1666636107771","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","55","1666636107772","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"56","1666636107784","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","t","","56","1666636107904","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"57","1666636107913","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","plotlib","","57","1666636108576","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","64","1666636108961","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"65","1666636108962","logisticEqn.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","a","","65","1666636109045","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"66","1666636109045","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","66","1666636109053","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","66","1666636109128","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","s","","66","1666636109129","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"67","1666636109134","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","67","1666636109189","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"68","1666636109190","logisticEqn.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","p","","68","1666636110227","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"69","1666636110227","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","69","1666636110254","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","69","1666636110338","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","l","","69","1666636110339","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"70","1666636110345","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","t","","70","1666636110497","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"71","1666636110497","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","","3","848","1666636131117","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","6","","848","1666636131236","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","6",,"849","1666636131237","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"6",,,,,
+"File.Edit","","lt","69","1666636131251","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","69","1666636131252","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","831","1666636131251","logisticEqn.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","848","1666636131251","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","69","1666636131251","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","lt","","69","1666636131252","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","849","1666636132947","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","3","858","1666636132947","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","6","","858","1666636133000","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","6",,"859","1666636133001","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"6",,,,,
+"File.Edit","",",","849","1666636133002","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","858","1666636133002","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",",","","849","1666636133002","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","2","769","1666636136496","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","858","1666636136496","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","4","","769","1666636136592","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","4",,"770","1666636136596","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"File.Edit","","4","769","1666636136600","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","2","","769","1666636136601","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","2","769","1666636136600","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","4 ","","769","1666636136601","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","2","759","1666636138621","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","769","1666636138621","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","4","","759","1666636138687","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","4",,"760","1666636138687","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"File.Edit","","4","759","1666636138708","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","2","","759","1666636138709","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","2","759","1666636138708","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","4 ","","759","1666636138709","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","1","671","1666636140990","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","759","1666636140990","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","2","","671","1666636141048","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","2",,"672","1666636141051","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"2",,,,,
+"File.Edit","","2","671","1666636141066","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","1","","671","1666636141067","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","1","671","1666636141066","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","2 ","","671","1666636141067","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","672","1666636142687","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","1","681","1666636142687","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","2","","681","1666636142753","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","2",,"682","1666636142754","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"2",,,,,
+"File.Edit","",",","672","1666636142762","logisticEqn.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","681","1666636142762","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",",","","672","1666636142762","logisticEqn.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"Run.Program","Start",,,"1666636146355","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","1",,"1666636154369","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"X-Copy","import numpy as np
+import matplotlib as plt
+from Methods.explicitEuler import explicitEuler
+from Methods.implicitEuler import implicitEuler
+
+def logisticEquation(a, b, p0):
+    p = lambda t, x: a * x - b * x * x
+    dp = lambda t, x: a - 2 * b * x
+    tval1, pval1 = explicitEuler(p, p0, 0, 10, 100)
+    tval2, pval2 = implicitEuler(p, dp, p0, 0, 10, 100)
+    return tval1, pval1, tval2, pval2
+
+tApprox1, xApprox1, tApprox2, xApprox2 = logisticEquation(0.2, 0.0005, 10.0)
+tApprox3, xApprox3, tApprox4, xApprox4 = logisticEquation(0.01, 0.0005, 10.0)
+tApprox5, xApprox5, tApprox6, xApprox6 = logisticEquation(2.0, 0.0005, 10.0)
+plt.plot(tApprox2, xApprox2, color='red')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox4, xApprox4, color='blue')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox6, xApprox6, color='green')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()",,"28","1666636448065","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+import matplotlib as plt
+from Methods.explicitEuler import explicitEuler
+from Methods.implicitEuler import implicitEuler
+
+def logisticEquation(a, b, p0):
+    p = lambda t, x: a * x - b * x * x
+    dp = lambda t, x: a - 2 * b * x
+    tval1, pval1 = explicitEuler(p, p0, 0, 10, 100)
+    tval2, pval2 = implicitEuler(p, dp, p0, 0, 10, 100)
+    return tval1, pval1, tval2, pval2
+
+tApprox1, xApprox1, tApprox2, xApprox2 = logisticEquation(0.2, 0.0005, 10.0)
+tApprox3, xApprox3, tApprox4, xApprox4 = logisticEquation(0.01, 0.0005, 10.0)
+tApprox5, xApprox5, tApprox6, xApprox6 = logisticEquation(2.0, 0.0005, 10.0)
+plt.plot(tApprox2, xApprox2, color='red')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox4, xApprox4, color='blue')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()
+plt.plot(tApprox6, xApprox6, color='green')
+plt.xlabel('t')
+plt.ylabel('P(t)')
+plt.show()",,,,,
+"Run.Program","Start",,,"1666636544891","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","1",,"1666636568337","logisticEqn.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,

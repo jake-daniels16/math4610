@@ -309,3 +309,48 @@ Process finished with exit code 0
 "o","18",,"
 Process finished with exit code 0
 ",,"system","1665597082525",,,,,,,
+"Run.Program","3","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/logisticEqn.py""",,"PythonRunner",,"1666636082824","logisticEqn.py",,,,,,
+"o","3",,"Traceback (most recent call last):
+",,"stderr","1666636098537",,,,,,,
+"o","3",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\logisticEqn.py"", line 18, in <module>
+",,"stderr","1666636098537",,,,,,,
+"o","3",,"    plt.plot(tApprox1, xApprox1, color='red')
+",,"stderr","1666636098537",,,,,,,
+"o","3",,"NameError: name 'plt' is not defined
+",,"stderr","1666636098537",,,,,,,
+"o","3",,"
+Process finished with exit code 1
+",,"system","1666636098673",,,,,,,
+"Run.Program","4","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/logisticEqn.py""",,"PythonRunner",,"1666636146355","logisticEqn.py",,,,,,
+"o","4",,"Traceback (most recent call last):
+",,"stderr","1666636154151",,,,,,,
+"o","4",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\logisticEqn.py"", line 19, in <module>
+",,"stderr","1666636154151",,,,,,,
+"o","4",,"    plt.plot(tApprox2, xApprox2, color='red')
+",,"stderr","1666636154151",,,,,,,
+"o","4",,"  File ""C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\_api\__init__.py"", line 224, in __getattr__
+",,"stderr","1666636154151",,,,,,,
+"o","4",,"    raise AttributeError(
+",,"stderr","1666636154227",,,,,,,
+"o","4",,"AttributeError: module 'matplotlib' has no attribute 'plot'",,"stderr","1666636154227",,,,,,,
+"o","4",,". Did you mean: 'pyplot'?
+",,"stderr","1666636154242",,,,,,,
+"o","4",,"
+Process finished with exit code 1
+",,"system","1666636154368",,,,,,,
+"Run.Program","5","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Derivative Approximation/logisticEqn.py""",,"PythonRunner",,"1666636544891","logisticEqn.py",,,,,,
+"o","5",,"Traceback (most recent call last):
+",,"stderr","1666636568209",,,,,,,
+"o","5",,"  File ""C:\Users\jdsoc\Documents\math4610\Derivative Approximation\logisticEqn.py"", line 19, in <module>
+",,"stderr","1666636568209",,,,,,,
+"o","5",,"    plt.plot(tApprox2, xApprox2, color='red')
+",,"stderr","1666636568225",,,,,,,
+"o","5",,"  File ""C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\_api\__init__.py"", line 224, in __getattr__
+",,"stderr","1666636568225",,,,,,,
+"o","5",,"    raise AttributeError(
+",,"stderr","1666636568225",,,,,,,
+"o","5",,"AttributeError: module 'matplotlib' has no attribute 'plot'. Did you mean: 'pyplot'?
+",,"stderr","1666636568225",,,,,,,
+"o","5",,"
+Process finished with exit code 1
+",,"system","1666636568336",,,,,,,
