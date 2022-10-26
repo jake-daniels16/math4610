@@ -25,5 +25,3 @@ def dataFitting(x, y, n):
     return a, b
 
 def compConv():
-
-
