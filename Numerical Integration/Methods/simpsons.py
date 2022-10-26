@@ -24,7 +24,7 @@ def simpsons(f, a, b, n):
     sum = sum * h / 3
     return sum, hval, fval
 
-for i in range(1, 5):
-    n = 2 ** i
-    sum, h, f = simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
-    print("n = ", n, " ", sum)
+#for i in range(1, 5):
+#    n = 2 ** i
+#    sum, h, f = simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+#   print("n = ", n, " ", sum)

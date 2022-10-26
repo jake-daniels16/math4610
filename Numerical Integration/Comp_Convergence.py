@@ -3,6 +3,7 @@
 
 import numpy as np
 from Methods.simpsons import simpsons
+import matplotlib.pyplot as plt
 
 def dataFitting(x, y, n):
     a11 = n+1
@@ -24,4 +25,23 @@ def dataFitting(x, y, n):
     a = (b2 * a11 - b1 * a21) / detA
     return a, b
 
-def compConv():
+def compConv(n):
+    logError = []
+    logH = []
+    f = lambda x: np.exp(- x * x)
+    error = 0
+    for i in range(0,8):
+        sum, hval, fval = simpsons(f, 0, np.pi / 4, n)
+        for j in range(0, n+1):
+            print("hval = ", hval[j], " fval = ", fval[j], "exact = ", f(hval[j]))
+            approx = abs(fval[j] - f(hval[j]))
+            error = error + approx ** 2
+        error = np.sqrt(error) * np.sqrt(1 / n)
+        logError.append(np.log(error))
+        logH.append(np.log(1 / n))
+        n = n * 2
+    return logH, logError
+
+logH, logError = compConv(4)
+#plt.plot(logH, logError)
+#plt.show()
