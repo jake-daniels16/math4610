@@ -13,3 +13,8 @@
 | | [Data Fitting](https://github.com/jake-daniels16/math4610/blob/main/Derivative%20Approximation/Methods/dataFitting.py) |
 | | [Explicit Euler Method](https://github.com/jake-daniels16/math4610/blob/main/Derivative%20Approximation/Methods/explicitEuler.py) |
 | | [Error/Precision Shared Library](https://github.com/jake-daniels16/math4610/tree/main/Error%20Shared%20Library) |
+| [Tasksheet #5](https://github.com/jake-daniels16/math4610/blob/main/HW/HW%205.pdf) | [Implicit Euler](https://github.com/jake-daniels16/math4610/blob/main/Derivative%20Approximation/Methods/implicitEuler.py) |
+| | [Logistic Equation](https://github.com/jake-daniels16/math4610/blob/main/Derivative%20Approximation/logisticEqn.py) |
+| | [Trapezoid Rule](https://github.com/jake-daniels16/math4610/blob/main/Numerical%20Integration/Methods/trapezoid.py) |
+| | [Simpson's Rule](https://github.com/jake-daniels16/math4610/blob/main/Numerical%20Integration/Methods/simpsons.py) |
+| | [Comp Convergence of S.R.](https://github.com/jake-daniels16/math4610/blob/main/Numerical%20Integration/Comp_Convergence.py) |
