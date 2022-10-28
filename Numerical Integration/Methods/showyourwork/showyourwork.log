@@ -1,0 +1,2361 @@
+"EventType","InsertText","DeleteText","SourceLocation","ClientTimestamp","CodeStateSection","ToolInstances","EditType","X-Metadata","CodeStateID","X-Compilable","EventID","SubjectID","AssignmentID"
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1666649327914","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1666649328542","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1666649333393","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1666649333410","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1666649333448","trapezoid.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit","A","","18","1666649334423","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","A",,"19","1666649334426","trapezoid.py","1.1.4 for 2021-2022 @t1",,"A",,,,,
+"File.Edit","T","","19","1666649334431","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","T",,"20","1666649334432","trapezoid.py","1.1.4 for 2021-2022 @t1",,"T",,,,,
+"File.Edit","H","","20","1666649334435","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","H",,"21","1666649334437","trapezoid.py","1.1.4 for 2021-2022 @t1",,"H",,,,,
+"File.Edit"," ","","21","1666649334452","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","21","1666649334537","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","21","1666649334567","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"22","1666649334633","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","4","","22","1666649335066","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","4",,"23","1666649335071","trapezoid.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"File.Edit"," ","","23","1666649335088","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","23","1666649335193","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","6","","23","1666649335194","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","6",,"24","1666649335199","trapezoid.py","1.1.4 for 2021-2022 @t1",,"6",,,,,
+"File.Edit"," ","","24","1666649335228","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","24","1666649336273","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","1","","24","1666649336274","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"25","1666649336288","trapezoid.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit","0","","25","1666649336382","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"26","1666649336388","trapezoid.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","
+","","27","1666649337674","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1666649337735","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","28","1666649377020","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1666649386353","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1666649447786","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","d","","48","1666649449383","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"49","1666649449383","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","e","","49","1666649449544","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"50","1666649449545","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","f","","50","1666649449630","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"51","1666649449631","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," trapezoid(f, a, b, n):","","51","1666649451201","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","75","1666649459480","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","75","1666649459485","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","h","","79","1666649459946","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"80","1666649459946","trapezoid.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","80","1666649460141","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"81","1666649460149","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","81","1666649460802","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"82","1666649460803","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","82","1666649461023","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"83","1666649461035","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","(","","83","1666649461439","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","84","1666649461459","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"84","1666649461462","trapezoid.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","b","","84","1666649461736","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"85","1666649461738","trapezoid.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit","-","","85","1666649462116","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","-",,"86","1666649462119","trapezoid.py","1.1.4 for 2021-2022 @t1",,"-",,,,,
+"File.Edit","a","","86","1666649462235","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"87","1666649462237","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","87","1666649462248","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"88","1666649463016","trapezoid.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit",""," )","87","1666649463430","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","86","1666649463495","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","-","85","1666649463608","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","85","1666649463927","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"86","1666649463934","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","-","","86","1666649464262","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","-",,"87","1666649464264","trapezoid.py","1.1.4 for 2021-2022 @t1",,"-",,,,,
+"File.Edit"," ","","87","1666649464416","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"88","1666649464428","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","a","","88","1666649464488","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"89","1666649464491","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","89","1666649464499","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","89","1666649465017","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",")","","89","1666649465018","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"90","1666649465017","trapezoid.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit"," ","","90","1666649465327","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"91","1666649465338","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","/","","91","1666649465565","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","/",,"92","1666649465567","trapezoid.py","1.1.4 for 2021-2022 @t1",,"/",,,,,
+"File.Edit"," ","","92","1666649465649","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"93","1666649465651","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","n","","93","1666649465937","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"94","1666649465947","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","94","1666649465964","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","94","1666649466727","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    
+","","95","1666649467993","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","s","","99","1666649472379","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"100","1666649472384","trapezoid.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","100","1666649472399","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","100","1666649472443","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","100","1666649472444","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"101","1666649472444","trapezoid.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","101","1666649472451","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","101","1666649472633","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","101","1666649472634","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"102","1666649472647","trapezoid.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","102","1666649472784","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"103","1666649472786","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","103","1666649473517","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"104","1666649473521","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","104","1666649473647","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"105","1666649473647","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","0.5 * (f(a) + f(b))","","105","1666649474940","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","125","1666649475448","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","for i in range(1, n):","","129","1666649476875","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","151","1666649477445","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","155","1666649477451","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","s","","159","1666649480042","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"160","1666649480046","trapezoid.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","u","","160","1666649480094","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"161","1666649480096","trapezoid.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","m","","161","1666649480288","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"162","1666649480289","trapezoid.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","162","1666649480416","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"163","1666649480417","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","163","1666649481619","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"164","1666649481623","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","164","1666649482786","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"165","1666649482798","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","s","","165","1666649483060","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"166","1666649483062","trapezoid.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","u","","166","1666649483111","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"167","1666649483113","trapezoid.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","m","","167","1666649483309","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"168","1666649483311","trapezoid.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","168","1666649483430","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"169","1666649483432","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","+","","169","1666649484138","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","+",,"170","1666649484140","trapezoid.py","1.1.4 for 2021-2022 @t1",,"+",,,,,
+"File.Edit"," ","","170","1666649484401","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"171","1666649484405","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","f","","171","1666649484840","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"172","1666649484842","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","(","","172","1666649485820","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","173","1666649485827","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"173","1666649485829","trapezoid.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","a","","173","1666649497534","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"174","1666649497534","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","174","1666649497929","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"175","1666649497930","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","+","","175","1666649498119","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","+",,"176","1666649498120","trapezoid.py","1.1.4 for 2021-2022 @t1",,"+",,,,,
+"File.Edit"," ","","176","1666649498225","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"177","1666649498228","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","h","","177","1666649499088","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"178","1666649499088","trapezoid.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","178","1666649499122","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," h","176","1666649500119","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","176","1666649500253","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","+","175","1666649500405","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","174","1666649500545","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","173","1666649500734","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    
+","","151","1666649503800","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","155","1666649503807","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","x","","159","1666649505013","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"160","1666649505013","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit","","    x
+    ","155","1666649505032","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","        x 
+","","151","1666649505032","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","160","1666649505189","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","160","1666649505197","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"161","1666649505198","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","161","1666649505849","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"162","1666649505853","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","162","1666649507051","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"163","1666649507057","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","a","","163","1666649515063","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"164","1666649515066","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","164","1666649515261","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"165","1666649515264","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","+","","165","1666649516007","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","+",,"166","1666649516010","trapezoid.py","1.1.4 for 2021-2022 @t1",,"+",,,,,
+"File.Edit"," ","","166","1666649516243","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"167","1666649516245","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","h","","167","1666649516466","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"168","1666649516473","trapezoid.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","168","1666649516492","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","168","1666649519468","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","191","1666649519468","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"192","1666649519470","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","168","1666649519487","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","193","1666649519487","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","168","1666649519487","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","192","1666649523923","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+        ","","193","1666649523924","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","=","","168","1666649527536","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"169","1666649527542","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit","=","","169","1666649527659","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"170","1666649527659","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit","","=","169","1666649528388","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","=","168","1666649528527","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","h","167","1666649528678","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","166","1666649528816","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","+","165","1666649528942","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","164","1666649529107","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","163","1666649529251","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","163","1666649529656","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"164","1666649529657","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," + h","","164","1666649529666","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","192","1666649529666","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","+ h","165","1666649529666","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","189","1666649529666","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","164","1666649530662","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","164","1666649530676","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"165","1666649530681","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","+ i * h","","165","1666649531837","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","        
+","","207","1666649534007","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","205","1666649534360","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","202","1666649534365","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","202","1666649535398","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"203","1666649535409","trapezoid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","e","","203","1666649535541","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"204","1666649535542","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","t","","204","1666649535719","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"205","1666649535719","trapezoid.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","u","","205","1666649535818","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"206","1666649535820","trapezoid.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","r","","206","1666649535920","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"207","1666649535920","trapezoid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","n","","207","1666649536012","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"208","1666649536014","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","208","1666649536112","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"209","1666649536118","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","s","","209","1666649536400","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"210","1666649536403","trapezoid.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","210","1666649536418","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","210","1666649536482","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","210","1666649536483","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"211","1666649536484","trapezoid.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","211","1666649536488","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","u ","210","1666649538280","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","210","1666649538305","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","s ","209","1666649538425","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","208","1666649538590","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","207","1666649538720","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","206","1666649538847","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","u","205","1666649538999","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","204","1666649539157","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","203","1666649539274","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","202","1666649539674","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","s","","202","1666649539799","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"203","1666649539801","trapezoid.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","203","1666649539812","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","203","1666649539946","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","203","1666649539947","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"204","1666649539955","trapezoid.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","m","","204","1666649540101","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"205","1666649540126","trapezoid.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","205","1666649540224","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"206","1666649540225","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","206","1666649540927","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"207","1666649540930","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","207","1666649541148","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"208","1666649541148","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","s","","208","1666649541289","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"209","1666649541289","trapezoid.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","u","","209","1666649541382","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"210","1666649541384","trapezoid.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","m","","210","1666649541570","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"211","1666649541570","trapezoid.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","211","1666649541687","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"212","1666649541688","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","* h","","212","1666649542636","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","216","1666649543005","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","r","","220","1666649543403","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"221","1666649543403","trapezoid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","e","","221","1666649543496","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"222","1666649543497","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","t","","222","1666649543627","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"223","1666649543637","trapezoid.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","urn sum","","223","1666649544102","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","231","1666649544494","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","    ","231","1666649544500","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","232","1666649544784","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","e","","232","1666649561337","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"233","1666649561339","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","233","1666649561347","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","e ","232","1666649561778","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","232","1666649561970","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"233","1666649561975","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","e","","233","1666649562143","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"234","1666649562143","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","f","","234","1666649562232","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"235","1666649562233","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","235","1666649562337","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"236","1666649562339","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","d","","236","1666649563076","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"237","1666649563089","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","237","1666649563173","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","237","1666649563249","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","237","1666649563250","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"238","1666649563249","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","238","1666649563289","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","238","1666649563342","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","238","1666649563343","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"239","1666649563358","trapezoid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","i","","239","1666649563952","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"240","1666649563958","trapezoid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","v","","240","1666649564918","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"241","1666649564923","trapezoid.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","241","1666649566369","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"242","1666649566385","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","242","1666649566458","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","242","1666649566623","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","242","1666649566624","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"243","1666649566641","trapezoid.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","i","","243","1666649566787","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"244","1666649566801","trapezoid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","v","","244","1666649566860","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"245","1666649566865","trapezoid.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","e","","245","1666649567011","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"246","1666649567011","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","(f, x, h):
+    return (f(x + h) - f(x)) / h","","246","1666649569861","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","290","1666649571187","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","    ","290","1666649571220","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","291","1666649571368","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","d","","291","1666649572198","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"292","1666649572206","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","e","","292","1666649572358","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"293","1666649572369","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","f","","293","1666649572470","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"294","1666649572473","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","294","1666649572633","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"295","1666649572648","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","295","1666649577054","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"296","1666649577061","trapezoid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","n","","296","1666649577241","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"297","1666649577248","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","t","","297","1666649577314","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"298","1666649577314","trapezoid.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","298","1666649577354","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","298","1666649577671","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","298","1666649577672","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"299","1666649577671","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","g","","299","1666649577861","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"300","1666649577864","trapezoid.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit","r","","300","1666649578031","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"301","1666649578035","trapezoid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","a","","301","1666649578112","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"302","1666649578123","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","302","1666649578387","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"303","1666649578392","trapezoid.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","(f, a, b, n):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        sum = sum + f(x)
+    sum = sum * h
+    return sum","","303","1666649581316","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","def derivative(f, x, h):
+    return (f(x + h) - f(x)) / h
+
+def integral(f, a, b, n):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        sum = sum + f(x)
+    sum = sum * h
+    return sum","232","1666649624534","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","233","1666649632886","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","        ","234","1666649634531","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","232","1666649666279","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"233","1666649666279","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","233","1666649666311","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","233","1666649666392","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","233","1666649666393","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"234","1666649666392","trapezoid.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit"," ","","234","1666649666392","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","234","1666649666496","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","234","1666649666497","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"235","1666649666497","trapezoid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","235","1666649666565","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"236","1666649666565","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","236","1666649666702","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"237","1666649666702","trapezoid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","237","1666649666718","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","237","1666649666831","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","237","1666649666850","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"238","1666649666852","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","238","1666649666963","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"239","1666649666964","trapezoid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","239","1666649666970","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","239","1666649667096","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","239","1666649667097","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"240","1666649667105","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","240","1666649667237","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"241","1666649667238","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","g","","241","1666649667354","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"242","1666649667355","trapezoid.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit"," ","","242","1666649667365","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","g ","241","1666649667693","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","241","1666649667806","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"242","1666649667807","trapezoid.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","242","1666649667815","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","242","1666649667851","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","242","1666649667852","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"243","1666649667853","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","243","1666649667857","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","243","1666649667987","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","243","1666649667988","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"244","1666649667995","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","g","","244","1666649668068","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"245","1666649668075","trapezoid.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit","e","","245","1666649668132","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"246","1666649668141","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","246","1666649668286","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"247","1666649668286","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","246","1666649668529","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","246","1666649669066","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","247","1666649669069","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"247","1666649669069","trapezoid.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","1","","247","1666649669739","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"248","1666649669742","trapezoid.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit",",","","248","1666649669802","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"249","1666649669804","trapezoid.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," 5):
+    n = 10**i
+    print(""n = "", n, "" "", trapezoid(np.sin, 0, np.pi, n)","","249","1666649679704","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","i","266","1666649682208","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","*","265","1666649682323","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","*","264","1666649682480","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","0","263","1666649682596","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","1","262","1666649682918","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","2","","262","1666649683054","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","2",,"263","1666649683056","trapezoid.py","1.1.4 for 2021-2022 @t1",,"2",,,,,
+"File.Edit"," ","","263","1666649683715","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"264","1666649683716","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","*","","264","1666649683936","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","*",,"265","1666649683940","trapezoid.py","1.1.4 for 2021-2022 @t1",,"*",,,,,
+"File.Edit","*","","265","1666649684048","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","*",,"266","1666649684051","trapezoid.py","1.1.4 for 2021-2022 @t1",,"*",,,,,
+"File.Edit"," ","","266","1666649684112","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"267","1666649684112","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","267","1666649684622","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"268","1666649684625","trapezoid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","","n = 2 ** i
+    print(""n = "", n, "" "", trapezoid(np.sin, 0, np.pi, n))","258","1666649693975","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","258","1666649696872","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"259","1666649696877","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","259","1666649697329","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"260","1666649697332","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","260","1666649697602","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"261","1666649697602","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","261","1666649697679","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"262","1666649697682","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","2","","262","1666649698677","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","2",,"263","1666649698677","trapezoid.py","1.1.4 for 2021-2022 @t1",,"2",,,,,
+"File.Edit"," ","","263","1666649699067","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"264","1666649699069","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","*","","264","1666649699252","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","*",,"265","1666649699257","trapezoid.py","1.1.4 for 2021-2022 @t1",,"*",,,,,
+"File.Edit","*","","265","1666649699364","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","*",,"266","1666649699366","trapezoid.py","1.1.4 for 2021-2022 @t1",,"*",,,,,
+"File.Edit"," ","","266","1666649699463","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"267","1666649699465","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","267","1666649700052","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"268","1666649700053","trapezoid.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","    
+","","269","1666649701400","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","print(""n = "", n, "" "", trapezoid(np.sin, 0, np.pi, n))","","273","1666649702431","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","327","1666649703121","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","332","1666649703434","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","335","1666649733954","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","332","1666649733964","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","    ","327","1666649743339","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","321","1666649747730","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"322","1666649747738","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","/","","322","1666649747814","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","/",,"323","1666649747828","trapezoid.py","1.1.4 for 2021-2022 @t1",,"/",,,,,
+"File.Edit"," ","","323","1666649747877","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"324","1666649747879","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","4","","324","1666649748228","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","4",,"325","1666649748228","trapezoid.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"File.Edit","","n","327","1666649774700","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","1","","327","1666649775121","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"328","1666649775130","trapezoid.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit","0","","328","1666649775210","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"329","1666649775210","trapezoid.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","0","","329","1666649775591","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"330","1666649775607","trapezoid.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","","n","310","1666649781846","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","309","1666649781981","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","s","308","1666649782113","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","308","1666649782414","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"309","1666649782414","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","309","1666649782492","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","309","1666649782591","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","309","1666649782592","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"310","1666649782598","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","310","1666649782663","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","310","1666649782719","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","310","1666649782720","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"311","1666649782725","trapezoid.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","311","1666649782799","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","311","1666649782861","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","311","1666649782870","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"312","1666649782870","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","311","1666649783527","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","311","1666649783760","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","312","1666649783772","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"312","1666649783774","trapezoid.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","-","","312","1666649784869","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","-",,"313","1666649784869","trapezoid.py","1.1.4 for 2021-2022 @t1",,"-",,,,,
+"File.Edit"," ","","313","1666649785578","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"314","1666649785578","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","*","","314","1666649785925","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","*",,"315","1666649785941","trapezoid.py","1.1.4 for 2021-2022 @t1",,"*",,,,,
+"File.Edit","","*","314","1666649786591","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","314","1666649786720","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"315","1666649786720","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","315","1666649786847","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","315","1666649787001","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","315","1666649787009","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"316","1666649787024","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","*","","316","1666649787113","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","*",,"317","1666649787127","trapezoid.py","1.1.4 for 2021-2022 @t1",,"*",,,,,
+"File.Edit"," ","","317","1666649787266","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"318","1666649787276","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","x","","318","1666649787622","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"319","1666649787627","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","319","1666649787712","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"320","1666649788677","trapezoid.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"Run.Program","Start",,,"1666649808756","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","1",,"1666649810983","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"File.Edit","l","","305","1666649843704","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","320","1666649843704","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Keystroke","l",,"306","1666649843704","trapezoid.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","306","1666649843760","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","306","1666649843858","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","306","1666649843859","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"307","1666649843859","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","307","1666649843871","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","307","1666649843976","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","307","1666649843977","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"308","1666649843984","trapezoid.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","b","","308","1666649844127","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"309","1666649844134","trapezoid.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit","d","","309","1666649844399","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"310","1666649844420","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","a","","310","1666649844891","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"311","1666649844906","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit",":","","311","1666649845255","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"312","1666649845255","trapezoid.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit"," ","","312","1666649845512","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"313","1666649845513","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","x","","313","1666649846224","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"314","1666649846225","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","314","1666649846259","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","314","1666649846542","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",",","","314","1666649846543","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"315","1666649846542","trapezoid.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","315","1666649847032","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"316","1666649847039","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","315","1666649847922","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",",","314","1666649848166","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","x","313","1666649848345","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","312","1666649848464","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",":","311","1666649848587","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","311","1666649848850","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"312","1666649848850","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","x","","312","1666649848959","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"313","1666649848960","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","313","1666649848968","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","313","1666649849089","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",",","","313","1666649849090","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"314","1666649849089","trapezoid.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit","",",","313","1666649849481","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",":","","313","1666649849769","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"314","1666649849771","trapezoid.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit"," ","","314","1666649849971","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"315","1666649849972","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"Run.Program","Start",,,"1666649852877","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1666649853309","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"X-Copy","import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        sum = sum + f(x)
+    sum = sum * h
+    return sum",,"28","1666649860462","trapezoid.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        sum = sum + f(x)
+    sum = sum * h
+    return sum",,,,,
+"File.Edit","","0","348","1666649964142","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","0","347","1666649964331","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","1","346","1666649964492","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","346","1666649964693","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"347","1666649964694","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","",":","313","1666649964708","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","346","1666649964708","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",":","","313","1666649964708","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"Run.Program","Start",,,"1666649966631","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1666649967163","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Start",,,"1666649972658","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1666649973050","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"X-Copy","for i in range(1, 5):
+    n = 2 ** i
+    print(""n = "", n, "" "", trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n))",,"232","1666649978966","trapezoid.py","1.1.4 for 2021-2022 @t1",,"for i in range(1, 5):
+    n = 2 ** i
+    print(""n = "", n, "" "", trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n))",,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1666650429731","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1666650431075","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","S1400 - 001
+# Assignment ??","18","1666650435995","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","18","1666650436543","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"19","1666650436547","simpsons.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","19","1666650436588","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","M ","18","1666650436860","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","C","17","1666650436983","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1666650437129","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1666650437133","simpsons.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1666650437176","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1666650437575","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","A","","18","1666650437576","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","A",,"19","1666650437579","simpsons.py","1.1.4 for 2021-2022 @t1",,"A",,,,,
+"File.Edit","T","","19","1666650437662","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","T",,"20","1666650437667","simpsons.py","1.1.4 for 2021-2022 @t1",,"T",,,,,
+"File.Edit","H","","20","1666650437775","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","H",,"21","1666650437780","simpsons.py","1.1.4 for 2021-2022 @t1",,"H",,,,,
+"File.Edit"," ","","21","1666650438046","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"22","1666650438050","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","4610","","22","1666650438513","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1666650438697","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1666650439066","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","\","","28","1666650439456","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","\",,"29","1666650439459","simpsons.py","1.1.4 for 2021-2022 @t1",,"\",,,,,
+"File.Edit","","\","28","1666650439909","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","i","","28","1666650440213","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"29","1666650440217","simpsons.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","29","1666650440257","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","29","1666650440577","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","29","1666650440578","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"30","1666650440604","simpsons.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","p","","30","1666650440654","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"31","1666650440673","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","31","1666650440718","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","31","1666650440774","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","31","1666650440775","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"32","1666650440799","simpsons.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit"," ","","32","1666650440868","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","32","1666650440875","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","32","1666650440876","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"33","1666650440904","simpsons.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","33","1666650440963","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","33","1666650441027","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","33","1666650441028","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"34","1666650441058","simpsons.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","34","1666650441113","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","34","1666650441209","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","34","1666650441238","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"35","1666650441241","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","n","","35","1666650441372","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"36","1666650441378","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","36","1666650441419","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","36","1666650441563","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","36","1666650441564","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"37","1666650441569","simpsons.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","37","1666650441611","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","37","1666650441758","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","37","1666650441759","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"38","1666650441763","simpsons.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","38","1666650441786","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","38","1666650441864","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","38","1666650441865","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"39","1666650441864","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","39","1666650441910","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","39","1666650442045","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","y","","39","1666650442046","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","y",,"40","1666650442045","simpsons.py","1.1.4 for 2021-2022 @t1",,"y",,,,,
+"File.Edit"," ","","40","1666650442078","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","40","1666650442185","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","40","1666650442200","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"41","1666650442200","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","a","","41","1666650442234","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"42","1666650442235","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","42","1666650442270","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","42","1666650442315","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","s","","42","1666650442316","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"43","1666650442321","simpsons.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","43","1666650442386","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"44","1666650442406","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","n","","44","1666650442537","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"45","1666650442537","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","45","1666650442593","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","45","1666650442652","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","45","1666650442653","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"46","1666650442657","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","46","1666650442691","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","46","1666650442886","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","46","1666650442887","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1666650443104","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","d","","48","1666650443883","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"49","1666650443896","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","e","","49","1666650444112","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"50","1666650444114","simpsons.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","f","","50","1666650444184","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"51","1666650444184","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," simpsons(f, a, b, n):","","51","1666650444983","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","74","1666650445846","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","74","1666650445865","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","h","","78","1666650464626","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"79","1666650464637","simpsons.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","79","1666650464726","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"80","1666650464737","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","80","1666650465945","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"81","1666650465956","simpsons.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","81","1666650466013","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"82","1666650466013","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","(","","82","1666650466186","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","83","1666650466186","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"83","1666650466205","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","b","","83","1666650467150","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"84","1666650467164","simpsons.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit"," ","","84","1666650467490","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"85","1666650467499","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","-","","85","1666650467608","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","-",,"86","1666650467608","simpsons.py","1.1.4 for 2021-2022 @t1",,"-",,,,,
+"File.Edit"," ","","86","1666650467694","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"87","1666650467699","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","a","","87","1666650467829","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"88","1666650467829","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"X-Keystroke",")",,"89","1666650468777","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit"," ","","89","1666650468986","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"90","1666650468990","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","/","","90","1666650469468","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","/",,"91","1666650469476","simpsons.py","1.1.4 for 2021-2022 @t1",,"/",,,,,
+"File.Edit"," ","","91","1666650469501","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"92","1666650469501","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","n","","92","1666650469562","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"93","1666650469562","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","    
+","","94","1666650470254","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","s","","98","1666650470591","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"99","1666650470886","simpsons.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","u","","99","1666650471059","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"100","1666650471065","simpsons.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","m","","100","1666650471091","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"101","1666650471095","simpsons.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","101","1666650471130","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"102","1666650471130","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit"," ","","102","1666650471730","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"103","1666650471730","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","103","1666650471835","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"104","1666650471835","simpsons.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","104","1666650471919","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"105","1666650471919","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","f","","105","1666650472548","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"106","1666650472548","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","106","1666650472617","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","106","1666650473089","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","106","1666650473090","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","107","1666650473089","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"107","1666650473104","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","a","","107","1666650473251","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"108","1666650473251","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","108","1666650473301","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","108","1666650473637","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","108","1666650473647","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"109","1666650473656","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","+","","109","1666650474387","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","+",,"110","1666650474398","simpsons.py","1.1.4 for 2021-2022 @t1",,"+",,,,,
+"File.Edit"," ","","110","1666650474439","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"111","1666650474439","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","g","","111","1666650474618","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"112","1666650474629","simpsons.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit"," ","","112","1666650474670","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," g","110","1666650475999","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","110","1666650476164","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","+","109","1666650476491","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","108","1666650476670","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","109","1666650477824","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"110","1666650477828","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","+ f(b)","","110","1666650478889","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","117","1666650479664","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","121","1666650508805","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"122","1666650508805","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","r","","122","1666650509020","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"123","1666650509020","simpsons.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","123","1666650509079","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","r ","122","1666650509785","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","122","1666650509850","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","f ","121","1666650509933","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","120","1666650510069","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","117","1666650510079","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    for i in range(1, n):","","117","1666650511602","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","143","1666650512481","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","147","1666650512512","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","x = a + i * h
+        if i % 2 == 0:
+            sum = sum + 2 * f(x)
+        else:
+            sum = sum + 4 * f(x)","","151","1666650529105","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","            
+","","268","1666650530309","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","279","1666650530822","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","276","1666650530829","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","275","1666650530961","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","272","1666650530977","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","271","1666650531187","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","268","1666650531193","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    ","","268","1666650532042","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","sum = sum * h / 3","","272","1666650540332","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","290","1666650543615","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","return sum","","294","1666650544854","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","305","1666650545201","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","    ","305","1666650545241","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","306","1666650546105","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","for i in range(1, 5):","","306","1666650551276","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","328","1666650551574","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","328","1666650551587","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","n = 2 ** i
+    print(""n = "", n, "" "", simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n))","","332","1666650557451","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"Run.Program","Start",,,"1666650573888","simpsons.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1666650590465","simpsons.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"X-Copy","import numpy as np
+
+def simpsons(f, a, b, n):
+    h = (b - a) / n
+    sum  = f(a) + f(b)
+    for i in range(1, n):
+        x = a + i * h
+        if i % 2 == 0:
+            sum = sum + 2 * f(x)
+        else:
+            sum = sum + 4 * f(x)
+    sum = sum * h / 3
+    return sum",,"28","1666650598636","simpsons.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def simpsons(f, a, b, n):
+    h = (b - a) / n
+    sum  = f(a) + f(b)
+    for i in range(1, n):
+        x = a + i * h
+        if i % 2 == 0:
+            sum = sum + 2 * f(x)
+        else:
+            sum = sum + 4 * f(x)
+    sum = sum * h / 3
+    return sum",,,,,
+"X-Copy","for i in range(1, 5):
+    n = 2 ** i
+    print(""n = "", n, "" "", simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n))",,"306","1666650672385","simpsons.py","1.1.4 for 2021-2022 @t1",,"for i in range(1, 5):
+    n = 2 ** i
+    print(""n = "", n, "" "", simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n))",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        sum = sum + f(x)
+    sum = sum * h
+    return sum
+
+for i in range(1, 5):
+    n = 2 ** i
+    print(""n = "", n, "" "", trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n ))
+
+
+
+
+","0","1666668180132","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        sum = sum + f(x)
+    sum = sum * h
+    return sum
+
+for i in range(1, 5):
+    n = 2 ** i
+    print(""n = "", n, "" "", trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n))
+
+
+
+
+","","0","1666668180132","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805417482","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","117","1666805417486","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","h","","121","1666805419206","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"122","1666805419245","simpsons.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","a","","122","1666805419269","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"123","1666805419271","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"X-Action","Backspace",,,"1666805419631","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","a","122","1666805419703","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","122","1666805419737","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"123","1666805419740","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","123","1666805420294","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"124","1666805420312","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","124","1666805420335","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"125","1666805420336","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","125","1666805420421","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"126","1666805420426","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","126","1666805421588","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"127","1666805421590","simpsons.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","127","1666805421724","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"128","1666805421725","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","[","","128","1666805422408","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","129","1666805422410","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"129","1666805422413","simpsons.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"X-Keystroke","]",,"130","1666805422599","simpsons.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"X-Action","Enter",,,"1666805423900","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","131","1666805423904","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805423971","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","136","1666805423976","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805424573","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","139","1666805424578","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","136","1666805424590","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805424814","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","136","1666805424816","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","135","1666805425287","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"136","1666805425289","simpsons.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","136","1666805425328","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","136","1666805425524","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","136","1666805425525","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"137","1666805425526","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit"," ","","137","1666805425537","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","137","1666805425642","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","137","1666805425643","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"138","1666805425643","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","138","1666805425693","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"139","1666805425694","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","139","1666805425709","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"140","1666805442213","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","140","1666805442313","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"141","1666805442314","simpsons.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","141","1666805442387","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"142","1666805442387","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"X-Action","Backspace",,,"1666805443148","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","141","1666805443148","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805443424","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","=","140","1666805443424","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805443578","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","139","1666805443581","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","139","1666805444112","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"140","1666805444115","simpsons.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit","a","","140","1666805444492","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"141","1666805444493","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","141","1666805444611","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"142","1666805444612","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","142","1666805445518","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"143","1666805445519","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","143","1666805445725","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"144","1666805445726","simpsons.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","144","1666805445826","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"145","1666805445827","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","145","1666805445891","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"146","1666805445891","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","146","1666805446452","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","147","1666805446469","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"147","1666805446471","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","a","","147","1666805446702","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"148","1666805446703","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"X-Keystroke",")",,"149","1666805447086","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Action","Enter",,,"1666805450771","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","            
+","","301","1666805450901","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805451423","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","312","1666805451427","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","309","1666805451431","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805451685","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","308","1666805451688","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","305","1666805451693","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","305","1666805452202","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"306","1666805452204","simpsons.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","v","","306","1666805452414","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"307","1666805452415","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","307","1666805452809","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"308","1666805452811","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","308","1666805452888","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"309","1666805452888","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",".","","309","1666805453100","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"310","1666805453103","simpsons.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit","a","","310","1666805453393","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"311","1666805453395","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","311","1666805453500","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"312","1666805453500","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","312","1666805453619","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"313","1666805453620","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","313","1666805453785","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"314","1666805453785","simpsons.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","314","1666805454176","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"315","1666805454177","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","315","1666805454254","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"316","1666805454255","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","316","1666805455055","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","317","1666805455058","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"317","1666805455058","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","b","","317","1666805455297","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"318","1666805455298","simpsons.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit",""," ","139","1666805455310","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".append(a)","","139","1666805455311","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","",".append(a)","139","1666805455310","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","139","1666805455311","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","292","1666805455310","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","309","1666805455310","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"319","1666805455597","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Action","Enter",,,"1666805463252","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","            
+","","301","1666805463254","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","331","1666805463254","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Enter",,,"1666805464174","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","            
+","","314","1666805464176","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805464750","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","325","1666805464778","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","322","1666805464780","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Up",,,"1666805466821","simpsons.py","1.1.4 for 2021-2022 @t1",,"Up",,,,,
+"X-Action","Down",,,"1666805468428","simpsons.py","1.1.4 for 2021-2022 @t1",,"Down",,,,,
+"X-Action","Backspace",,,"1666805469019","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","321","1666805469021","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","318","1666805469024","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805469193","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","317","1666805469193","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","314","1666805469197","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805469543","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","314","1666805469578","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805470631","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","312","1666805470634","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","309","1666805470637","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","309","1666805471220","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"310","1666805471222","simpsons.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","v","","310","1666805471393","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"311","1666805471393","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","311","1666805471495","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"312","1666805471498","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","312","1666805471568","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"313","1666805471570","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",".","","313","1666805471754","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"314","1666805471754","simpsons.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit","a","","314","1666805472032","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"315","1666805472036","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","315","1666805472172","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"316","1666805472172","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","316","1666805472252","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"317","1666805472252","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","317","1666805472626","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"318","1666805472627","simpsons.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","318","1666805472701","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"319","1666805472701","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","319","1666805472826","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"320","1666805472829","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","320","1666805473479","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","321","1666805473485","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"321","1666805473486","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","x","","321","1666805473758","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"322","1666805473759","simpsons.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"X-Keystroke",")",,"323","1666805474269","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Action","Cut",,,"1666805481700","simpsons.py","1.1.4 for 2021-2022 @t1",,"Cut",,,,,
+"X-Copy","hval.append(x)",,"309","1666805482265","simpsons.py","1.1.4 for 2021-2022 @t1",,"hval.append(x)",,,,,
+"File.Edit","","hval.append(x)","309","1666805482428","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805482796","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","308","1666805482811","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","305","1666805482815","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805483008","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","304","1666805483011","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","301","1666805483015","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805483262","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","301","1666805483266","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Enter",,,"1666805485403","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","
+        ","","206","1666805485410","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","h","","206","1666805485626","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"207","1666805485627","simpsons.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","","    h
+    ","202","1666805485642","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h 
+        ","","206","1666805485642","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","207","1666805485862","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","207","1666805485863","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"208","1666805485869","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit"," ","","208","1666805485877","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","208","1666805485953","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","208","1666805485954","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"209","1666805485954","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","209","1666805485962","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","209","1666805486064","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","l","","209","1666805486065","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"210","1666805486066","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","210","1666805486075","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","210","1666805486649","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","210","1666805486650","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"211","1666805486650","simpsons.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","211","1666805486698","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","211","1666805486783","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","211","1666805486788","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"212","1666805486789","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"X-Action","Backspace",,,"1666805487129","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","211","1666805487182","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","211","1666805487491","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"212","1666805487492","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","212","1666805487504","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","212","1666805487605","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","212","1666805487606","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"213","1666805487606","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","213","1666805487621","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","213","1666805487740","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","213","1666805487741","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"214","1666805487741","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","214","1666805487750","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","214","1666805487875","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","214","1666805487876","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"215","1666805487877","simpsons.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","215","1666805487887","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","215","1666805487952","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","215","1666805487953","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"216","1666805487954","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","216","1666805487964","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","216","1666805494279","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","216","1666805494280","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"217","1666805494291","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","217","1666805494851","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","218","1666805494854","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"218","1666805494856","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","x","","218","1666805494860","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"219","1666805494860","simpsons.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"X-Keystroke",")",,"220","1666805494862","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Action","Backspace",,,"1666805516545","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","d","338","1666805516551","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","338","1666805516945","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"339","1666805516946","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","","d(x)","216","1666805516951","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","216","1666805516952","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","321","1666805516951","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","336","1666805516951","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","216","1666805516951","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d(x)","","216","1666805516952","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805528611","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","150","1666805528617","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","181","1666805528617","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit","","","329","1666805528617","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit",""," ","344","1666805528617","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","154","1666805528935","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"155","1666805528936","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","","f
+    ","154","1666805528951","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    f 
+","","150","1666805528952","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","155","1666805529181","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","155","1666805529182","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"156","1666805529189","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit"," ","","156","1666805529205","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","156","1666805529261","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","156","1666805529262","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"157","1666805529264","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","157","1666805529271","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","157","1666805529359","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","l","","157","1666805529360","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"158","1666805529365","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","158","1666805529372","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","158","1666805529604","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","158","1666805529605","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"159","1666805529606","simpsons.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","159","1666805529615","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","159","1666805530011","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","159","1666805530012","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"160","1666805530022","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","160","1666805530033","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","160","1666805530202","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","160","1666805530203","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"161","1666805530205","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","161","1666805530220","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","161","1666805530324","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","161","1666805530325","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"162","1666805530326","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","162","1666805530336","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","162","1666805530446","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","162","1666805530447","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"163","1666805530455","simpsons.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","163","1666805530463","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","163","1666805530558","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","163","1666805530559","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"164","1666805530558","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","164","1666805530567","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","164","1666805530592","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","164","1666805530593","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"165","1666805530594","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","165","1666805530603","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","165","1666805531287","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","165","1666805531288","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","166","1666805531289","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"166","1666805531289","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","f","","166","1666805532178","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"167","1666805532179","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","(","","167","1666805532710","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","169","1666805532714","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"168","1666805532714","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","a","","168","1666805532903","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"169","1666805532904","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"X-Keystroke",")",,"170","1666805533280","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Action","Enter",,,"1666805535243","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","131","1666805535247","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","135","1666805535532","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"136","1666805535532","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","136","1666805535542","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","136","1666805535716","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","136","1666805535717","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"137","1666805535729","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","137","1666805535823","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"138","1666805535825","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","138","1666805535908","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"139","1666805535912","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","139","1666805536163","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"140","1666805536163","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","140","1666805536750","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"141","1666805536750","simpsons.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","141","1666805536843","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"142","1666805536843","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","[","","142","1666805537694","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","143","1666805537697","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"143","1666805537697","simpsons.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"X-Keystroke","]",,"144","1666805537883","simpsons.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"X-Action","Enter",,,"1666805542510","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","379","1666805542515","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","383","1666805543182","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"384","1666805543182","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","v","","384","1666805543397","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"385","1666805543400","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","385","1666805543475","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"386","1666805543475","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","386","1666805543552","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"387","1666805543556","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",".","","387","1666805543758","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"388","1666805543761","simpsons.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805544271","simpsons.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit","append(f(b))","","388","1666805544274","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805548854","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","        
+","","257","1666805548857","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","265","1666805549292","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"266","1666805549293","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit",""," ","136","1666805549306","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","val = []","","136","1666805549307","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    fval.append(f(a))
+","","164","1666805549306","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","val = []","136","1666805549305","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","136","1666805549306","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","for i in range(1, n):
+        x = a + i * h
+        hval.append(x)
+        f
+        if i % 2 == 0:
+            sum = sum + 2 * f(x)
+        else:
+            sum = sum + 4 * f(x)
+    hval.append(b)
+    ","183","1666805549305","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","val.append(f(a)","162","1666805549306","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","or i in range(1, n):
+        x = a + i * h
+        hval.append(x)
+        f 
+        if i % 2 == 0:
+            sum = sum + 2 * f(x)
+        else:
+            sum = sum + 4 * f(x)
+    hval.append(b","","162","1666805549307","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","266","1666805549510","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","266","1666805549511","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"267","1666805549519","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","267","1666805549607","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"268","1666805549614","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","268","1666805549708","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"269","1666805549718","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",".","","269","1666805550113","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"270","1666805550114","simpsons.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","270","1666805550122","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","270","1666805550682","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","270","1666805550683","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"271","1666805550697","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","271","1666805550954","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"272","1666805550966","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","272","1666805551097","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"273","1666805551105","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","273","1666805551204","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"274","1666805551210","simpsons.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","274","1666805551287","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"275","1666805551300","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","275","1666805551376","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"276","1666805551387","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","276","1666805551975","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","277","1666805551976","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"277","1666805551977","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","f","","277","1666805552182","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"278","1666805552184","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","278","1666805552193","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","278","1666805552784","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","278","1666805552785","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","280","1666805552785","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"279","1666805552786","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","x","","279","1666805553004","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"280","1666805553004","simpsons.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","280","1666805553017","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"281","1666805553432","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Keystroke",")",,"282","1666805553733","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Action","Enter",,,"1666805560801","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","
+        ","","242","1666805560806","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","289","1666805560806","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","242","1666805562088","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"243","1666805562089","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","","f","242","1666805562102","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","hval.append(x)","","242","1666805562103","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","h","265","1666805562102","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","265","1666805562103","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","x","277","1666805562102","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f(x )","","277","1666805562103","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","hval.append(x)","242","1666805562102","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f ","","242","1666805562103","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","f","253","1666805562102","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","253","1666805562103","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","f(x )","265","1666805562102","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","265","1666805562103","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","243","1666805564951","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","243","1666805564952","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"244","1666805564965","simpsons.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","244","1666805565468","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"245","1666805565470","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","245","1666805565664","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"246","1666805565664","simpsons.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","246","1666805565741","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"247","1666805565741","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805566709","simpsons.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit","f(x)","","247","1666805566716","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805569206","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",")","355","1666805569209","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805569336","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","x","354","1666805569336","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805569449","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","(","353","1666805569449","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","353","1666805569566","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"354","1666805569567","simpsons.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit","","x = f(x)","243","1666805569577","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","243","1666805569578","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","317","1666805569577","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","347","1666805569577","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","    fval.append(f(x))
+    ","272","1666805569577","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","243","1666805569577","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x = f(x)","","243","1666805569578","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","        fval.append(f(x))
+","","275","1666805569577","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805571558","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","354","1666805571559","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",")","400","1666805571559","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805571680","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","x","399","1666805571682","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805571971","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","(","398","1666805571974","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","398","1666805572093","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"399","1666805572098","simpsons.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","399","1666805572109","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805575146","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",")","299","1666805575148","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","398","1666805575148","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805575295","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","x","297","1666805575297","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805575427","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","(","296","1666805575427","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","296","1666805575637","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"297","1666805575638","simpsons.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","297","1666805575648","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","297","1666805593684","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","299","1666805593685","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit","","","461","1666805593684","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit",",","","475","1666805593684","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"476","1666805593686","simpsons.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","476","1666805594036","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"477","1666805594037","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","h","","477","1666805594940","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"478","1666805594941","simpsons.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","v","","478","1666805595079","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"479","1666805595089","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","479","1666805595176","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"480","1666805595176","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","480","1666805595256","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"481","1666805595258","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",",","","481","1666805595499","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"482","1666805595499","simpsons.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","482","1666805595799","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"483","1666805595804","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","f","","483","1666805595969","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"484","1666805595970","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","v","","484","1666805596111","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"485","1666805596120","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","485","1666805596205","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"486","1666805596206","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","486","1666805596284","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"487","1666805596296","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"X-Action","Cut",,,"1666805606911","simpsons.py","1.1.4 for 2021-2022 @t1",,"Cut",,,,,
+"X-Copy","simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,"552","1666805606914","simpsons.py","1.1.4 for 2021-2022 @t1",,"simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,,,,
+"File.Edit","","simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)","552","1666805606926","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Enter",,,"1666805608608","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","526","1666805608610","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","s","","530","1666805610022","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"531","1666805610027","simpsons.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","297","1666805610047","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","300","1666805610048","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit","",", hval, fval","476","1666805610047","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","515","1666805610047","simpsons.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","520","1666805610048","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",", hval, fval","","476","1666805610047","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","297","1666805610047","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","531","1666805610121","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","531","1666805610122","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"532","1666805610122","simpsons.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","532","1666805610130","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","532","1666805610327","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","532","1666805610328","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"533","1666805610357","simpsons.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","533","1666805610521","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"534","1666805610522","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"X-Action","Backspace",,,"1666805611422","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","533","1666805611424","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",",","","533","1666805611700","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"534","1666805611700","simpsons.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","534","1666805611910","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"535","1666805611911","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","h","","535","1666805612113","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"536","1666805612114","simpsons.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","536","1666805612151","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","536","1666805612237","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","536","1666805612238","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"537","1666805612274","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","537","1666805612306","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"538","1666805612307","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","538","1666805612389","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"539","1666805612390","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",",","","539","1666805612609","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"540","1666805612609","simpsons.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","540","1666805612745","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"541","1666805612751","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","f","","541","1666805612919","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"542","1666805612921","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","542","1666805612961","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","542","1666805613123","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","542","1666805613124","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"543","1666805613159","simpsons.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","543","1666805613189","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"544","1666805613190","simpsons.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","544","1666805613276","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"545","1666805613279","simpsons.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","545","1666805613399","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"546","1666805613400","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","546","1666805613974","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"547","1666805613977","simpsons.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","547","1666805614189","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"548","1666805614189","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"X-Action","Paste",,,"1666805614905","simpsons.py","1.1.4 for 2021-2022 @t1",,"Paste",,,,,
+"p","simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,"548","1666805614946","simpsons.py","1.1.4 for 2021-2022 @t1",,"simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,,,,
+"File.Edit","simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)","","548","1666805614946","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","s","","627","1666805617149","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"628","1666805617152","simpsons.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","628","1666805617169","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","628","1666805617199","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","628","1666805617200","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"629","1666805617200","simpsons.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","629","1666805617206","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","629","1666805617374","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","629","1666805617375","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"630","1666805617393","simpsons.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"X-Action","Enter",,,"1666805628170","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","632","1666805628172","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","p","","636","1666805628574","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"637","1666805628575","simpsons.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","637","1666805628584","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","637","1666805628765","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","637","1666805628766","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"638","1666805628773","simpsons.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","i","","638","1666805628841","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"639","1666805628871","simpsons.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","n","","639","1666805628964","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"640","1666805628984","simpsons.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","t","","640","1666805629010","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"641","1666805629014","simpsons.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","641","1666805629229","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"642","1666805629232","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"X-Action","Backspace",,,"1666805629487","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","641","1666805629491","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","641","1666805630076","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","642","1666805630078","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"642","1666805630080","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","""","","642","1666805630720","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","""","","643","1666805630721","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","""",,"643","1666805630721","simpsons.py","1.1.4 for 2021-2022 @t1",,"""",,,,,
+"X-Action","Backspace",,,"1666805636710","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","""","643","1666805636710","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","""","642","1666805636714","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805636862","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","(","641","1666805636862","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",")","641","1666805636865","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805636999","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","t","640","1666805636999","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805637130","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","n","639","1666805637130","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805637291","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","i","638","1666805637291","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805637654","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","r","637","1666805637655","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805637856","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","p","636","1666805637856","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805638238","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","635","1666805638239","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","632","1666805638241","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805640545","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","632","1666805640549","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Left",,,"1666805641379","simpsons.py","1.1.4 for 2021-2022 @t1",,"Left",,,,,
+"File.Edit",",","","630","1666805641761","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"631","1666805641762","simpsons.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"X-Action","Backspace",,,"1666805642821","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",",","630","1666805642823","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805650004","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","l","538","1666805650006","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805650152","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","a","537","1666805650154","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805650305","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","v","536","1666805650308","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Right",,,"1666805650548","simpsons.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1666805650691","simpsons.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1666805650853","simpsons.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1666805651009","simpsons.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1666805651163","simpsons.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"X-Action","Right",,,"1666805651317","simpsons.py","1.1.4 for 2021-2022 @t1",,"Right",,,,,
+"File.Edit","val","","536","1666805651672","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805651683","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","val","536","1666805651685","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","l","541","1666805651686","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805651845","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","a","540","1666805651846","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805652017","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","v","539","1666805652017","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","val","","539","1666805652375","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Left",,,"1666805653327","simpsons.py","1.1.4 for 2021-2022 @t1",,"Left",,,,,
+"X-Action","Left",,,"1666805653518","simpsons.py","1.1.4 for 2021-2022 @t1",,"Left",,,,,
+"X-Action","Left",,,"1666805653674","simpsons.py","1.1.4 for 2021-2022 @t1",,"Left",,,,,
+"X-Action","Left",,,"1666805653827","simpsons.py","1.1.4 for 2021-2022 @t1",,"Left",,,,,
+"X-Action","Backspace",,,"1666805655093","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","534","1666805655093","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","val","538","1666805655094","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805655308","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",",","533","1666805655309","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805655515","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","m","532","1666805655515","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805655725","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","u","531","1666805655727","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805655948","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","s","530","1666805655948","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","sum","","530","1666805656328","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Undo Backspace",,,"1666805659347","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Backspace",,,,,
+"File.Edit","","um","531","1666805659363","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","531","1666805659388","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","m","","532","1666805659391","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",",","","533","1666805659393","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","534","1666805659395","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Indent Selection",,,"1666805675618","simpsons.py","1.1.4 for 2021-2022 @t1",,"Indent Selection",,,,,
+"File.Edit","    ","","489","1666805675620","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","515","1666805675627","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","534","1666805675628","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","607","1666805675629","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805677674","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","
+","","489","1666805677677","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","d","","489","1666805678001","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"490","1666805678001","simpsons.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","490","1666805678013","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","490","1666805678164","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","490","1666805678165","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"491","1666805678172","simpsons.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","f","","491","1666805678245","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"492","1666805678263","simpsons.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","492","1666805678400","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"493","1666805678401","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","s","","493","1666805678581","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"494","1666805678585","simpsons.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","494","1666805678629","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","494","1666805678694","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","494","1666805678695","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"495","1666805678702","simpsons.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","m","","495","1666805678886","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"496","1666805678888","simpsons.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","(","","496","1666805679713","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","497","1666805679714","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"497","1666805679714","simpsons.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"X-Keystroke",")",,"498","1666805679945","simpsons.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit",":","","498","1666805680626","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"499","1666805680626","simpsons.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"X-Action","Enter",,,"1666805682756","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","        
+","","653","1666805682760","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805682929","simpsons.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","        
+","","662","1666805682929","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805683303","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","669","1666805683303","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","666","1666805683306","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805683486","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","665","1666805683487","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","662","1666805683489","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805684306","simpsons.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit","sum()","","662","1666805684307","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","        ","653","1666805687626","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"Run.Program","Start",,,"1666805693296","simpsons.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"Run.Program","Exit","0",,"1666805695718","simpsons.py","1.1.4 for 2021-2022 @t1",,"Start",,,,,
+"X-Action","Undo last operation",,,"1666805700083","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo last operation",,,,,
+"File.Edit","        ","","653","1666805700083","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Undo Apply Copilot Suggestion",,,"1666805700434","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Apply Copilot Suggestion",,,,,
+"File.Edit","","sum()","662","1666805700449","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Undo Backspace",,,"1666805700731","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Backspace",,,,,
+"File.Edit","   ","","662","1666805700731","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","665","1666805700731","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","   ","","666","1666805700736","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","669","1666805700738","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Undo Typing",,,"1666805701017","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Typing",,,,,
+"File.Edit","","        
+","662","1666805701018","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Undo Typing",,,"1666805701332","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Typing",,,,,
+"File.Edit","","        
+","653","1666805701336","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Undo Typing",,,"1666805701618","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Typing",,,,,
+"X-Action","Undo Typing",,,"1666805701975","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Typing",,,,,
+"File.Edit","",":","498","1666805701976","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",")","497","1666805701978","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","(","496","1666805701980","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","m","495","1666805701980","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","u","494","1666805701983","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","s","493","1666805701985","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","492","1666805701987","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","491","1666805701988","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","490","1666805701991","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","d","489","1666805701992","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Undo Typing",,,"1666805702331","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Typing",,,,,
+"File.Edit","","
+","489","1666805702349","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Undo Indent Selection",,,"1666805702678","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Indent Selection",,,,,
+"X-Action","Undo Indent Selection",,,"1666805703104","simpsons.py","1.1.4 for 2021-2022 @t1",,"Undo Indent Selection",,,,,
+"File.Edit","","    ","607","1666805703120","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","    ","534","1666805703134","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","    ","515","1666805703136","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","    ","489","1666805703137","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Move Cursor",,,"1666805792680","simpsons.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666805792789","simpsons.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666805792890","simpsons.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666805793005","simpsons.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666805793107","simpsons.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666805793227","simpsons.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666805793338","simpsons.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Copy",,,"1666805795141","simpsons.py","1.1.4 for 2021-2022 @t1",,"Copy",,,,,
+"X-Copy","import numpy as np
+
+def simpsons(f, a, b, n):
+    h = (b - a) / n
+    sum  = f(a) + f(b)
+    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        hval.append(x)
+        fval.append(fx)
+        if i % 2 == 0:
+            sum = sum + 2 * fx
+        else:
+            sum = sum + 4 * fx
+    hval.append(b)
+    fval.append(f(b))
+    sum = sum * h / 3
+    return sum, hval, fval",,"28","1666805795149","simpsons.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def simpsons(f, a, b, n):
+    h = (b - a) / n
+    sum  = f(a) + f(b)
+    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        hval.append(x)
+        fval.append(fx)
+        if i % 2 == 0:
+            sum = sum + 2 * fx
+        else:
+            sum = sum + 4 * fx
+    hval.append(b)
+    fval.append(f(b))
+    sum = sum * h / 3
+    return sum, hval, fval",,,,,
+"X-Action","Copy",,,"1666805810093","simpsons.py","1.1.4 for 2021-2022 @t1",,"Copy",,,,,
+"X-Copy","for i in range(1, 5):
+    n = 2 ** i
+    sum, h, f = simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+    print(""n = "", n, "" "", sum)",,"489","1666805810100","simpsons.py","1.1.4 for 2021-2022 @t1",,"for i in range(1, 5):
+    n = 2 ** i
+    sum, h, f = simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+    print(""n = "", n, "" "", sum)",,,,,
+"X-Action","EditorChange",,,"1666805831344","simpsons.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","EditorChange",,,"1666805833647","simpsons.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","EditorChange",,,"1666805835461","simpsons.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","Enter",,,"1666805839756","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","95","1666805839760","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","h","","99","1666805840819","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"100","1666805840820","trapezoid.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","100","1666805840833","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","100","1666805840989","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","100","1666805840990","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"101","1666805840990","trapezoid.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit"," ","","101","1666805840999","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","101","1666805841138","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","101","1666805841139","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"102","1666805841139","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","102","1666805841149","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","102","1666805841274","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","l","","102","1666805841275","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"103","1666805841275","trapezoid.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","103","1666805841297","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","103","1666805841421","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","103","1666805841424","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"104","1666805841425","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","104","1666805842032","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"105","1666805842032","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","105","1666805842217","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"106","1666805842218","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","[","","106","1666805842518","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","107","1666805842522","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"107","1666805842523","trapezoid.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"X-Keystroke","]",,"108","1666805842713","trapezoid.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"X-Action","Enter",,,"1666805843247","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","109","1666805843248","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","113","1666805843567","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"114","1666805843567","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","114","1666805843577","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","114","1666805843908","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","114","1666805843909","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"115","1666805843917","trapezoid.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit"," ","","115","1666805843938","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","115","1666805844968","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","115","1666805844969","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"116","1666805844970","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","116","1666805845095","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"117","1666805845098","trapezoid.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805845782","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit"," = []","","117","1666805845787","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805846837","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","123","1666805846842","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805847980","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit","hval.append(a)","","127","1666805847980","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805848223","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","142","1666805848223","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805850282","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit","fval.append(f(a))","","146","1666805850283","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805853207","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","        
+","","267","1666805853210","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805853588","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","274","1666805853598","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","271","1666805853599","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","271","1666805854934","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"272","1666805854935","trapezoid.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","v","","272","1666805855059","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"273","1666805855062","trapezoid.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","273","1666805855152","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"274","1666805855153","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","274","1666805855234","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"275","1666805855235","trapezoid.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",".","","275","1666805855406","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"276","1666805855406","trapezoid.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit","a","","276","1666805855569","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"277","1666805855572","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","277","1666805855725","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"278","1666805855726","trapezoid.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","278","1666805855880","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"279","1666805855880","trapezoid.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","279","1666805855979","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"280","1666805855979","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","280","1666805856068","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"281","1666805856070","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","281","1666805856151","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"282","1666805856154","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","282","1666805856778","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","283","1666805856779","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"283","1666805856780","trapezoid.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","b","","283","1666805857600","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"284","1666805857601","trapezoid.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit","","al = []
+    hval.append(a)
+    fval.append(f(a))","115","1666805857612","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","115","1666805857613","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","220","1666805857612","trapezoid.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","237","1666805857612","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","115","1666805857612","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","al = []
+    hval.append(a)
+    fval.append(f(a))","","115","1666805857613","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"285","1666805858292","trapezoid.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Action","Enter",,,"1666805858787","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit",""," ","284","1666805858787","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+    ","","285","1666805858788","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805859730","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit","fval.append(f(b))","","290","1666805859731","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666805863143","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","d","281","1666805863149","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","281","1666805863225","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"282","1666805863226","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","284","1666805863231","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","282","1666805863231","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","285","1666805863232","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Enter",,,"1666805865492","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","        
+","","242","1666805865492","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","291","1666805865492","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","250","1666805865797","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"251","1666805865797","trapezoid.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","","    h
+    ","246","1666805865805","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","        h 
+","","242","1666805865806","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","251","1666805865968","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","251","1666805865969","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"252","1666805865975","trapezoid.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","252","1666805866048","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"253","1666805866054","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","253","1666805866126","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"254","1666805866136","trapezoid.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",".","","254","1666805866372","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"255","1666805866372","trapezoid.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","255","1666805866397","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","255","1666805866820","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","255","1666805866821","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"256","1666805866846","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","256","1666805867041","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"257","1666805867074","trapezoid.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","257","1666805867173","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"258","1666805867188","trapezoid.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","258","1666805867361","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"259","1666805867366","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","259","1666805867455","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"260","1666805867463","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","260","1666805867535","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"261","1666805867541","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","261","1666805868772","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","262","1666805868775","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"262","1666805868775","trapezoid.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","x","","262","1666805869580","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"263","1666805869581","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"X-Action","Enter",,,"1666805871984","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","        
+","","242","1666805871987","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","250","1666805872119","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"251","1666805872127","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","","f","250","1666805872164","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","hval. ","","250","1666805872165","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","hval.","250","1666805872164","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","250","1666805872165","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","251","1666805872333","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","251","1666805872334","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"252","1666805872366","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","252","1666805872527","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"253","1666805872528","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","253","1666805873144","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"254","1666805873146","trapezoid.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","254","1666805873356","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"255","1666805873356","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","f","","255","1666805873493","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"256","1666805873494","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","(","","256","1666805873747","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","257","1666805873749","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"257","1666805873750","trapezoid.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","x","","257","1666805873903","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"258","1666805873903","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"X-Keystroke",")",,"259","1666805874231","trapezoid.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Action","Backspace",,,"1666805876213","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",")","306","1666805876213","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805876347","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","x","305","1666805876348","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666805876467","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","(","304","1666805876469","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","304","1666805876567","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"305","1666805876567","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"File.Edit"," ","","305","1666805876573","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805878859","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","        
+","","283","1666805878862","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","314","1666805878862","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","291","1666805879140","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"292","1666805879146","trapezoid.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","292","1666805879195","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","292","1666805879684","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","v","","292","1666805879685","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"293","1666805879695","trapezoid.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","a","","293","1666805879817","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"294","1666805879822","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","l","","294","1666805879884","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"295","1666805879899","trapezoid.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit",".","","295","1666805880138","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"296","1666805880138","trapezoid.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","296","1666805880144","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","296","1666805880438","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","296","1666805880439","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"297","1666805880446","trapezoid.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","297","1666805880532","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"298","1666805880540","trapezoid.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","298","1666805880679","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"299","1666805880685","trapezoid.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","299","1666805880750","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"300","1666805880754","trapezoid.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","300","1666805880836","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"301","1666805880851","trapezoid.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","301","1666805880914","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"302","1666805880918","trapezoid.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","302","1666805881794","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","303","1666805881797","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"303","1666805881798","trapezoid.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","f","","303","1666805882144","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"304","1666805882146","trapezoid.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","304","1666805882152","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","304","1666805882332","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","304","1666805882333","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","x",,"305","1666805882341","trapezoid.py","1.1.4 for 2021-2022 @t1",,"x",,,,,
+"X-Keystroke",")",,"306","1666805882990","trapezoid.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit",",","","403","1666805891590","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"404","1666805891596","trapezoid.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit"," ","","404","1666805891836","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"405","1666805891836","trapezoid.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805892815","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit","hval, fval","","405","1666805892815","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Cut",,,"1666805897834","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Cut",,,,,
+"X-Copy","trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,"480","1666805897843","trapezoid.py","1.1.4 for 2021-2022 @t1",,"trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,,,,
+"File.Edit","","trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)","480","1666805897850","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","s","","480","1666805898484","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"481","1666805898485","trapezoid.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit",", hval, fval","","403","1666805898493","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","x","304","1666805898493","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","304","1666805898494","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","",", hval, fval","403","1666805898493","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","442","1666805898493","trapezoid.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","469","1666805898493","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","304","1666805898493","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","x","","304","1666805898494","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","481","1666805898540","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","481","1666805898541","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"482","1666805898541","trapezoid.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","482","1666805898545","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","482","1666805898732","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","482","1666805898733","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"483","1666805898738","trapezoid.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"X-Action","Enter",,,"1666805900407","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","454","1666805900426","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Paste",,,"1666805902177","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Paste",,,,,
+"p","trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,"458","1666805902177","trapezoid.py","1.1.4 for 2021-2022 @t1",,"trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,,,,
+"File.Edit","","    ","454","1666805902195","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)","","454","1666805902200","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Undo Paste",,,"1666805904018","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Undo Paste",,,,,
+"File.Edit","","    trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)","454","1666805904018","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    ","","454","1666805904018","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Apply Copilot Suggestion",,,"1666805904854","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Apply Copilot Suggestion",,,,,
+"File.Edit","sum, h, f = trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)","","458","1666805904854","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Enter",,,"1666805908573","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Enter",,,,,
+"File.Edit","    
+","","524","1666805908575","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Paste",,,"1666805909620","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Paste",,,,,
+"p","trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,"528","1666805909620","trapezoid.py","1.1.4 for 2021-2022 @t1",,"trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)",,,,,
+"File.Edit","","    ","524","1666805909620","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)","","524","1666805909620","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Undo Paste",,,"1666805911752","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Undo Paste",,,,,
+"File.Edit","","    trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)","524","1666805911753","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    ","","524","1666805911754","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Undo Typing",,,"1666805912088","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Undo Typing",,,,,
+"File.Edit","","
+    ","528","1666805912104","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Copy",,,"1666805918040","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Copy",,,,,
+"X-Copy","for i in range(1, 5):
+    n = 2 ** i
+    sum, h, f = trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+    print(""n = "", n, "" "", sum)",,"417","1666805918043","trapezoid.py","1.1.4 for 2021-2022 @t1",,"for i in range(1, 5):
+    n = 2 ** i
+    sum, h, f = trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+    print(""n = "", n, "" "", sum)",,,,,
+"X-Action","Copy",,,"1666805995345","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Copy",,,,,
+"X-Copy","for i in range(1, 5):
+    n = 2 ** i
+    sum, h, f = trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+    print(""n = "", n, "" "", sum)",,"417","1666805995361","trapezoid.py","1.1.4 for 2021-2022 @t1",,"for i in range(1, 5):
+    n = 2 ** i
+    sum, h, f = trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+    print(""n = "", n, "" "", sum)",,,,,
+"X-Action","Move Cursor",,,"1666806008755","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666806008867","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666806008967","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666806009077","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666806009187","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666806009296","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666806009400","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666806009513","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Copy",,,"1666806011374","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Copy",,,,,
+"X-Copy","import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        hval.append(x)
+        hval.append(fx)
+        sum = sum + fx
+    hval.append(b)
+    fval.append(f(b))
+    sum = sum * h
+    return sum, hval, fval",,"28","1666806011383","trapezoid.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        hval.append(x)
+        hval.append(fx)
+        sum = sum + fx
+    hval.append(b)
+    fval.append(f(b))
+    sum = sum * h
+    return sum, hval, fval",,,,,
+"X-Action","EditorChange",,,"1666806044822","trapezoid.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","EditorChange",,,"1666806067833","trapezoid.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"File.Edit","#","","489","1666806989248","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","#",,"490","1666806989254","simpsons.py","1.1.4 for 2021-2022 @t1",,"#",,,,,
+"X-Action","Down",,,"1666806989791","simpsons.py","1.1.4 for 2021-2022 @t1",,"Down",,,,,
+"X-Action","Left",,,"1666806990174","simpsons.py","1.1.4 for 2021-2022 @t1",,"Left",,,,,
+"File.Edit","#","","512","1666806990812","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","#",,"513","1666806990818","simpsons.py","1.1.4 for 2021-2022 @t1",,"#",,,,,
+"X-Action","Down",,,"1666806991264","simpsons.py","1.1.4 for 2021-2022 @t1",,"Down",,,,,
+"X-Action","Left",,,"1666806991647","simpsons.py","1.1.4 for 2021-2022 @t1",,"Left",,,,,
+"File.Edit","#","","528","1666806992123","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","#",,"529","1666806992123","simpsons.py","1.1.4 for 2021-2022 @t1",,"#",,,,,
+"X-Action","Down",,,"1666806992602","simpsons.py","1.1.4 for 2021-2022 @t1",,"Down",,,,,
+"X-Action","Backspace",,,"1666806993930","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit",""," ","601","1666806993930","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","#","","598","1666806994748","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","#",,"599","1666806994749","simpsons.py","1.1.4 for 2021-2022 @t1",,"#",,,,,
+"X-Action","EditorChange",,,"1666806996296","simpsons.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        hval.append(x)
+        hval.append(fx)
+        sum = sum + fx
+    hval.append(b)
+    fval.append(f(b))
+    sum = sum * h
+    return sum, hval, fval
+
+for i in range(1, 5):
+    n = 2 ** i
+    sum, h, f = trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+    print(""n =  "", n, "" "", um)
+
+
+
+
+","0","1666976573929","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        hval.append(x)
+        hval.append(fx)
+        sum = sum + fx
+    hval.append(b)
+    fval.append(f(b))
+    sum = sum * h
+    return sum, hval, fval
+
+for i in range(1, 5):
+    n = 2 ** i
+    sum, h, f = trapezoid(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+    print(""n = "", n, "" "", sum)
+
+
+
+
+","","0","1666976573929","trapezoid.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def simpsons(f, a, b, n):
+    h = (b - a) / n
+    sum  = f(a) + f(b)
+    hval = []
+    f al = []
+    hval app    for i in range(1, n):
+        x = a + i * h
+        hval.append(x)
+        f 
+   fx = f(x)
+        h    if i % x =        fval.append(fx)
+= 0:  sum = sum + 2 * f(x)
+        else:
+           xm = sum + 4 * f(x)
+    hval.append(b)
+end( fx
+    hval .appedd()
+    fval.append(f(b))
+    sum = sum * h / 3
+    return sum, hval, fval
+
+#for i in range(1, 5):
+#    n = 2 ** i
+#    sum, h, f = simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+#   print(""n = "", n, "" "", sum)
+","0","1666976573947","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# MATH 4610
+
+import numpy as np
+
+def simpsons(f, a, b, n):
+    h = (b - a) / n
+    sum  = f(a) + f(b)
+    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        hval.append(x)
+        fval.append(fx)
+        if i % 2 == 0:
+            sum = sum + 2 * fx
+        else:
+            sum = sum + 4 * fx
+    hval.append(b)
+    fval.append(f(b))
+    sum = sum * h / 3
+    return sum, hval, fval
+
+#for i in range(1, 5):
+#    n = 2 ** i
+#    sum, h, f = simpsons(lambda x: np.exp(- x * x), 0, np.pi / 4, n)
+#   print(""n = "", n, "" "", sum)
+","","0","1666976573947","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Action","Backspace",,,"1666977308657","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",", h, f ","461","1666977308933","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977312635","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",", hval, fval","403","1666977312650","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977316060","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","    hval.append(b)
+    fval.append(f(b))","330","1666977316071","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977316292","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","330","1666977316370","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977319141","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","        hval.append(x)
+        hval.append(fx)","260","1666977319154","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977319340","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","260","1666977319343","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977323727","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))","95","1666977323759","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977323896","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","95","1666977323898","trapezoid.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","EditorChange",,,"1666977330004","trapezoid.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","Backspace",,,"1666977333235","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","    hval = []
+    fval = []
+    hval.append(a)
+    fval.append(f(a))","117","1666977333238","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977333400","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","117","1666977333402","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977336082","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","        hval.append(x)
+        fval.append(fx)","183","1666977336088","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977336224","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","183","1666977336224","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977339752","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","    hval.append(b)
+    fval.append(f(b))","282","1666977339761","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977339955","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","","
+","282","1666977339965","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977342577","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",", hval, fval","318","1666977342580","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Action","Backspace",,,"1666977346025","simpsons.py","1.1.4 for 2021-2022 @t1",,"Backspace",,,,,
+"File.Edit","",", h, f ","367","1666977346029","simpsons.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","367","1666977347674","simpsons.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"368","1666977347700","simpsons.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"X-Action","EditorChange",,,"1666977349538","simpsons.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","Move Cursor",,,"1666977614220","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666977614329","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Move Cursor",,,"1666977614444","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Move Cursor",,,,,
+"X-Action","Copy",,,"1666977618090","trapezoid.py","1.1.4 for 2021-2022 @t1",,"Copy",,,,,
+"X-Copy","import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        sum = sum + fx
+    sum = sum * h
+    return sum",,"28","1666977618239","trapezoid.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def trapezoid(f, a, b, n):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        sum = sum + fx
+    sum = sum * h
+    return sum",,,,,
+"X-Action","EditorChange",,,"1666977686822","trapezoid.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,
+"X-Action","Copy",,,"1666977690362","simpsons.py","1.1.4 for 2021-2022 @t1",,"Copy",,,,,
+"X-Copy","def simpsons(f, a, b, n):
+    h = (b - a) / n
+    sum  = f(a) + f(b)
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        if i % 2 == 0:
+            sum = sum + 2 * fx
+        else:
+            sum = sum + 4 * fx
+    sum = sum * h / 3
+    return sum",,"48","1666977690369","simpsons.py","1.1.4 for 2021-2022 @t1",,"def simpsons(f, a, b, n):
+    h = (b - a) / n
+    sum  = f(a) + f(b)
+    for i in range(1, n):
+        x = a + i * h
+        fx = f(x)
+        if i % 2 == 0:
+            sum = sum + 2 * fx
+        else:
+            sum = sum + 4 * fx
+    sum = sum * h / 3
+    return sum",,,,,
+"X-Action","EditorChange",,,"1666977943614","simpsons.py","1.1.4 for 2021-2022 @t1",,"EditorChange",,,,,

@@ -1,0 +1,73 @@
+"EventType","InsertText","DeleteText","SourceLocation","ClientTimestamp","CodeStateSection","ToolInstances","EditType","X-Metadata","CodeStateID","X-Compilable","EventID","SubjectID","AssignmentID"
+"Run.Program","3","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Numerical Integration/Methods/trapezoid.py""",,"PythonRunner",,"1666649808756","trapezoid.py",,,,,,
+"o","3",,"Traceback (most recent call last):
+",,"stderr","1666649810944",,,,,,,
+"o","3",,"  File ""C:\Users\jdsoc\Documents\math4610\Numerical Integration\Methods\trapezoid.py"", line 17, in <module>
+",,"stderr","1666649810944",,,,,,,
+"o","3",,"    print(""n = "", n, "" "", trapezoid(np.exp(- x * x), 0, np.pi / 4, 100))
+",,"stderr","1666649810961",,,,,,,
+"o","3",,"NameError: name 'x' is not defined
+",,"stderr","1666649810961",,,,,,,
+"o","3",,"
+Process finished with exit code 1
+",,"system","1666649810982",,,,,,,
+"Run.Program","4","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Numerical Integration/Methods/trapezoid.py""",,"PythonRunner",,"1666649852877","trapezoid.py",,,,,,
+"o","4",,"n =  2   0.6498759727000151
+",,"stdout","1666649853285",,,,,,,
+"o","4",,"n =  4   0.6498759727000151
+",,"stdout","1666649853285",,,,,,,
+"o","4",,"n =  8   0.6498759727000151
+",,"stdout","1666649853285",,,,,,,
+"o","4",,"n =  16   0.6498759727000151
+",,"stdout","1666649853286",,,,,,,
+"o","4",,"
+Process finished with exit code 0
+",,"system","1666649853308",,,,,,,
+"Run.Program","5","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Numerical Integration/Methods/trapezoid.py""",,"PythonRunner",,"1666649966631","trapezoid.py",,,,,,
+"o","5",,"n =  2   0.6388862805734845
+",,"stdout","1666649967129",,,,,,,
+"o","5",,"n =  4   0.6471507696813964
+",,"stdout","1666649967129",,,,,,,
+"o","5",,"n =  8   0.6491991053630145
+",,"stdout","1666649967129",,,,,,,
+"o","5",,"n =  16   0.6497100964398593
+",,"stdout","1666649967129",,,,,,,
+"o","5",,"
+Process finished with exit code 0
+",,"system","1666649967163",,,,,,,
+"Run.Program","6","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Numerical Integration/Methods/trapezoid.py""",,"PythonRunner",,"1666649972658","trapezoid.py",,,,,,
+"o","6",,"n =  2   0.6388862805734845
+",,"stdout","1666649973024",,,,,,,
+"o","6",,"n =  4   0.6471507696813964
+",,"stdout","1666649973024",,,,,,,
+"o","6",,"n =  8   0.6491991053630145
+",,"stdout","1666649973024",,,,,,,
+"o","6",,"n =  16   0.6497100964398593
+",,"stdout","1666649973024",,,,,,,
+"o","6",,"
+Process finished with exit code 0
+",,"system","1666649973050",,,,,,,
+"Run.Program","7","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Numerical Integration/Methods/simpsons.py""",,"PythonRunner",,"1666650573888","simpsons.py",,,,,,
+"o","7",,"n =  2   0.6503097748895396
+",,"stdout","1666650590458",,,,,,,
+"o","7",,"n =  4   0.6499055993840338
+",,"stdout","1666650590458",,,,,,,
+"o","7",,"n =  8   0.6498818839235537
+",,"stdout","1666650590458",,,,,,,
+"o","7",,"n =  16   0.6498804267988076
+",,"stdout","1666650590458",,,,,,,
+"o","7",,"
+Process finished with exit code 0
+",,"system","1666650590464",,,,,,,
+"Run.Program","3","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe ""C:/Users/jdsoc/Documents/math4610/Numerical Integration/Methods/simpsons.py""",,"PythonRunner",,"1666805693296","simpsons.py",,,,,,
+"o","3",,"n =  2   0.6503097748895396
+",,"stdout","1666805695707",,,,,,,
+"o","3",,"n =  4   0.6499055993840338
+",,"stdout","1666805695707",,,,,,,
+"o","3",,"n =  8   0.6498818839235537
+",,"stdout","1666805695707",,,,,,,
+"o","3",,"n =  16   0.6498804267988076
+",,"stdout","1666805695707",,,,,,,
+"o","3",,"
+Process finished with exit code 0
+",,"system","1666805695718",,,,,,,
