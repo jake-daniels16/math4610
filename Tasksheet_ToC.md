@@ -1,4 +1,4 @@
-## Software Manual: Table of Contents
+## Table of Contents
 
 |                    Tasksheet #                    |                    Software Links                   |
 | :-----------------------------------------------: | :-------------------------------------------------------: |
