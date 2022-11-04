@@ -14,8 +14,8 @@ variable and x dependent).
 
 **Usage/Example:** I used my code from which can be found in another page, titled Logistic Equation and wrote this code to test it:
 
-  tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0)
-  plt.plot(tApprox1, xApprox1, color='red')
+    tApprox1, xApprox1 = logisticEquation(0.2, 0.0005, 10.0)
+    plt.plot(tApprox1, xApprox1, color='red')
 
 Which outputted a graph that can be seen in my Homework Task 4
 
