@@ -20,12 +20,8 @@ variable and x dependent).
 Which outputted a graph that can be seen in my Homework Task 4
 
 **Implementation/Code:** The following is code for explicitEuler.py
-  
-  # Import necessary modules
-  import numpy as np
-  import matplotlib.pyplot as plt
 
-  def explicitEuler(f, x0, t0, T, n):
+    def explicitEuler(f, x0, t0, T, n):
 
       # Here is where we calculate the amount we change out t value for each approx
       h = (T - t0) / n
