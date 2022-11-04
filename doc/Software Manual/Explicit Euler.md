@@ -20,7 +20,8 @@ variable and x dependent).
 Which outputted a graph that can be seen in my Homework Task 4
 
 **Implementation/Code:** The following is code for explicitEuler.py
-
+  
+  # Import necessary modules
   import numpy as np
   import matplotlib.pyplot as plt
 
