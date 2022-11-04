@@ -11,11 +11,11 @@ will be where f(x0)=0 which will be a root.
 Input: The user will need to input a function, f They will also need to give an initial point x0, as well as a max number of 
 iterations and a tolerance. As well as choose whether or not they want a table.
 
-Output: The function will return a single approximation of a root for the given function.
+Output: The function will return two approximations of a root for the given function, one from g1(x) and another from g2(x).
 
 Usage/Example:
 
-We will answer the following prompts as follows for the example of f (x) = 10.14 e^{x^2} cos(pi/x):
+We will answer the following prompts as follows for the example of f (x) = x*np.exp(-x):
 
   Enter function you want to find the roots for (in terms of x): x*np.exp(-x)
   Input initial guess for root here: 2
