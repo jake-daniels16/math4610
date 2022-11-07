@@ -7,6 +7,10 @@ from Methods.L1Norm import L1Norm
 from Methods.L2Norm import L2Norm
 from Methods.maxNorm import maxNorm
 from Methods.tripleProduct import tripleProduct
+from Methods.matAdd import matAdd
+from Methods.matSub import matSub
+from Methods.matProd import matProd
+from Methods.matVecProd import matVecProd
 
 def main():
     a = [1, 2, 3]
@@ -31,7 +35,20 @@ def main():
     print("v8 = ", v8)
     print("v9 = ", v9)
 
-main()
+def matMain():
+    A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    B = [[3, 2, 1], [6, 5, 4], [9, 8, 7]]
+    a = [1, 2, 3]
+    A1 = matAdd(A, B)
+    A2 = matSub(A, B)
+    A3 = matVecProd(A, a)
+    A4 = matProd(A, B)
+    print("A1 = ", A1)
+    print("A2 = ", A2)
+    print("A3 = ", A3)
+    print("A4 = ", A4)
+
+matMain()
 
 
 
