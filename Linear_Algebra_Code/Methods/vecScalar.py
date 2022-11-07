@@ -1,10 +1,8 @@
 # Jake Daniels
 # Math 4610
 
-import numpy as np
-
 def vecScalar(a, b):
-    c = np.zeros(len(a))
+    c = []
     for i in range(len(a)):
-        c[i] = a[i] * b
+        c.append(a[i] * b)
     return c
