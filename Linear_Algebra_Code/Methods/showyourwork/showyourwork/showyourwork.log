@@ -1,0 +1,35 @@
+"EventType","InsertText","DeleteText","SourceLocation","ClientTimestamp","CodeStateSection","ToolInstances","EditType","X-Metadata","CodeStateID","X-Compilable","EventID","SubjectID","AssignmentID"
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846606465","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846606692","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1667846610400","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667846610404","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667846610404","vecScalar.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667846610438","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667846610811","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","A","","18","1667846610812","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","A",,"19","1667846610813","vecScalar.py","1.1.4 for 2021-2022 @t1",,"A",,,,,
+"File.Edit","","A","18","1667846611431","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","18","1667846611676","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"19","1667846611679","vecScalar.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","19","1667846611690","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","19","1667846612770","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","th 4610","","19","1667846612771","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667846613019","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667846613171","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","28","1667846614171","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667846614365","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1667846614527","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def vecScalar(a, b):","","48","1667846615702","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] * b
+    return c
+","","69","1667846622725","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,

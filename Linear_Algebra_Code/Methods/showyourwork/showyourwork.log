@@ -1,0 +1,2497 @@
+"EventType","InsertText","DeleteText","SourceLocation","ClientTimestamp","CodeStateSection","ToolInstances","EditType","X-Metadata","CodeStateID","X-Compilable","EventID","SubjectID","AssignmentID"
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846497262","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846497954","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","S1400 - 001
+# Assignment ??","18","1667846503273","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","C","17","1667846503550","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667846503881","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667846503951","vecAdd.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit","a","","18","1667846504107","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"19","1667846504112","vecAdd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","t","","19","1667846504241","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"20","1667846504241","vecAdd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","20","1667846504406","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"21","1667846504408","vecAdd.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","21","1667846505266","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"22","1667846505293","vecAdd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","4","","22","1667846505389","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","4",,"23","1667846505391","vecAdd.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"File.Edit","6","","23","1667846505471","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","6",,"24","1667846505475","vecAdd.py","1.1.4 for 2021-2022 @t1",,"6",,,,,
+"File.Edit"," ","","24","1667846505496","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","24","1667846507541","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","10","","24","1667846507542","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667846508246","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667846508312","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","28","1667846509431","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667846509849","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1667846510254","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def vecAdd(a, b):","","48","1667846514130","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","66","1667846515342","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","66","1667846515351","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","""""""Adds two vectors together""""""
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] + b[i]
+    return c","","70","1667846525731","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," """"""Adds two vectors together""""""","69","1667846529717","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","68","1667846529941","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","  ","66","1667846529950","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","66","1667846530190","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846558881","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846559083","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","S1400 - 001
+# Assignment ??","18","1667846562803","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","C","17","1667846562935","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667846563066","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667846563073","vecSub.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667846563087","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667846563245","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","18","1667846563246","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"19","1667846563247","vecSub.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","t","","19","1667846563375","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"20","1667846563384","vecSub.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","20","1667846563573","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"21","1667846563577","vecSub.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","21","1667846563945","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"22","1667846563946","vecSub.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","4","","22","1667846564308","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","4",,"23","1667846564311","vecSub.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"File.Edit","6","","23","1667846564444","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","6",,"24","1667846564445","vecSub.py","1.1.4 for 2021-2022 @t1",,"6",,,,,
+"File.Edit"," ","","24","1667846564471","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","24","1667846565075","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","10","","24","1667846565076","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667846565355","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667846565580","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","28","1667846566546","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667846566780","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1667846566939","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def vecSub(a, b):","","48","1667846568530","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] - b[i]
+    return c
+","","66","1667846571102","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846665429","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846665643","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1667846669635","vecNorm1.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667846669644","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667846669648","vecNorm1.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667846669673","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667846670420","vecNorm1.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","ath 4610","","18","1667846670421","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667846670650","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667846670787","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","28","1667846671736","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667846671879","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1667846672040","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def vecNorm1(a):","","48","1667846673167","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum
+","","65","1667846677109","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Copy","# Jake Daniels
+# Math 4610
+
+import numpy as np
+
+def vecNorm1(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum",,"0","1667846756456","vecNorm1.py","1.1.4 for 2021-2022 @t1",,"# Jake Daniels
+# Math 4610
+
+import numpy as np
+
+def vecNorm1(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum",,,,,
+"File.Edit","","# Jake Daniels
+# Math 4610
+
+import numpy as np
+
+def vecNorm1(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum","0","1667846756555","vecNorm1.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846777530","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846777702","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," Jake Daniels
+# CS1400 - 001
+# Assignment ??","1","1667846781697","L1Norm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","#","0","1667846781789","L1Norm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"p","# Jake Daniels
+# Math 4610
+
+import numpy as np
+
+def vecNorm1(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum",,"0","1667846782502","L1Norm.py","1.1.4 for 2021-2022 @t1",,"# Jake Daniels
+# Math 4610
+
+import numpy as np
+
+def vecNorm1(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum",,,,,
+"File.Edit","# Jake Daniels
+# Math 4610
+
+import numpy as np
+
+def vecNorm1(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum","","0","1667846782532","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","vecNorm","52","1667846785826","L1Norm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","L","","52","1667846785835","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","L",,"53","1667846785836","L1Norm.py","1.1.4 for 2021-2022 @t1",,"L",,,,,
+"File.Edit"," ","","53","1667846785945","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","L ","52","1667846786722","L1Norm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","vecNorm","","52","1667846786723","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","vecNorm1","52","1667846786926","L1Norm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","L1N","","52","1667846786927","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","N",,"55","1667846786930","L1Norm.py","1.1.4 for 2021-2022 @t1",,"N",,,,,
+"File.Edit"," ","","55","1667846786948","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","55","1667846787125","L1Norm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","55","1667846787126","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"56","1667846787126","L1Norm.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","r","","56","1667846787236","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"57","1667846787239","L1Norm.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","m","","57","1667846787313","L1Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"58","1667846787314","L1Norm.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846795324","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846795493","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1667846799177","L2Norm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667846799185","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667846799185","L2Norm.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667846799221","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667846799459","L2Norm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","18","1667846799460","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"19","1667846799462","L2Norm.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","t","","19","1667846799577","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"20","1667846799579","L2Norm.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","20","1667846799664","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"21","1667846799667","L2Norm.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," 4610","","21","1667846800687","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667846800930","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667846801075","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","28","1667846801873","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667846802096","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1667846802227","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def L2Norm(a):","","48","1667846803107","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    sum = 0
+    for i in range(len(a)):
+        sum += a[i]**2
+    return np.sqrt(sum)
+","","63","1667846806455","L2Norm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846853833","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846854038","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1667846857707","maxNorm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667846857717","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667846857717","maxNorm.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667846857749","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667846858031","maxNorm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","18","1667846858032","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"19","1667846858038","maxNorm.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","t","","19","1667846858160","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"20","1667846858162","maxNorm.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","20","1667846858278","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"21","1667846858292","maxNorm.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","21","1667846858548","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"22","1667846858549","maxNorm.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","4","","22","1667846858934","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","4",,"23","1667846858935","maxNorm.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"File.Edit","6","","23","1667846859071","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","6",,"24","1667846859071","maxNorm.py","1.1.4 for 2021-2022 @t1",,"6",,,,,
+"File.Edit","1","","24","1667846859255","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"25","1667846859255","maxNorm.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit","0","","25","1667846859951","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"26","1667846859954","maxNorm.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","
+","","27","1667846860708","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667846860887","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","28","1667846861577","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667846861740","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1667846861882","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def maxNorm(a):","","48","1667846862865","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    max = 0
+    for i in range(len(a)):
+        if abs(a[i]) > max:
+            max = abs(a[i])
+    return max
+","","64","1667846868813","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","175","1667846871708","maxNorm.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","    ","175","1667846871711","maxNorm.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846922595","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846922787","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","46","1667846926175","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667846926284","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","47","1667846927045","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","66","1667846927221","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","67","1667846927405","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def dotProduct(a, b):","","67","1667846928394","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","89","1667846928582","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","89","1667846928585","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    sum = 0
+    for i in range(len(a)):
+        sum += a[i] * b[i]
+    return sum","","93","1667846933893","dotProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667846942283","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667846942477","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","46","1667846946036","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667846946158","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","47","1667846946363","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","50","1667846947027","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","47","1667846947035","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","import numpy as np","","47","1667846947546","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","66","1667846947820","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","67","1667846948084","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def crossProduct(a, b):","","67","1667846949212","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] * b[i]
+    return c
+","","91","1667846955573","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","for i in range(len(a)):
+        c[i] = a[i] * b[i]","214","1667847144362","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","214","1667847146048","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"215","1667847146052","crossProduct.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","215","1667847146097","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","215","1667847146306","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","215","1667847146307","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"216","1667847146319","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","216","1667847146335","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","216","1667847146436","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","216","1667847146437","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"217","1667847146444","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","217","1667847146457","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","217","1667847146570","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","217","1667847146571","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"218","1667847146576","crossProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","218","1667847146581","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","218","1667847146626","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","218","1667847146627","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"219","1667847146627","crossProduct.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","219","1667847146631","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","219","1667847146749","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","219","1667847146750","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"220","1667847146751","crossProduct.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","220","1667847146756","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","220","1667847146938","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","220","1667847146939","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"221","1667847146938","crossProduct.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","221","1667847146962","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","221","1667847150438","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","c","","221","1667847150439","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"222","1667847150508","crossProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","222","1667847150519","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","c ","221","1667847155255","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",".","220","1667847155435","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","d","219","1667847155602","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","218","1667847155755","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","217","1667847156001","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","216","1667847156034","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","215","1667847156169","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","214","1667847156294","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","c","","214","1667847156453","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"215","1667847156455","crossProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","215","1667847156482","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","c ","214","1667847157655","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","c","","214","1667847159708","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"215","1667847159710","crossProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit","1","","215","1667847160011","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"216","1667847160057","crossProduct.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit","2","","216","1667847160060","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","2",,"217","1667847160066","crossProduct.py","1.1.4 for 2021-2022 @t1",,"2",,,,,
+"File.Edit"," ","","217","1667847160201","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"218","1667847160203","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","217","1667847160606","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","2","216","1667847160652","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","216","1667847160843","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"217","1667847160843","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","217","1667847161406","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"218","1667847161406","crossProduct.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","218","1667847161537","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"219","1667847161538","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","a[1] * b[2] - a[2] * b[1]","","219","1667847176117","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","245","1667847177286","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","c","","249","1667847177701","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"250","1667847177701","crossProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","250","1667847177708","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","250","1667847177942","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","2","","250","1667847177943","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","2",,"251","1667847177953","crossProduct.py","1.1.4 for 2021-2022 @t1",,"2",,,,,
+"File.Edit"," ","","251","1667847178302","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"252","1667847178305","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","= a[2] * b[0] - a[0] * b[2]","","252","1667847180136","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","280","1667847180782","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","c","","284","1667847181544","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"285","1667847181546","crossProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit","3","","285","1667847181834","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","3",,"286","1667847181842","crossProduct.py","1.1.4 for 2021-2022 @t1",,"3",,,,,
+"File.Edit"," = a[0] * b[1] - a[1] * b[0]","","286","1667847183742","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","315","1667847186856","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","a","","319","1667847187398","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"320","1667847187399","crossProduct.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","320","1667847187408","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","320","1667847187566","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","320","1667847187567","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"321","1667847187571","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit"," ","","321","1667847187582","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","321","1667847187675","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","321","1667847187676","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"322","1667847187684","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","","p","321","1667847188320","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","320","1667847188439","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","320","1667847188466","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","a ","319","1667847188580","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","c","","319","1667847188757","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"320","1667847188759","crossProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","320","1667847188807","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","320","1667847188980","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","320","1667847188981","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"321","1667847188980","crossProduct.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","321","1667847188988","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","321","1667847189574","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","321","1667847189575","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"322","1667847189615","crossProduct.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","322","1667847189760","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"323","1667847189776","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","323","1667847189906","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"324","1667847189922","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","324","1667847190060","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"325","1667847190062","crossProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","325","1667847190118","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"326","1667847190126","crossProduct.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","326","1667847190258","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"327","1667847190260","crossProduct.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(c1)","","327","1667847191663","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","332","1667847192060","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","c","","336","1667847192578","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"337","1667847192579","crossProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit",".","","337","1667847192737","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"338","1667847192737","crossProduct.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit","a","","338","1667847193009","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"339","1667847193012","crossProduct.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","339","1667847193115","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"340","1667847193120","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","340","1667847193244","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"341","1667847193244","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","end(c2)","","341","1667847193811","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","349","1667847194231","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","c.append(c3)","","353","1667847195626","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","(","361","1667847201355","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","[","","361","1667847201464","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"362","1667847201465","crossProduct.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","",")","364","1667847202603","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","]","","364","1667847202659","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","]",,"365","1667847202661","crossProduct.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","","]","364","1667847204643","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","[","361","1667847206200","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","{","","361","1667847206683","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","{",,"362","1667847206685","crossProduct.py","1.1.4 for 2021-2022 @t1",,"{",,,,,
+"File.Edit","","{","361","1667847207984","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","361","1667847208503","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"362","1667847208504","crossProduct.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit",")","","364","1667847210815","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"365","1667847210822","crossProduct.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit","[","","193","1667847231782","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","210","1667847231782","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"194","1667847231786","crossProduct.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","","np.zeros(len(a))","194","1667847231820","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Keystroke","]",,"195","1667847231822","crossProduct.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","","len(b)","108","1667847236820","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","3","","108","1667847236821","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","3",,"109","1667847236822","crossProduct.py","1.1.4 for 2021-2022 @t1",,"3",,,,,
+"File.Edit"," ","","109","1667847237117","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"110","1667847237118","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","o","","110","1667847237350","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"111","1667847237352","crossProduct.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit"," ","","111","1667847237372","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","111","1667847237451","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","111","1667847237452","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"112","1667847237460","crossProduct.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","112","1667847237518","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"113","1667847237519","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","l","","113","1667847237819","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"114","1667847237822","crossProduct.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","","or l","110","1667847237838","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","or l ","","110","1667847237838","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","114","1667847238297","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","114","1667847238298","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"115","1667847238332","crossProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","115","1667847238404","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"116","1667847238414","crossProduct.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","(","","116","1667847239567","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","117","1667847239572","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"117","1667847239574","crossProduct.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","b","","117","1667847239952","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"118","1667847239959","crossProduct.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit"," ","","118","1667847239969","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"119","1667847240328","crossProduct.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit",""," ","118","1667847240625","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","119","1667847240626","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"120","1667847240636","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","!= 3","","120","1667847241210","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","be the same length","154","1667847247560","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","h","","154","1667847247562","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"155","1667847247563","crossProduct.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","118","1667847247602","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," != 3","120","1667847247603","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","151","1667847247602","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","118","1667847247602","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," != 3","","119","1667847247603","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","155","1667847247630","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","155","1667847247631","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"156","1667847247631","crossProduct.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","v","","156","1667847247718","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","v",,"157","1667847247720","crossProduct.py","1.1.4 for 2021-2022 @t1",,"v",,,,,
+"File.Edit","e","","157","1667847247878","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"158","1667847247878","crossProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","158","1667847247966","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"159","1667847247966","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","3","","159","1667847248214","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","3",,"160","1667847248216","crossProduct.py","1.1.4 for 2021-2022 @t1",,"3",,,,,
+"File.Edit"," ","","160","1667847248268","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"161","1667847248360","crossProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","c","","161","1667847248531","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"162","1667847248540","crossProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","162","1667847248591","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","162","1667847248647","crossProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","162","1667847248648","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"163","1667847248647","crossProduct.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","m","","163","1667847248731","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"164","1667847248734","crossProduct.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","p","","164","1667847248845","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"165","1667847248846","crossProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","o","","165","1667847249124","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"166","1667847249126","crossProduct.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","n","","166","1667847249390","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"167","1667847249390","crossProduct.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","e","","167","1667847249534","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"168","1667847249538","crossProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","168","1667847249617","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"169","1667847249624","crossProduct.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","t","","169","1667847249734","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"170","1667847249734","crossProduct.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","s","","170","1667847249943","crossProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"171","1667847249948","crossProduct.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"X-Copy","import numpy as np
+
+def vecAdd(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] + b[i]
+    return c",,"28","1667847548762","vecAdd.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def vecAdd(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] + b[i]
+    return c",,,,,
+"X-Copy","import numpy as np
+
+def vecSub(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] - b[i]
+    return c",,"28","1667847920139","vecSub.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def vecSub(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] - b[i]
+    return c",,,,,
+"X-Copy","import numpy as np
+
+def vecScalar(a, b):
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] * b
+    return c",,"28","1667847971178","vecScalar.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def vecScalar(a, b):
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] * b
+    return c",,,,,
+"X-Copy","def L1Norm(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum",,"48","1667847988174","L1Norm.py","1.1.4 for 2021-2022 @t1",,"def L1Norm(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += abs(a[i])
+    return sum",,,,,
+"X-Copy","import numpy as np
+
+def L2Norm(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += a[i]**2
+    return np.sqrt(sum)",,"28","1667848022868","L2Norm.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def L2Norm(a):
+    sum = 0
+    for i in range(len(a)):
+        sum += a[i]**2
+    return np.sqrt(sum)",,,,,
+"X-Copy","def maxNorm(a):
+    max = 0
+    for i in range(len(a)):
+        if abs(a[i]) > max:
+            max = abs(a[i])
+    return max",,"48","1667848069330","maxNorm.py","1.1.4 for 2021-2022 @t1",,"def maxNorm(a):
+    max = 0
+    for i in range(len(a)):
+        if abs(a[i]) > max:
+            max = abs(a[i])
+    return max",,,,,
+"X-Copy","def dotProduct(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    sum = 0
+    for i in range(len(a)):
+        sum += a[i] * b[i]
+    return sum",,"67","1667848097993","dotProduct.py","1.1.4 for 2021-2022 @t1",,"def dotProduct(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    sum = 0
+    for i in range(len(a)):
+        sum += a[i] * b[i]
+    return sum",,,,,
+"X-Copy","def crossProduct(a, b):
+    if len(a) != 3 or len(b) != 3:
+        print(""Vectors must have 3 components"")
+        return None
+    c = []
+    c1 = a[1] * b[2] - a[2] * b[1]
+    c2 = a[2] * b[0] - a[0] * b[2]
+    c3 = a[0] * b[1] - a[1] * b[0]
+    c.append(c1)
+    c.append(c2)
+    c.append(c3)
+    return c",,"67","1667848122003","crossProduct.py","1.1.4 for 2021-2022 @t1",,"def crossProduct(a, b):
+    if len(a) != 3 or len(b) != 3:
+        print(""Vectors must have 3 components"")
+        return None
+    c = []
+    c1 = a[1] * b[2] - a[2] * b[1]
+    c2 = a[2] * b[0] - a[0] * b[2]
+    c3 = a[0] * b[1] - a[1] * b[0]
+    c.append(c1)
+    c.append(c2)
+    c.append(c3)
+    return c",,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667848307006","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667848307212","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","46","1667848310202","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667848310350","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","47","1667848311354","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","66","1667848311515","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","67","1667848311688","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def tripleProduct(a, b, c):","","67","1667848312500","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","67","1667848324933","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","i","","66","1667848327085","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"67","1667848327088","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","67","1667848327110","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","67","1667848327268","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","67","1667848327269","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"68","1667848327275","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","p","","68","1667848327402","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"69","1667848327430","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","","p","68","1667848328182","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","m","67","1667848328300","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","66","1667848328452","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","66","1667848328552","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"67","1667848328555","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","r","","67","1667848328695","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"68","1667848328695","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","o","","68","1667848328755","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"69","1667848328755","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","m","","69","1667848328836","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"70","1667848328837","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","70","1667848328993","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"71","1667848328994","tripleProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","M","","71","1667848329154","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"72","1667848329159","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit","e","","72","1667848329380","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"73","1667848329381","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","t","","73","1667848329481","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"74","1667848329481","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","74","1667848329587","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"75","1667848329589","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","o","","75","1667848329697","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"76","1667848329697","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","d","","76","1667848329787","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"77","1667848329792","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","s","","77","1667848329880","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"78","1667848329880","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit",".","","78","1667848329994","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"79","1667848329994","tripleProduct.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit","c","","79","1667848331364","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"80","1667848331364","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","80","1667848331394","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","c ","79","1667848331955","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","79","1667848332127","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"80","1667848332127","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","80","1667848332162","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","80","1667848332230","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","80","1667848332231","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"81","1667848332238","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","tProduct","","81","1667848333071","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," import ","","89","1667848333080","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","dotProduct","","97","1667848334009","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","109","1667848334248","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","from Methods.crossProduct import crossProduct","","108","1667848335493","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","183","1667848337979","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","183","1667848337979","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","
+","187","1667848341495","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","    ","183","1667848343376","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","return dotProduct(a, crossProduct(b, c))","","183","1667848343377","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","183","1667848346446","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Copy","from Methods.dotProduct import dotProduct
+from Methods.crossProduct import crossProduct
+
+def tripleProduct(a, b, c):
+    return dotProduct(a, crossProduct(b, c))",,"66","1667848405539","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"from Methods.dotProduct import dotProduct
+from Methods.crossProduct import crossProduct
+
+def tripleProduct(a, b, c):
+    return dotProduct(a, crossProduct(b, c))",,,,,
+"File.Edit","
+","","183","1667848436598","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","183","1667848436606","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","i","","187","1667848437411","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"188","1667848437411","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","188","1667848437416","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","188","1667848437488","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","188","1667848437489","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"189","1667848437488","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","189","1667848437499","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","189","1667848437744","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","189","1667848437757","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"190","1667848437757","tripleProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","l","","190","1667848438486","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"191","1667848438487","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","191","1667848438498","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","191","1667848438905","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","191","1667848438906","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"192","1667848438914","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","192","1667848438941","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"193","1667848438952","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","(","","193","1667848439630","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","194","1667848439637","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"194","1667848439637","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","a","","194","1667848439830","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"195","1667848439832","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","195","1667848439854","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","195","1667848440315","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","195","1667848440329","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"196","1667848440337","tripleProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","195","1667848441086","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","196","1667848441968","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"197","1667848441976","tripleProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","197","1667848443473","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"198","1667848443476","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit","!","","198","1667848444945","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","!",,"199","1667848444953","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"!",,,,,
+"File.Edit"," ","","199","1667848445662","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"200","1667848445666","tripleProduct.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","3 or len(b) =! 3 or len(c) =! 3:","","200","1667848447344","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","233","1667848447811","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","237","1667848447827","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","return ""Error: Input vectors must be 3D""","","241","1667848450877","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","!","198","1667848477510","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","=","197","1667848477638","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","!","","197","1667848478705","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","!",,"198","1667848478708","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"!",,,,,
+"File.Edit","=","","198","1667848479086","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"199","1667848479088","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit","","!","213","1667848481169","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","!","","212","1667848481849","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","!",,"213","1667848481849","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"!",,,,,
+"File.Edit","!","","227","1667848485471","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","!",,"228","1667848485471","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"!",,,,,
+"File.Edit","","!","229","1667848486138","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Copy","def tripleProduct(a, b, c):
+    if len(a) != 3 or len(b) != 3 or len(c) != 3:
+        return ""Error: Input vectors must be 3D""
+    return dotProduct(a, crossProduct(b, c))",,"155","1667848489961","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"def tripleProduct(a, b, c):
+    if len(a) != 3 or len(b) != 3 or len(c) != 3:
+        return ""Error: Input vectors must be 3D""
+    return dotProduct(a, crossProduct(b, c))",,,,,
+"File.Edit","    
+","","282","1667848517012","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","287","1667848519426","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","e","","286","1667848521120","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"287","1667848521124","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","287","1667848521136","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","287","1667848521332","tripleProduct.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","l","","287","1667848521333","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"288","1667848521340","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","s","","288","1667848521437","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"289","1667848521445","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","e","","289","1667848521492","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"290","1667848521502","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit",":","","290","1667848521782","tripleProduct.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"291","1667848521783","tripleProduct.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"X-Copy","else:
+        return dotProduct(a, crossProduct(b, c))",,"286","1667848525241","tripleProduct.py","1.1.4 for 2021-2022 @t1",,"else:
+        return dotProduct(a, crossProduct(b, c))",,,,,
+"File.Edit","[","","168","1667848701851","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","185","1667848701851","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"169","1667848701864","vecAdd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","","np.zeros(len(a))","169","1667848701946","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Keystroke","]",,"170","1667848701947","vecAdd.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","","=","212","1667848707483","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","211","1667848707618","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","]","210","1667848707751","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","209","1667848707873","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","[","208","1667848707988","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","208","1667848708419","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"209","1667848708420","vecAdd.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","209","1667848708437","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","209","1667848708693","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","209","1667848708694","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"210","1667848708703","vecAdd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","210","1667848708744","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"211","1667848708751","vecAdd.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","211","1667848708876","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"212","1667848708881","vecAdd.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","212","1667848709015","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"213","1667848709020","vecAdd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","213","1667848709104","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"214","1667848709109","vecAdd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","214","1667848709192","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"215","1667848709202","vecAdd.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","215","1667848710024","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","216","1667848710026","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"216","1667848710028","vecAdd.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","",")","216","1667848711114","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","216","1667848712310","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",")","","227","1667848714442","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"228","1667848714442","vecAdd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Copy","def vecAdd(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] + b[i])
+    return c",,"48","1667848735907","vecAdd.py","1.1.4 for 2021-2022 @t1",,"def vecAdd(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] + b[i])
+    return c",,,,,
+"File.Edit","","def vecAdd(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] + b[i])
+    return c","48","1667848757001","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","48","1667848757492","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","48","1667848758439","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def vecAdd(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] + b[i])
+    return c","","48","1667848758707","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","
+","47","1667848761828","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","46","1667848762334","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","45","1667848762364","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","44","1667848762396","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","43","1667848762473","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","s","42","1667848762494","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","41","1667848762529","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","40","1667848762561","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","y","39","1667848762593","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","38","1667848762624","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","m","37","1667848762657","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","u","36","1667848762690","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","35","1667848762723","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","34","1667848762762","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","33","1667848762789","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","32","1667848762820","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","o","31","1667848762876","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","30","1667848762902","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","m","29","1667848762920","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","28","1667848762956","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","27","1667848762989","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","26","1667848763042","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","0","25","1667848763066","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","1","24","1667848763090","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","6","23","1667848763114","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","4","22","1667848763143","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","21","1667848763177","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","h","20","1667848763210","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","19","1667848763248","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","18","1667848763275","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","M","17","1667848763311","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","16","1667848763342","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","#","15","1667848763378","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","14","1667848763411","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","s","13","1667848763454","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","l","12","1667848763489","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","11","1667848763506","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","10","1667848763536","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","9","1667848763567","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","8","1667848763598","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","D","7","1667848763632","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","6","1667848763664","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","5","1667848763699","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","k","4","1667848763729","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","3","1667848763764","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","J","2","1667848763796","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","1","1667848763829","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","#","0","1667848763861","vecAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","#","","0","1667848768615","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","1","1667848768618","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","J","","2","1667848768620","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","a","","3","1667848768621","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","k","","4","1667848768625","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","e","","5","1667848768626","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","6","1667848768629","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","D","","7","1667848768631","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","a","","8","1667848768633","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","n","","9","1667848768638","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","i","","10","1667848768640","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","e","","11","1667848768645","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","l","","12","1667848768646","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","s","","13","1667848768649","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","14","1667848769353","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","#","","15","1667848769925","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","16","1667848769929","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","M","","17","1667848769933","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","a","","18","1667848769936","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","t","","19","1667848769939","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","h","","20","1667848769942","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","21","1667848769948","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","4","","22","1667848769950","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","6","","23","1667848769953","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","1","","24","1667848769955","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","0","","25","1667848769958","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","26","1667848770313","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667848772008","vecAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","[","","168","1667848780007","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","185","1667848780007","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"169","1667848780012","vecSub.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","","np.zeros(len(a))","169","1667848780050","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Keystroke","]",,"170","1667848780054","vecSub.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","","[i] = ","208","1667848784105","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","208","1667848784108","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"209","1667848784109","vecSub.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","209","1667848784122","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","209","1667848784414","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","209","1667848784415","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"210","1667848784436","vecSub.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","210","1667848784571","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"211","1667848784584","vecSub.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","211","1667848784707","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"212","1667848784711","vecSub.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","212","1667848784859","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"213","1667848784864","vecSub.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","213","1667848784908","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"214","1667848784913","vecSub.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","214","1667848784973","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"215","1667848784978","vecSub.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","215","1667848785535","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"216","1667848785539","vecSub.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit",")","","227","1667848787586","vecSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"228","1667848787587","vecSub.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Copy","import numpy as np
+
+def vecScalar(a, b):
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] * b
+    return c",,"28","1667848793592","vecScalar.py","1.1.4 for 2021-2022 @t1",,"import numpy as np
+
+def vecScalar(a, b):
+    c = np.zeros(len(a))
+    for i in range(len(a)):
+        c[i] = a[i] * b
+    return c",,,,,
+"File.Edit","# Jake Daniels
+# Math 4610
+
+import numpy as np
+
+def vecScalar(a, b):
+    c = [np.zeros(len(a))]
+    for i in range(len(a)):
+        c[i] = a[i] * b
+    return c
+","","0","1667848796992","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"78","1667848797007","vecScalar.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","","np.zeros(len(a))","78","1667848797066","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Keystroke","]",,"79","1667848797068","vecScalar.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","","import numpy as np
+","28","1667848800113","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","28","1667848800603","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","import numpy as np
+","28","1667848804229","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","28","1667848804487","vecSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","= a","101","1667848812420","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","100","1667848812572","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","]","99","1667848812727","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","98","1667848812855","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","[","98","1667848813203","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","97","1667848813515","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"98","1667848813516","vecScalar.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","98","1667848813528","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","98","1667848813774","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","98","1667848813775","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"99","1667848813787","vecScalar.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","99","1667848813884","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"100","1667848813901","vecScalar.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","100","1667848814017","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"101","1667848814026","vecScalar.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","101","1667848814085","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"102","1667848814093","vecScalar.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","102","1667848814206","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"103","1667848814215","vecScalar.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","103","1667848814265","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"104","1667848814271","vecScalar.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","104","1667848815033","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"105","1667848815033","vecScalar.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit",")","","112","1667848817295","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"113","1667848817299","vecScalar.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit","a","","105","1667848819470","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"106","1667848819470","vecScalar.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","106","1667848819486","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Copy","def vecScalar(a, b):
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] * b)
+    return c",,"28","1667848843101","vecScalar.py","1.1.4 for 2021-2022 @t1",,"def vecScalar(a, b):
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] * b)
+    return c",,,,,
+"X-Copy","def vecSub(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] - b[i])
+    return c",,"28","1667848855048","vecSub.py","1.1.4 for 2021-2022 @t1",,"def vecSub(a, b):
+    if len(a) != len(b):
+        print(""Vectors must be the same length"")
+        return None
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] - b[i])
+    return c",,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667849520766","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667849520914","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1667849525179","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","17","1667849525188","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"18","1667849525190","matAdd.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","18","1667849525212","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","m ","17","1667849525595","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667849525761","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667849525762","matAdd.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667849525770","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667849526985","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","18","1667849526986","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"19","1667849526985","matAdd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","t","","19","1667849527212","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"20","1667849527215","matAdd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","20","1667849527351","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"21","1667849527351","matAdd.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," ","","21","1667849528610","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"22","1667849528610","matAdd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","r","","22","1667849528936","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"23","1667849528940","matAdd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","23","1667849528958","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","r ","22","1667849529613","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","4","","22","1667849529809","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","4",,"23","1667849529810","matAdd.py","1.1.4 for 2021-2022 @t1",,"4",,,,,
+"File.Edit"," ","","23","1667849529820","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","23","1667849530068","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","6","","23","1667849530069","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","6",,"24","1667849530068","matAdd.py","1.1.4 for 2021-2022 @t1",,"6",,,,,
+"File.Edit","10","","24","1667849530871","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667849531210","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667849531353","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","import numpy as np","","28","1667849532915","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667849533092","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","48","1667849533261","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def matAdd(A, B):","","48","1667849534065","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","66","1667849535315","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","66","1667849535321","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","C","","70","1667849547665","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","C",,"71","1667849547668","matAdd.py","1.1.4 for 2021-2022 @t1",,"C",,,,,
+"File.Edit"," ","","71","1667849549945","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"72","1667849549950","matAdd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","72","1667849553232","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"73","1667849553237","matAdd.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","73","1667849554491","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"74","1667849554491","matAdd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","[","","74","1667849555977","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","75","1667849555977","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"75","1667849555982","matAdd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"X-Keystroke","]",,"76","1667849556236","matAdd.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","    
+","","77","1667849557283","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","for i in range(len(A)):","","81","1667849558787","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","105","1667849559539","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","109","1667849559544","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] + B[i][j])","","113","1667849563907","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","            
+","","204","1667849570655","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","215","1667849571276","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","212","1667849571279","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","211","1667849571529","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","208","1667849571531","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","return C","","208","1667849572791","matAdd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Copy","def matAdd(A, B):
+    C = []
+    for i in range(len(A)):
+        C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] + B[i][j])
+    return C",,"48","1667849578109","matAdd.py","1.1.4 for 2021-2022 @t1",,"def matAdd(A, B):
+    C = []
+    for i in range(len(A)):
+        C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] + B[i][j])
+    return C",,,,,
+"File.Edit","","
+","47","1667849579929","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","45","1667849580433","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","44","1667849580465","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","43","1667849580498","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","s","42","1667849580552","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","41","1667849580565","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","40","1667849580596","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","y","39","1667849580626","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","38","1667849580659","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","m","37","1667849580692","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","u","36","1667849580727","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","35","1667849580756","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","34","1667849580791","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","33","1667849580823","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","32","1667849580854","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","o","31","1667849581013","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","30","1667849581184","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","m","29","1667849581340","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","28","1667849581497","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","28","1667849581798","matAdd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667849609526","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667849609685","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","S1400 - 001
+# Assignment ??","18","1667849613827","matSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","C","17","1667849613954","matSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667849614131","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667849614131","matSub.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667849614146","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667849615075","matSub.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","ath 4610","","18","1667849615076","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667849615241","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667849615394","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def matSub(A, B):","","28","1667849616127","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    C = []
+    for i in range(len(A)):
+        C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] - B[i][j])
+    return C
+","","46","1667849618804","matSub.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Copy","def matSub(A, B):
+    C = []
+    for i in range(len(A)):
+        C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] - B[i][j])
+    return C",,"28","1667849622817","matSub.py","1.1.4 for 2021-2022 @t1",,"def matSub(A, B):
+    C = []
+    for i in range(len(A)):
+        C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] - B[i][j])
+    return C",,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667849649285","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667849649464","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1667849652791","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667849652793","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667849652795","matProd.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667849652825","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667849653000","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","18","1667849653001","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"19","1667849653000","matProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","t","","19","1667849653096","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"20","1667849653096","matProd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","20","1667849653196","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"21","1667849653200","matProd.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit"," 4610","","21","1667849653943","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667849654068","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667849654211","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","def matProd(A, B):","","28","1667849655012","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","47","1667849655134","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","47","1667849655137","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","C = []
+    for i in range(len(A)):
+        C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] * B[i][j])
+    return C","","51","1667849675226","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","for i in range(len(A)):
+        C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] * B[i][j])","62","1667849727128","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","62","1667849784809","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"63","1667849784811","matProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","o","","63","1667849784900","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"64","1667849784900","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","r","","64","1667849785012","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"65","1667849785012","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","65","1667849785137","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"66","1667849785137","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","66","1667849785278","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"67","1667849785278","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","67","1667849785411","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"68","1667849785415","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","68","1667849785566","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"69","1667849785568","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","n","","69","1667849785675","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"70","1667849785675","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","70","1667849785825","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"71","1667849785826","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","r","","71","1667849785928","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"72","1667849785930","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","a","","72","1667849786026","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"73","1667849786026","matProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","n","","73","1667849786154","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"74","1667849786156","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","g","","74","1667849786242","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"75","1667849786244","matProd.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit","e","","75","1667849786294","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"76","1667849786294","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","76","1667849786394","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"77","1667849786401","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","76","1667849786983","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","76","1667849796401","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","77","1667849796406","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"77","1667849796407","matProd.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","l","","77","1667849797943","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"78","1667849797948","matProd.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","e","","78","1667849798040","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"79","1667849798042","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","79","1667849798141","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"80","1667849798142","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","(","","80","1667849798945","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","82","1667849798945","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"81","1667849798945","matProd.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","A","","81","1667849802288","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","A",,"82","1667849802292","matProd.py","1.1.4 for 2021-2022 @t1",,"A",,,,,
+"X-Keystroke",")",,"83","1667849803012","matProd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Keystroke",")",,"84","1667849803135","matProd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit",":","","84","1667849803810","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"85","1667849803814","matProd.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit","    
+","","86","1667849804472","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","90","1667849804473","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","C.append([])
+        for j in range(len(A[i])):
+            C[i].append(A[i][j] * B[i][j])","","94","1667849807005","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","C[i].append(A[i][j] * B[i][j])","154","1667849810587","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","C","","154","1667849812573","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","C",,"155","1667849812573","matProd.py","1.1.4 for 2021-2022 @t1",,"C",,,,,
+"File.Edit","","C","154","1667849816590","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","154","1667849817160","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"155","1667849817161","matProd.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","155","1667849817178","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","u ","154","1667849817527","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","s","","154","1667849817654","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"155","1667849817656","matProd.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","155","1667849817670","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","155","1667849817828","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","155","1667849817829","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"156","1667849817828","matProd.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","156","1667849817836","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","156","1667849817915","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","156","1667849817916","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"157","1667849817917","matProd.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","157","1667849817923","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","157","1667849818046","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","157","1667849818053","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"158","1667849818056","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","158","1667849819280","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"159","1667849819281","matProd.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","159","1667849819468","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"160","1667849819473","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","d","","160","1667849822874","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"161","1667849822874","matProd.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","161","1667849822894","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","161","1667849823024","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","161","1667849823025","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"162","1667849823025","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit"," ","","162","1667849823030","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","162","1667849823186","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","162","1667849823187","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"163","1667849823186","matProd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit"," ","","163","1667849823204","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","163","1667849824355","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","p","","163","1667849824356","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"164","1667849824392","matProd.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","","p","163","1667849824901","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","Prod(A[i], B[j])","","163","1667849827734","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","            
+","","180","1667849828291","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","C[i].append(sum)","","192","1667849855015","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667849860508","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","29","1667849860662","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","28","1667849860825","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"29","1667849860827","matProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","29","1667849860844","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","29","1667849860993","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","29","1667849860994","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"30","1667849861005","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","o","","30","1667849861091","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"31","1667849861100","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","m","","31","1667849861113","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"32","1667849861122","matProd.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","32","1667849862108","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"33","1667849862110","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","M","","33","1667849865820","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"34","1667849865821","matProd.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","34","1667849865823","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","34","1667849866043","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","34","1667849866044","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"35","1667849866062","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","t","","35","1667849866117","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"36","1667849866129","matProd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","h","","36","1667849866225","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","h",,"37","1667849866236","matProd.py","1.1.4 for 2021-2022 @t1",,"h",,,,,
+"File.Edit","o","","37","1667849866333","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"38","1667849866352","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","d","","38","1667849866430","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"39","1667849866451","matProd.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","s","","39","1667849866485","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"40","1667849866509","matProd.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit",".","","40","1667849866655","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"41","1667849866656","matProd.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","41","1667849866676","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","41","1667849869148","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","41","1667849869149","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"42","1667849869176","matProd.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","o","","42","1667849869304","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"43","1667849869317","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","t","","43","1667849869443","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"44","1667849869458","matProd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","Product","","44","1667849870095","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," import ","","51","1667849870103","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","dotProduct","","59","1667849871098","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","u","","210","1667849873537","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"211","1667849873538","matProd.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit",""," ","41","1667849873570","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","dotProduct import dotProduct","","41","1667849873571","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","dotProduct import dotProduct","41","1667849873570","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","41","1667849873571","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","158","1667849873570","matProd.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","184","1667849873570","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","211","1667849873639","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","c","","211","1667849873640","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"212","1667849873641","matProd.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","212","1667849873647","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","212","1667849873851","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","t","","212","1667849873852","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"213","1667849873867","matProd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","[","","240","1667849933453","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"241","1667849933454","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","]","","243","1667849934770","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","]",,"243","1667849934777","matProd.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","","C[[i]].append(sum)","238","1667849944958","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","C[i].append(sum)","","238","1667849946555","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","",".append([])","138","1667850028035","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","D","","138","1667850028691","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","D",,"139","1667850028693","matProd.py","1.1.4 for 2021-2022 @t1",,"D",,,,,
+"File.Edit"," ","","139","1667850028700","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","D ","138","1667850029663","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","C","137","1667850029790","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","d","","137","1667850030086","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"138","1667850030086","matProd.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit"," ","","138","1667850030103","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","d ","137","1667850030582","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","D","","137","1667850030811","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","D",,"138","1667850030813","matProd.py","1.1.4 for 2021-2022 @t1",,"D",,,,,
+"File.Edit"," ","","138","1667850030842","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","138","1667850031905","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","138","1667850031917","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"139","1667850031917","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","139","1667850032018","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"140","1667850032021","matProd.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","140","1667850032166","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"141","1667850032166","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","[]","","141","1667850032984","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","C[i].append(sum)","232","1667850038781","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","D","","232","1667850038785","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","D",,"233","1667850038786","matProd.py","1.1.4 for 2021-2022 @t1",,"D",,,,,
+"File.Edit"," ","","233","1667850038797","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","233","1667850039076","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",".","","233","1667850039077","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",".",,"234","1667850039077","matProd.py","1.1.4 for 2021-2022 @t1",,".",,,,,
+"File.Edit"," ","","234","1667850039095","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","234","1667850039762","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","234","1667850039763","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"235","1667850039781","matProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","p","","235","1667850039846","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"236","1667850039856","matProd.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","p","","236","1667850039993","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","p",,"237","1667850040011","matProd.py","1.1.4 for 2021-2022 @t1",,"p",,,,,
+"File.Edit","e","","237","1667850040294","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"238","1667850040310","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","238","1667850040446","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"239","1667850040459","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","d","","239","1667850040552","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"240","1667850040558","matProd.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","(","","240","1667850041083","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","241","1667850041085","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","sum","","241","1667850041832","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","            
+","","246","1667850042219","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","257","1667850042650","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","254","1667850042652","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","C.append(D)","","254","1667850050303","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","        
+","","266","1667850050834","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","D","","274","1667850052486","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","D",,"275","1667850052486","matProd.py","1.1.4 for 2021-2022 @t1",,"D",,,,,
+"File.Edit"," ","","275","1667850052501","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","275","1667850053214","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","275","1667850053234","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"276","1667850053237","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","= []","","276","1667850055699","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Copy","D = []",,"137","1667850060330","matProd.py","1.1.4 for 2021-2022 @t1",,"D = []",,,,,
+"File.Edit","","D = []","137","1667850060345","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","136","1667850060901","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","133","1667850060902","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","132","1667850061077","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","129","1667850061085","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","129","1667850061556","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    
+","","101","1667850063497","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"p","D = []",,"105","1667850064462","matProd.py","1.1.4 for 2021-2022 @t1",,"D = []",,,,,
+"File.Edit","","    ","101","1667850064462","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    D = []","","101","1667850064462","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","112","1667850094625","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","116","1667850095226","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"117","1667850095226","matProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","117","1667850095250","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","117","1667850095341","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","117","1667850095342","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"118","1667850095341","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit"," ","","118","1667850095347","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","118","1667850095434","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","118","1667850095435","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"119","1667850095447","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","119","1667850095549","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"120","1667850095550","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","120","1667850096015","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"121","1667850096016","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","121","1667850096941","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"122","1667850096945","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","122","1667850097114","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"123","1667850097114","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","n","","123","1667850097196","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"124","1667850097196","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","124","1667850097385","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"125","1667850097385","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","r","","125","1667850097470","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"126","1667850097470","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","a","","126","1667850097575","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"127","1667850097575","matProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","n","","127","1667850097767","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"128","1667850097769","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","g","","128","1667850097840","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"129","1667850097840","matProd.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit","e","","129","1667850097917","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"130","1667850097917","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","","e","129","1667850098364","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","g","128","1667850098416","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","127","1667850098551","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","126","1667850098688","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","125","1667850098819","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","124","1667850098944","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","123","1667850099085","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","122","1667850099205","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","121","1667850099342","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","120","1667850099432","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","119","1667850099620","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","118","1667850099778","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","o","117","1667850099944","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","116","1667850100115","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","115","1667850100400","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","112","1667850100407","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","112","1667850100641","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","[","","213","1667850118796","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","215","1667850118796","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"214","1667850118805","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","1","","214","1667850119444","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","1",,"215","1667850119445","matProd.py","1.1.4 for 2021-2022 @t1",,"1",,,,,
+"File.Edit","","1","214","1667850120477","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","i","","214","1667850121880","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","[","213","1667850129507","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","[","","213","1667850130688","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"214","1667850130695","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","","[","213","1667850142567","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","]","","213","1667850142856","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","]",,"214","1667850142857","matProd.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","[","","214","1667850144453","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"215","1667850144457","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","","]","217","1667850145340","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","dotProduct(","193","1667850158850","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",")","206","1667850160589","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",",","197","1667850162616","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","197","1667850162810","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"198","1667850162812","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","197","1667850164048","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","[","","197","1667850165615","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","198","1667850165616","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"198","1667850165618","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","j","","198","1667850166939","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","j",,"199","1667850166940","matProd.py","1.1.4 for 2021-2022 @t1",,"j",,,,,
+"File.Edit"," ","","199","1667850166954","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","199","1667850168930","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","200","1667850168931","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"201","1667850168931","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","*","","201","1667850169444","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","*",,"202","1667850169444","matProd.py","1.1.4 for 2021-2022 @t1",,"*",,,,,
+"File.Edit","        
+","","175","1667850194231","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","183","1667850194238","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","187","1667850194491","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"188","1667850194493","matProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit",""," ","199","1667850194512","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","] * B[j][i","","199","1667850194513","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","        f
+    ","179","1667850194511","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","] * B[j][i","199","1667850194511","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","199","1667850194512","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f 
+            ","","187","1667850194512","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","188","1667850194822","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","188","1667850194823","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"189","1667850194846","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","r","","189","1667850194904","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"190","1667850194931","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","190","1667850195058","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"191","1667850195058","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","k","","191","1667850195206","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"192","1667850195206","matProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"File.Edit"," ","","192","1667850195221","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","192","1667850195734","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","192","1667850195749","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"193","1667850195751","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","193","1667850195922","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"194","1667850195922","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","194","1667850195939","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","194","1667850196075","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","194","1667850196076","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"195","1667850196083","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","195","1667850196233","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"196","1667850196234","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","r","","196","1667850196387","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"197","1667850196387","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","197","1667850196418","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","197","1667850196548","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","197","1667850196549","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"198","1667850196553","matProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","n","","198","1667850196633","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"199","1667850196652","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","g","","199","1667850196735","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"200","1667850196759","matProd.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit","e","","200","1667850196779","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"201","1667850196797","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","(","","201","1667850201664","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","202","1667850201669","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"202","1667850201669","matProd.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","l","","202","1667850201975","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"203","1667850201975","matProd.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit","e","","203","1667850202114","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"204","1667850202114","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","204","1667850202197","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"205","1667850202197","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","(","","205","1667850202903","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","207","1667850202907","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"206","1667850202907","matProd.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","B","","206","1667850203513","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","B",,"207","1667850203513","matProd.py","1.1.4 for 2021-2022 @t1",,"B",,,,,
+"X-Keystroke",")",,"208","1667850204252","matProd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Keystroke",")",,"209","1667850204489","matProd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"X-Copy","sum = A[i][j] * B[j][i]
+            D.append(sum)",,"222","1667850208158","matProd.py","1.1.4 for 2021-2022 @t1",,"sum = A[i][j] * B[j][i]
+            D.append(sum)",,,,,
+"File.Edit","","sum = A[i][j] * B[j][i]
+            D.append(sum)","222","1667850208172","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","221","1667850208986","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","218","1667850208990","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","217","1667850209133","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","214","1667850209140","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    ","","214","1667850210108","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","218","1667850210308","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    D.append(dotProduct(A[i], B[k]))","","222","1667850210717","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","    D.append(dotProduct(A[i], B[k]))","222","1667850213033","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",":","","209","1667850216320","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"210","1667850216324","matProd.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit","    
+        ","","232","1667850216966","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","223","1667850216971","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","D.append(dotProduct(A[i], B[k]))","","227","1667850217925","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","D.append(dotProduct(A[i], B[k]))","227","1667850219188","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"p","sum = A[i][j] * B[j][i]
+            D.append(sum)",,"227","1667850220125","matProd.py","1.1.4 for 2021-2022 @t1",,"sum = A[i][j] * B[j][i]
+            D.append(sum)",,,,,
+"File.Edit","","                ","211","1667850220133","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","                sum = A[i][j] * B[j][i]
+                            D.append(sum)","","211","1667850220137","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","            ","259","1667850220257","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","292","1667850221971","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","291","1667850221980","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","290","1667850222228","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","287","1667850222230","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","286","1667850222476","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","283","1667850222486","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","280","1667850222897","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","[","","207","1667850262494","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","208","1667850262497","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"208","1667850262498","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","[","","208","1667850262537","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","210","1667850262540","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"209","1667850262540","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","","[","208","1667850263518","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","]","209","1667850263521","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","j","","208","1667850264802","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","j",,"209","1667850264804","matProd.py","1.1.4 for 2021-2022 @t1",,"j",,,,,
+"File.Edit"," ","","209","1667850264813","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","209","1667850267302","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","251","1667850267302","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","k","","251","1667850267697","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"252","1667850267698","matProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"File.Edit"," ","","209","1667850267710","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","253","1667850267710","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","209","1667850267710","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","252","1667850295147","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","  ","283","1667850295147","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","
+","","90","1667850346575","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","90","1667850346583","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","M","","94","1667850347095","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"95","1667850347095","matProd.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","95","1667850347105","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","95","1667850347577","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","95","1667850347590","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"96","1667850347591","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","= len(A)","","96","1667850349586","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","105","1667850349748","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","N","","109","1667850351391","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","N",,"110","1667850351393","matProd.py","1.1.4 for 2021-2022 @t1",,"N",,,,,
+"File.Edit"," = len(A[0])","","110","1667850353083","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","len(A)","164","1667850357493","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","164","1667850357497","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"165","1667850357498","matProd.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit","","= len(A)
+    N = len(A[0])","96","1667850357510","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","139","1667850357510","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+    D = []
+    C = []","","107","1667850357510","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","D = []","112","1667850357511","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+    C = []","96","1667850357511","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","N = len(A[0])","","112","1667850357512","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","= len(A)","","96","1667850357512","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","165","1667850361360","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","len(A[i])","191","1667850361360","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","N","","191","1667850361363","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","N",,"192","1667850361364","matProd.py","1.1.4 for 2021-2022 @t1",,"N",,,,,
+"File.Edit"," ","","165","1667850361383","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","193","1667850361383","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","165","1667850361383","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","192","1667850383953","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","            for k in range(len(B[j])):","195","1667850383954","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","195","1667850384229","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","250","1667850386215","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","247","1667850386217","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","210","1667850388467","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","207","1667850388467","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    
+","","123","1667850436783","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","s","","127","1667850436984","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"128","1667850436986","matProd.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit"," ","","128","1667850437006","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","128","1667850437056","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","128","1667850437057","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"129","1667850437059","matProd.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","129","1667850437063","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","129","1667850437250","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","129","1667850437251","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"130","1667850437267","matProd.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","130","1667850437440","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"131","1667850437441","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","= 0","","131","1667850438221","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","+","","223","1667850441494","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","+",,"224","1667850441499","matProd.py","1.1.4 for 2021-2022 @t1",,"+",,,,,
+"File.Edit","        
+","","305","1667850444664","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","s","","313","1667850444895","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","s",,"314","1667850444897","matProd.py","1.1.4 for 2021-2022 @t1",,"s",,,,,
+"File.Edit","","m = 0","129","1667850444916","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","129","1667850444917","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","","301","1667850444916","matProd.py","1.1.4 for 2021-2022 @t1","BOTH",,,,,,
+"File.Edit"," ","","310","1667850444916","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    D = []
+","","153","1667850444916","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","D","146","1667850444916","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","C","","146","1667850444917","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," 
+    C = []","129","1667850444917","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m = 0","","129","1667850444918","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","314","1667850444973","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","u","","314","1667850444974","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"315","1667850444974","matProd.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit"," ","","315","1667850444978","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","315","1667850445174","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","315","1667850445175","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"316","1667850445183","matProd.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","316","1667850445309","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"317","1667850445309","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","317","1667850446285","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"318","1667850446287","matProd.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","318","1667850446477","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"319","1667850446477","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","0","","319","1667850446654","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"320","1667850446654","matProd.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit",",","","193","1667850544227","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",",",,"194","1667850544229","matProd.py","1.1.4 for 2021-2022 @t1",,",",,,,,
+"File.Edit","k","","194","1667850545059","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"195","1667850545061","matProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"File.Edit"," ","","196","1667850545084","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","k ","194","1667850552055","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",",","193","1667850552252","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# CS1400 - 001
+# Assignment ??","","0","1667850593165","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","45","1667850593321","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","CS1400 - 001
+# Assignment ??","17","1667850596454","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M","","17","1667850596463","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","M",,"18","1667850596465","matVecProd.py","1.1.4 for 2021-2022 @t1",,"M",,,,,
+"File.Edit"," ","","18","1667850596491","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","18","1667850597413","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","ath 4610","","18","1667850597414","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","27","1667850597627","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","28","1667850597848","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","from Methods.dotProduct import dotProduct","","28","1667850602037","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","70","1667850602368","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","71","1667850603324","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","d","","71","1667850605530","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"72","1667850605530","matVecProd.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit","e","","72","1667850605701","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"73","1667850605702","matVecProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","f","","73","1667850605777","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"74","1667850605780","matVecProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","74","1667850605908","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"75","1667850605909","matVecProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","m","","75","1667850606527","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"76","1667850606529","matVecProd.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit","a","","76","1667850606654","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"77","1667850606654","matVecProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","t","","77","1667850606841","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"78","1667850606843","matVecProd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","r","","78","1667850607061","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"79","1667850607061","matVecProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","79","1667850607080","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","79","1667850607505","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","i","","79","1667850607506","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"80","1667850607508","matVecProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","","i","79","1667850607972","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","78","1667850608623","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","V","","78","1667850609042","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","V",,"79","1667850609044","matVecProd.py","1.1.4 for 2021-2022 @t1",,"V",,,,,
+"File.Edit"," ","","79","1667850609059","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","79","1667850609152","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","79","1667850609153","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"80","1667850609153","matVecProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","c","","80","1667850609328","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"81","1667850609330","matVecProd.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit","P","","81","1667850609946","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","P",,"82","1667850609947","matVecProd.py","1.1.4 for 2021-2022 @t1",,"P",,,,,
+"File.Edit","r","","82","1667850610326","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"83","1667850610326","matVecProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","o","","83","1667850610368","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"84","1667850610368","matVecProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","d","","84","1667850610471","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","d",,"85","1667850610476","matVecProd.py","1.1.4 for 2021-2022 @t1",,"d",,,,,
+"File.Edit",")","","85","1667850611843","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"86","1667850611846","matVecProd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit","=","","86","1667850612288","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"87","1667850612288","matVecProd.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit","","=","86","1667850612915","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",")","85","1667850613022","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(A, b):
+    M = len(A)
+    N = len(A[0])
+    sum = 0
+    c = []
+    for i in range(M):
+        for j in range(N):
+            sum += A[i][j] * b[j]
+        c.append(sum)
+        sum = 0
+    return c","","85","1667850613931","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","93","1667850641286","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","93","1667850641288","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","i","","97","1667850641758","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"98","1667850641759","matVecProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","98","1667850641790","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","98","1667850642035","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","98","1667850642036","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"99","1667850642040","matVecProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","99","1667850642048","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","99","1667850642462","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","99","1667850642479","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"100","1667850642480","matVecProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","l","","100","1667850642809","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","l",,"101","1667850642809","matVecProd.py","1.1.4 for 2021-2022 @t1",,"l",,,,,
+"File.Edit"," ","","101","1667850642838","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","101","1667850642960","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","101","1667850642961","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"102","1667850642966","matVecProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","n","","102","1667850643023","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"103","1667850643031","matVecProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","(","","103","1667850643899","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","104","1667850643904","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"104","1667850643904","matVecProd.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","",")","104","1667850647536","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","A[0]) != len(b):
+        print(""Error: Incompatible dimensions"")
+        return","","104","1667850647537","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","183","1667850649302","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"184","1667850649303","matVecProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","n","","184","1667850649521","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"185","1667850649521","matVecProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","185","1667850649539","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","185","1667850649649","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","185","1667850649650","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"186","1667850649656","matVecProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","n","","186","1667850649768","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"187","1667850649792","matVecProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","e","","187","1667850651075","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"188","1667850651078","matVecProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","","e","187","1667850651951","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","186","1667850652100","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","o","185","1667850652248","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","184","1667850652363","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","183","1667850652616","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","182","1667850654597","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","181","1667850654724","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","u","180","1667850654840","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","t","179","1667850654968","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","178","1667850655083","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","177","1667850655194","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","b","","177","1667850655298","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","b",,"178","1667850655301","matVecProd.py","1.1.4 for 2021-2022 @t1",,"b",,,,,
+"File.Edit"," ","","178","1667850655321","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","178","1667850655466","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","178","1667850655467","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"179","1667850655474","matVecProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","e","","179","1667850655550","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"180","1667850655569","matVecProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","a","","180","1667850655618","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"181","1667850655622","matVecProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","k","","181","1667850655699","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"182","1667850655711","matVecProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"File.Edit","","k","181","1667850662097","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","180","1667850662397","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","179","1667850662542","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","178","1667850662679","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","b","177","1667850662883","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","r","","177","1667850663017","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"178","1667850663017","matVecProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","178","1667850663035","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","178","1667850663146","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","e","","178","1667850663147","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"179","1667850663152","matVecProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","t","","179","1667850663281","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","t",,"180","1667850663291","matVecProd.py","1.1.4 for 2021-2022 @t1",,"t",,,,,
+"File.Edit","u","","180","1667850663415","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","u",,"181","1667850663433","matVecProd.py","1.1.4 for 2021-2022 @t1",,"u",,,,,
+"File.Edit","r","","181","1667850663473","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"182","1667850663482","matVecProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","n","","182","1667850663603","matVecProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"183","1667850663650","matVecProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","","from Methods.dotProduct import dotProduct
+","28","1667850755697","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","28","1667850755800","matVecProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Copy","def matVecProd(A, b):
+    if len(A[0]) != len(b):
+        print(""Error: Incompatible dimensions"")
+        return
+    M = len(A)
+    N = len(A[0])
+    sum = 0
+    c = []
+    for i in range(M):
+        for j in range(N):
+            sum += A[i][j] * b[j]
+        c.append(sum)
+        sum = 0
+    return c",,"28","1667850775833","matVecProd.py","1.1.4 for 2021-2022 @t1",,"def matVecProd(A, b):
+    if len(A[0]) != len(b):
+        print(""Error: Incompatible dimensions"")
+        return
+    M = len(A)
+    N = len(A[0])
+    sum = 0
+    c = []
+    for i in range(M):
+        for j in range(N):
+            sum += A[i][j] * b[j]
+        c.append(sum)
+        sum = 0
+    return c",,,,,
+"File.Edit","
+","","90","1667850867043","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","90","1667850867047","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","94","1667850867522","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"95","1667850867523","matProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","95","1667850867531","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","95","1667850867666","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","95","1667850867667","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"96","1667850867675","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","r","","96","1667850867743","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"97","1667850867755","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","97","1667850867858","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"98","1667850867859","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","k","","98","1667850868288","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"99","1667850868288","matProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"File.Edit"," ","","99","1667850868330","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","99","1667850868759","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","99","1667850868781","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"100","1667850868783","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","100","1667850868974","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"101","1667850868977","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","101","1667850868997","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","101","1667850869096","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","101","1667850869097","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"102","1667850869096","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","102","1667850869100","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","102","1667850869229","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","102","1667850869242","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"103","1667850869245","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","r","","103","1667850869311","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"104","1667850869311","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","104","1667850869328","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","104","1667850869427","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","104","1667850869428","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"105","1667850869434","matProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","n","","105","1667850869544","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"106","1667850869571","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","g","","106","1667850869614","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"107","1667850869633","matProd.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit","e","","107","1667850869650","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"108","1667850869677","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","108","1667850869750","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"109","1667850869752","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","108","1667850870738","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","107","1667850872560","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","g","106","1667850872697","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","105","1667850872834","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","104","1667850872999","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","103","1667850873103","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","102","1667850873225","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","101","1667850873354","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","100","1667850873503","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","99","1667850873614","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","k","98","1667850873851","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","97","1667850874009","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","96","1667850874107","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","o","95","1667850874239","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","f","94","1667850874354","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","93","1667850874617","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","90","1667850874620","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","90","1667850874879","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    
+","","123","1667850876855","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","K","","127","1667850877170","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","K",,"128","1667850877172","matProd.py","1.1.4 for 2021-2022 @t1",,"K",,,,,
+"File.Edit","    for k in r 
+","","90","1667850877187","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","144","1667850877187","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","for k in r 
+    ","94","1667850877190","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","128","1667850877482","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","128","1667850877499","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"129","1667850877500","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","= len(B[0])","","129","1667850878596","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","
+","","90","1667850882877","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","90","1667850882885","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","i","","94","1667850883109","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"95","1667850883111","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit","","i
+    ","94","1667850883137","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    i 
+","","90","1667850883138","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","95","1667850883203","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","95","1667850883204","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"96","1667850883204","matProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit"," ","","96","1667850883210","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","96","1667850883297","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","96","1667850883301","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"97","1667850883301","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","len(A[0]) != len(B):","","97","1667850887024","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","118","1667850887428","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","122","1667850887431","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","print(""Error: Incompatible dimensions"")
+        return","","126","1667850889331","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","232","1667850891777","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","f","","236","1667850892151","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"237","1667850892159","matProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","len(A[0]) != len(B):
+        print(""Error: Incompatible dimensions"")
+        return","","97","1667850892166","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","len(A[0]) != len(B):
+        print(""Error: Incompatible dimensions"")
+        return","97","1667850892166","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","154","1667850892166","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","237","1667850892236","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","o","","237","1667850892237","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"238","1667850892243","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","r","","238","1667850892302","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"239","1667850892309","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","239","1667850892407","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"240","1667850892407","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","k","","240","1667850893133","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"241","1667850893135","matProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"File.Edit"," ","","241","1667850893147","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","241","1667850893311","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","241","1667850893326","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"242","1667850893328","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","242","1667850893446","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"243","1667850893448","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","243","1667850893454","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","243","1667850893578","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","243","1667850893579","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"244","1667850893586","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","244","1667850893722","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"245","1667850893725","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","r","","245","1667850893853","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"246","1667850893855","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","246","1667850893884","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","246","1667850893970","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","246","1667850893971","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"247","1667850893970","matProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit"," ","","247","1667850893987","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","247","1667850894165","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","247","1667850894166","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"248","1667850894178","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","g","","248","1667850894220","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"249","1667850894237","matProd.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit","e","","249","1667850894244","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"250","1667850894257","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit"," ","","250","1667850894337","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"251","1667850894385","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit",""," ","250","1667850894892","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","(","","250","1667850895452","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","251","1667850895453","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"251","1667850895454","matProd.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","K","","251","1667850895858","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","K",,"252","1667850895858","matProd.py","1.1.4 for 2021-2022 @t1",,"K",,,,,
+"File.Edit"," ","","252","1667850895881","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"253","1667850896456","matProd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit",""," ","252","1667850896952","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",":","","253","1667850896953","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"254","1667850896952","matProd.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit","    
+","","255","1667850897346","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","259","1667850897348","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","262","1667850969363","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","259","1667850969366","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","258","1667850969504","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","   ","255","1667850969508","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","255","1667850970009","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",":","253","1667850970042","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",")","252","1667850970167","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","K","251","1667850970173","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","(","250","1667850970285","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","249","1667850970418","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","g","248","1667850970558","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","247","1667850970688","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","246","1667850970835","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","r","245","1667850970964","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","244","1667850971203","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","243","1667850971327","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","i","242","1667850971457","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","241","1667850971578","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","k","240","1667850971789","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","240","1667850971976","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"241","1667850971979","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","241","1667850971990","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","241","1667850972126","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","241","1667850972132","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"242","1667850972133","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","242","1667850972262","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"243","1667850972262","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","243","1667850972267","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","243","1667850972373","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","243","1667850972374","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"244","1667850972382","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","244","1667850972508","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"245","1667850972508","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","r","","245","1667850972639","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"246","1667850972639","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","246","1667850972645","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","246","1667850972780","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","a","","246","1667850972781","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","a",,"247","1667850972785","matProd.py","1.1.4 for 2021-2022 @t1",,"a",,,,,
+"File.Edit","n","","247","1667850973157","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"248","1667850973180","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit","g","","248","1667850973273","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","g",,"249","1667850973290","matProd.py","1.1.4 for 2021-2022 @t1",,"g",,,,,
+"File.Edit","e","","249","1667850973315","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","e",,"250","1667850973335","matProd.py","1.1.4 for 2021-2022 @t1",,"e",,,,,
+"File.Edit","(","","250","1667850974149","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",")","","251","1667850974156","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","(",,"251","1667850974157","matProd.py","1.1.4 for 2021-2022 @t1",,"(",,,,,
+"File.Edit","N","","251","1667850974384","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","N",,"252","1667850974384","matProd.py","1.1.4 for 2021-2022 @t1",,"N",,,,,
+"X-Keystroke",")",,"253","1667850975152","matProd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit",":","","253","1667850975673","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",":",,"254","1667850975677","matProd.py","1.1.4 for 2021-2022 @t1",,":",,,,,
+"File.Edit","    
+","","232","1667850980066","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","B","","236","1667850980449","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","B",,"237","1667850980450","matProd.py","1.1.4 for 2021-2022 @t1",,"B",,,,,
+"File.Edit","","B
+    ","236","1667850980457","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","    B 
+","","232","1667850980458","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","237","1667850980629","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","T","","237","1667850980630","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","T",,"238","1667850980693","matProd.py","1.1.4 for 2021-2022 @t1",,"T",,,,,
+"File.Edit"," ","","238","1667850981271","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"239","1667850981272","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","= []","","239","1667850981838","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","267","1667850983665","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","271","1667850983666","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","BT.append([])
+        for m in range(M):
+            BT[n].append(B[m][n])","","275","1667850991511","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","m","301","1667851014276","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","k","","301","1667851014460","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"302","1667851014461","matProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"File.Edit","","T = []","237","1667851014498","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","237","1667851014499","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","298","1667851014498","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","237","1667851014502","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","T = []","","237","1667851014503","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","k ","301","1667851016530","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","m","","301","1667851016531","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","m","301","1667851016861","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","k","","301","1667851016862","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","M","312","1667851016861","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","k","","312","1667851016869","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"313","1667851016872","matProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"File.Edit"," ","","303","1667851016891","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit"," ","","314","1667851016891","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","303","1667851016893","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","313","1667851022812","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","B[m][n])","341","1667851022812","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","(","340","1667851022959","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","d","339","1667851023122","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","338","1667851023232","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","e","337","1667851023352","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","336","1667851023479","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","p","335","1667851023620","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","a","334","1667851023738","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","",".","333","1667851023856","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","]","332","1667851023980","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","331","1667851024106","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","[","330","1667851024223","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","T","329","1667851024330","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","B","328","1667851024710","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","BT[n].append(B[k][n])","","328","1667851049773","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","",")","348","1667851050271","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","]","347","1667851050442","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","n","346","1667851050598","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","[","345","1667851050728","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","]","344","1667851050847","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","344","1667851051151","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"345","1667851051151","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","345","1667851051176","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","n ","344","1667851051702","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","k","343","1667851051787","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","343","1667851051931","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"344","1667851051932","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","344","1667851051937","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","344","1667851052835","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","]","","344","1667851052836","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","]",,"345","1667851052836","matProd.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit","[","","345","1667851053467","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","346","1667851053468","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"346","1667851053468","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","k","","346","1667851053966","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","k",,"347","1667851053967","matProd.py","1.1.4 for 2021-2022 @t1",,"k",,,,,
+"X-Keystroke","]",,"348","1667851055362","matProd.py","1.1.4 for 2021-2022 @t1",,"]",,,,,
+"File.Edit",")","","348","1667851055798","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke",")",,"349","1667851055798","matProd.py","1.1.4 for 2021-2022 @t1",,")",,,,,
+"File.Edit","","M = len(A)
+    N = len(A[0])
+    K = len(B[0])
+    BT = []
+    for n in range(N):
+        BT.append([])
+        for k in range(k):
+            BT[n].append(B[n][k])
+    sum = 0
+    C = []
+    D = []
+    for i in range(M):
+        for j in range(N):
+            sum += A[i][j] * B[j][k]
+            D.append(sum)
+        C.append(D)
+        D = []
+        sum = 0
+    return C","185","1667851118953","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","C","","185","1667851118958","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","C",,"186","1667851118959","matProd.py","1.1.4 for 2021-2022 @t1",,"C",,,,,
+"File.Edit"," ","","186","1667851118990","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","186","1667851119405","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","186","1667851119412","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"187","1667851119413","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","187","1667851120573","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"188","1667851120575","matProd.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","188","1667851120783","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"189","1667851120783","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","[","","189","1667851121568","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","190","1667851121576","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"190","1667851121577","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","[","","189","1667851121854","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","192","1667851121859","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"191","1667851121860","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","0","","191","1667851122712","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","0",,"192","1667851122713","matProd.py","1.1.4 for 2021-2022 @t1",,"0",,,,,
+"File.Edit","","0","191","1667851134362","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","]","192","1667851134365","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","[","189","1667851134365","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","]","190","1667851134367","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","[","189","1667851134370","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","188","1667851134372","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","=","187","1667851134373","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit",""," ","186","1667851134376","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","C","185","1667851134377","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","M = len(A)
+    N = len(A[0])
+    K = len(B[0])
+    BT = []
+    for n in range(N):
+        BT.append([])
+        for k in range(k):
+            BT[n].append(B[n][k])
+    sum = 0
+    C = []
+    D = []
+    for i in range(M):
+        for j in range(N):
+            sum += A[i][j] * B[j][k]
+            D.append(sum)
+        C.append(D)
+        D = []
+        sum = 0
+    return C","","185","1667851134379","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","BT = []
+    for n in range(N):
+        BT.append([])
+        for k in range(k):
+            BT[n].append(B[n][k])
+    sum = 0
+    C = []
+    D = []
+    for i in range(M):
+        for j in range(N):
+            sum += A[i][j] * B[j][k]
+            D.append(sum)
+        C.append(D)
+        D = []
+        sum = 0","236","1667851139776","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","c","","236","1667851140339","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","c",,"237","1667851140340","matProd.py","1.1.4 for 2021-2022 @t1",,"c",,,,,
+"File.Edit"," ","","237","1667851140348","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","c ","236","1667851141139","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","C","","236","1667851141451","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","C",,"237","1667851141454","matProd.py","1.1.4 for 2021-2022 @t1",,"C",,,,,
+"File.Edit"," ","","237","1667851141681","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"238","1667851141681","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","=","","238","1667851143049","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","=",,"239","1667851143053","matProd.py","1.1.4 for 2021-2022 @t1",,"=",,,,,
+"File.Edit"," ","","239","1667851143201","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"240","1667851143201","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","[","","240","1667851143397","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","241","1667851143403","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"241","1667851143403","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","[","","240","1667851143812","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","]","","243","1667851143819","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","[",,"242","1667851143819","matProd.py","1.1.4 for 2021-2022 @t1",,"[",,,,,
+"File.Edit","","]","242","1667851157645","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","0 for i in range(K)] for j in range(M)","","242","1667851157646","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","282","1667851159685","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","for i in range(M):","","286","1667851161768","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    
+","","305","1667851162021","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","    ","","309","1667851162024","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","for j in range(K):
+            for k in range(N):
+                C[i][j] += A[i][k] * B[k][j]","","313","1667851165011","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","for j in range(K):
+            for k in range(N):
+                C[i][j] += A[i][k] * B[k][j]","313","1667851183280","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","    ","309","1667851184611","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+    ","309","1667851184614","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","for i in range(M):","286","1667851185021","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","f","","286","1667851185776","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","f",,"287","1667851185778","matProd.py","1.1.4 for 2021-2022 @t1",,"f",,,,,
+"File.Edit","o","","287","1667851185941","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","o",,"288","1667851185941","matProd.py","1.1.4 for 2021-2022 @t1",,"o",,,,,
+"File.Edit","r","","288","1667851185988","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"289","1667851185995","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit"," ","","289","1667851186090","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"290","1667851186090","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","m","","290","1667851186235","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","m",,"291","1667851186243","matProd.py","1.1.4 for 2021-2022 @t1",,"m",,,,,
+"File.Edit"," ","","291","1667851186265","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","291","1667851186441","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit"," ","","291","1667851186446","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"292","1667851186448","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","i","","292","1667851186954","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","i",,"293","1667851186954","matProd.py","1.1.4 for 2021-2022 @t1",,"i",,,,,
+"File.Edit"," ","","293","1667851186974","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit",""," ","293","1667851187161","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","n","","293","1667851187162","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","n",,"294","1667851187175","matProd.py","1.1.4 for 2021-2022 @t1",,"n",,,,,
+"File.Edit"," ","","294","1667851187521","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke"," ",,"295","1667851187521","matProd.py","1.1.4 for 2021-2022 @t1",," ",,,,,
+"File.Edit","r","","295","1667851188897","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"X-Keystroke","r",,"296","1667851188899","matProd.py","1.1.4 for 2021-2022 @t1",,"r",,,,,
+"File.Edit","ange(M):
+        for k in range(K):
+            for n in range(N):
+                C[m][k] += A[m][n] * B[n][k]","","296","1667851190993","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","from Methods.dotProduct import dotProduct
+","28","1667851201368","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","
+","28","1667851201670","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"X-Copy","def matProd(A, B):
+    if len(A[0]) != len(B):
+        print(""Error: Incompatible dimensions"")
+        return
+    M = len(A)
+    N = len(A[0])
+    K = len(B[0])
+    C = [[0 for i in range(K)] for j in range(M)]
+    for m in range(M):
+        for k in range(K):
+            for n in range(N):
+                C[m][k] += A[m][n] * B[n][k]
+    return C",,"28","1667851234695","matProd.py","1.1.4 for 2021-2022 @t1",,"def matProd(A, B):
+    if len(A[0]) != len(B):
+        print(""Error: Incompatible dimensions"")
+        return
+    M = len(A)
+    N = len(A[0])
+    K = len(B[0])
+    C = [[0 for i in range(K)] for j in range(M)]
+    for m in range(M):
+        for k in range(K):
+            for n in range(N):
+                C[m][k] += A[m][n] * B[n][k]
+    return C",,,,,

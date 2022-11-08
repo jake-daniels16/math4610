@@ -1,0 +1,83 @@
+"EventType","InsertText","DeleteText","SourceLocation","ClientTimestamp","CodeStateSection","ToolInstances","EditType","X-Metadata","CodeStateID","X-Compilable","EventID","SubjectID","AssignmentID"
+"Run.Program","3","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe C:/Users/jdsoc/Documents/math4610/Linear_Algebra_Code/Test.py",,"PythonRunner",,"1667848639292","Test.py",,,,,,
+"o","3",,"
+Process finished with exit code 0
+",,"system","1667848644210",,,,,,,
+"Run.Program","4","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe C:/Users/jdsoc/Documents/math4610/Linear_Algebra_Code/Test.py",,"PythonRunner",,"1667848661551","Test.py",,,,,,
+"o","4",,"v1 =  [5. 7. 9.]
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"v2 =  [-3. -3. -3.]
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"v3 =  [2. 4. 6.]
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"v4 =  [-3, 6, -3]
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"v5 =  32
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"v6 =  6
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"v7 =  3.7416573867739413
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"v8 =  3
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"v9 =  0
+",,"stdout","1667848661986",,,,,,,
+"o","4",,"
+Process finished with exit code 0
+",,"system","1667848662003",,,,,,,
+"Run.Program","5","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe C:/Users/jdsoc/Documents/math4610/Linear_Algebra_Code/Test.py",,"PythonRunner",,"1667848888339","Test.py",,,,,,
+"o","5",,"v1 =  [5, 7, 9]
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"v2 =  [-3, -3, -3]
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"v3 =  [2, 4, 6]
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"v4 =  [-3, 6, -3]
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"v5 =  32
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"v6 =  6
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"v7 =  3.7416573867739413
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"v8 =  3
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"v9 =  0
+",,"stdout","1667848892170",,,,,,,
+"o","5",,"
+Process finished with exit code 0
+",,"system","1667848892186",,,,,,,
+"Run.Program","6","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe C:/Users/jdsoc/Documents/math4610/Linear_Algebra_Code/Test.py",,"PythonRunner",,"1667848976226","Test.py",,,,,,
+"o","6",,"v1 =  [5, 7, 9]
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"v2 =  [-3, -3, -3]
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"v3 =  [2, 4, 6]
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"v4 =  6
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"v5 =  3.7416573867739413
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"v6 =  3
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"v7 =  32
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"v8 =  [-3, 6, -3]
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"v9 =  0
+",,"stdout","1667848976602",,,,,,,
+"o","6",,"
+Process finished with exit code 0
+",,"system","1667848976617",,,,,,,
+"Run.Program","7","C:\Users\jdsoc\AppData\Local\Programs\Python\Python310\python.exe C:/Users/jdsoc/Documents/math4610/Linear_Algebra_Code/Test.py",,"PythonRunner",,"1667851417574","Test.py",,,,,,
+"o","7",,"A1 =  [[4, 4, 4], [10, 10, 10], [16, 16, 16]]
+",,"stdout","1667851425096",,,,,,,
+"o","7",,"A2 =  [[-2, 0, 2], [-2, 0, 2], [-2, 0, 2]]
+",,"stdout","1667851425096",,,,,,,
+"o","7",,"A3 =  [14, 32, 50]
+",,"stdout","1667851425096",,,,,,,
+"o","7",,"A4 =  [[42, 36, 30], [96, 81, 66], [150, 126, 102]]
+",,"stdout","1667851425096",,,,,,,
+"o","7",,"
+Process finished with exit code 0
+",,"system","1667851425144",,,,,,,

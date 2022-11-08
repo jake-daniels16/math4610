@@ -1,0 +1,16 @@
+/Methods/vecAdd.py
+/Methods/vecSub.py
+/Methods/showyourwork/vecScalar.py
+/Methods/vecNorm1.py
+/Methods/L1Norm.py
+/Methods/L2Norm.py
+/Methods/maxNorm.py
+/Methods/dotProduct.py
+/Methods/crossProduct.py
+/Test.py
+/Methods/tripleProduct.py
+/Methods/vecScalar.py
+/Methods/matAdd.py
+/Methods/matSub.py
+/Methods/matProd.py
+/Methods/matVecProd.py
