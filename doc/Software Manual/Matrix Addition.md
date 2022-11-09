@@ -6,15 +6,15 @@
 
 **Description/Purpose:** This function will take two matrices and add them together
 
-**Input:** a and b which are matrices of the same dimension
+**Input:** A and B which are matrices of the same dimension
 
-**Output:** c, a matrix that is the sum of the two matrices
+**Output:** C, a matrix that is the sum of the two matrices
 
 **Usage/Example:** I wrote the following code to test it:
 
     A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     B = [[3, 2, 1], [6, 5, 4], [9, 8, 7]]
-    A1 = matAdd(a, b)
+    A1 = matAdd(A, B)
     print("A1 = ", A1)
 
 Which ouputs the following matrix:
