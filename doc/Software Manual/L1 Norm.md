@@ -16,7 +16,7 @@
     v4 = L1Norm(a)
     print("v4 = ", v4)
 
-Which ouputs the following vector:
+Which ouputs the following value:
 
     v4 = 6
 
