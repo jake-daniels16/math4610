@@ -21,3 +21,4 @@ hon_stubs/-624978923/matplotlib/__init__.py
 /Methods/implicitEuler.py
 /logisticEqn.py
 /Methods/explicitEuler.py
+/eApprox.py
