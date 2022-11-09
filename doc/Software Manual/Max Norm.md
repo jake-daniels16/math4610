@@ -16,7 +16,7 @@
     v6 = maxNorm(a)
     print("v5 = ", v5)
 
-Which ouputs the following vector:
+Which ouputs the following value:
 
     v5 = 3
 
