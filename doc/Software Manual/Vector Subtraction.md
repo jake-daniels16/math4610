@@ -21,7 +21,7 @@ Which ouputs the following vector:
 
     v2 = [-3, -3, -3]
 
-**Implementation/Code:** The following is code for vecAdd.py
+**Implementation/Code:** The following is code for vecSub.py
 
     def vecSub(a, b):
         
