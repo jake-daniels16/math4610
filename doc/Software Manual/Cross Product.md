@@ -6,7 +6,7 @@
 
 **Description/Purpose:** This function will take two vectors and return the cross product
 
-**Input:** two vectors of the same dimension
+**Input:** two vectors of dimension 3
 
 **Output:** cross product which will be a vector
 
@@ -14,12 +14,12 @@
 
     a = [1, 2, 3]
     b = [4, 5, 6]
-    v7 = crossProduct(a, b)
-    print("v7 = ", v7)
+    v8 = crossProduct(a, b)
+    print("v8 = ", v8)
 
 Which ouputs the following vector:
 
-    v7 = [-3, 6, -3]
+    v8 = [-3, 6, -3]
 
 **Implementation/Code:** The following is code for crossProduct.py
 
