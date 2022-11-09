@@ -20,7 +20,7 @@ Which ouputs the following vector:
 
     v3 = [2, 4, 6]
 
-**Implementation/Code:** The following is code for vecAdd.py
+**Implementation/Code:** The following is code for vecScalar.py
 
     def vecScalar(a, b):
     
