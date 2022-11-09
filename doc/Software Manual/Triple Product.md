@@ -18,7 +18,7 @@
     v9 = tripleProduct(a, b, c)
     print("v9 = ", v9)
 
-Which ouputs the following vector:
+Which ouputs the following value:
 
     v9 = 0
 
