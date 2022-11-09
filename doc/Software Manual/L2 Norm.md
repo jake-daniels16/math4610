@@ -16,7 +16,7 @@
     v5 = L2Norm(a)
     print("v5 = ", v5)
 
-Which ouputs the following vector:
+Which ouputs the following value:
 
     v5 = 3.7416573867739413
 
