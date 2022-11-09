@@ -17,7 +17,7 @@
     v6 = dotProduct(a, b)
     print("v6 = ", v6)
 
-Which ouputs the following vector:
+Which ouputs the following scalar:
 
     v6 = 32
 
