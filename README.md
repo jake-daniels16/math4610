@@ -1,5 +1,5 @@
 # math4610
-This is a repository for my MATH 4610 code. Below is the table of contents for all my work including links to get to the appropriate software manual.
+This is a repository for my MATH 4610 code. Below is the table of contents for all my work including links to get to the appropriate software manual page.
 
 ## Table of Contents
 
