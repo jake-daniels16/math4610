@@ -2495,3 +2495,58 @@ def vecScalar(a, b):
             for n in range(N):
                 C[m][k] += A[m][n] * B[n][k]
     return C",,,,,
+"File.Edit","","
+","0","1668019815334","vecNorm1.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","","","0","1668019815335","vecNorm1.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","# Jake Daniels
+# Math 4610
+
+def vecScalar(a, b):
+    c = []
+    for i in range(len(a)):
+        c.append(a [i] * b)
+    return c
+","0","1668019816004","vecScalar.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# Math 4610
+
+def vecScalar(a, b):
+    c = []
+    for i in range(len(a)):
+        c.append(a[i] * b)
+    return c
+","","0","1668019816004","vecScalar.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,
+"File.Edit","","# Jake Daniels
+# Math 4610
+
+def matProd(A, B):
+    if len(A[0]) != len(B):
+        print(""Error: Incompatible d imensions"")
+        return
+   M = len(A)
+    N = len(A[0])
+    K = len(B[0])
+    C = [[0 for i in range(K)] for j in range(M)]
+    for m in range(M):
+        for k in range(K):
+            for n in range(N):
+                C[m][k] += A[m][n] * B[n][k]
+    return C
+","0","1668019816254","matProd.py","1.1.4 for 2021-2022 @t1","Delete",,,,,,
+"File.Edit","# Jake Daniels
+# Math 4610
+
+def matProd(A, B):
+    if len(A[0]) != len(B):
+        print(""Error: Incompatible dimensions"")
+        return
+    M = len(A)
+    N = len(A[0])
+    K = len(B[0])
+    C = [[0 for i in range(K)] for j in range(M)]
+    for m in range(M):
+        for k in range(K):
+            for n in range(N):
+                C[m][k] += A[m][n] * B[n][k]
+    return C
+","","0","1668019816254","matProd.py","1.1.4 for 2021-2022 @t1","Insert",,,,,,

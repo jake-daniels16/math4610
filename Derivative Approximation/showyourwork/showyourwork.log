@@ -9016,3 +9016,5 @@ for i in range(6):
     approx = eApprox(lambda t, x: x, 1, 0, 1, n)
     print(""n :"", n, ""e Approximation: "", approx)
     n = n * 10",,,,,
+"X-Action","Outside edit","","","1668019761305",".gitignore","1.1.4 for 2021-2022 @t1",,"Outside Edit",,,,,
+"X-Action","ShowYourWork Init","","","1668019766207",,"1.1.4 for 2021-2022 @t1",,"Init",,,,,
