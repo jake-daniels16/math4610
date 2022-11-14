@@ -1,25 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <omp.h>
+#define NUM_THREADS 8
+static long num_steps = 100000;
 
-double simpsons();
-double fval(double);
-
-int main()
+void main()
 {
-    double pi1;
-    double pi2;
-    double pi3;
-    double pi4;
-    double pi5;
-    pi1 = simpsons(fval, -1.0, 1.0, 10.0);
-    pi2 = simpsons(fval, -1.0, 1.0, 100.0);
-    pi3 = simpsons(fval, -1.0, 1.0, 1000.0);
-    pi4 = simpsons(fval, -1.0, 1.0, 10000.0);
-    pi5 = simpsons(fval, -1.0, 1.0, 100000.0);
-    printf("\n n = 10 | pi = %.20f", pi1);
-    printf("\n n = 100 | pi = %.20f", pi2);
-    printf("\n n = 1000 | pi = %.20f", pi3);
-    printf("\n n = 10000 | pi = %.20f", pi4);
-    printf("\n n = 100000 | pi = %.20f", pi5);
+    double start, end, runTime;
+    start = omp_get_wtime();
+    int i, nthreads; double pi, sum[NUM_THREADS];
+    double step = 2.0/(double) num_steps;
+    omp_set_num_threads(NUM_THREADS);
+    #pragma omp parallel
+    {
+        int i, id, nthrds;
+        double x;
+        id = omp_get_thread_num();
+        nthrds = omp_get_num_threads();
+        if (id == 0) nthreads = nthrds;
+        for (i=id, sum[id]=0.0;i< num_steps; i=i+nthrds)
+        {
+            x = -1.0 + (i+0.5)*step;
+            sum[id] += 2.0*sqrt(1.0-x*x);
+        }
+    }
+    for(i=0, pi=0.0;i<nthreads;i++)
+        pi += sum[i] * step;
+    end = omp_get_wtime();
+    runTime = end - start;
+    printf("\npi = %.20f", pi);
+    printf("\nTime to run: %.10f", runTime);
 }

@@ -1,25 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <omp.h>
+#include <time.h>
 
-double simpsons();
-double fval(double);
-
-int main()
+void main()
 {
-    double pi1;
-    double pi2;
-    double pi3;
-    double pi4;
-    double pi5;
-    pi1 = simpsons(fval, -1.0, 1.0, 10.0);
-    pi2 = simpsons(fval, -1.0, 1.0, 100.0);
-    pi3 = simpsons(fval, -1.0, 1.0, 1000.0);
-    pi4 = simpsons(fval, -1.0, 1.0, 10000.0);
-    pi5 = simpsons(fval, -1.0, 1.0, 100000.0);
-    printf("\n n = 10 | pi = %.20f", pi1);
-    printf("\n n = 100 | pi = %.20f", pi2);
-    printf("\n n = 1000 | pi = %.20f", pi3);
-    printf("\n n = 10000 | pi = %.20f", pi4);
-    printf("\n n = 100000 | pi = %.20f", pi5);
+    double start, end, runTime;
+    start = omp_get_wtime();
+    double a, b, n, pi, h, sum, x; int i;
+    a = -1.0;
+    b = 1.0;
+    n = 100000.0;
+    h = (b - a) / n;
+    sum = 2.0 * sqrt(1.0 - (a * a)) + 2.0 * sqrt(1.0 - (b * b));
+    for (i = 1; i < n; i++) {
+        x = a + i * h;
+        if (i % 2 == 0)
+            sum += 4.0 * sqrt(1.0 - (x * x));
+        else
+            sum += 8.0 * sqrt(1.0 - (x * x));
+    }
+    pi = sum * h / 3.0;
+    end = omp_get_wtime();
+    runTime = end - start;
+    printf("\npi = %.20f", pi);
+    printf("\nTime to run: %.10f", runTime);
 }
+
+
