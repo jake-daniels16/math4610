@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 
-double* hadamard_mat();
+void hadamard_mat();
 
-double* hadamard_mat(int n, int m, double A[n][m], double B[n][m])
+void hadamard_mat(int n, int m, double A[n][m], double B[n][m], double C[n][m])
 {
-    double C[n][m];
     int i, j;
     for (i = 0; i < n; i++)
     {
@@ -15,5 +14,4 @@ double* hadamard_mat(int n, int m, double A[n][m], double B[n][m])
             C[i][j] = A[i][j] * B[i][j];
         }
     }
-    return C;
 }

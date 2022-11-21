@@ -4,12 +4,12 @@
 #include <omp.h>
 #define NUM_THREADS 8
 
-double* hadamard_par();
+void hadamard_par();
 
-double* hadamard_par(int n, double A[n], double b[n])
+void hadamard_par(int n, double A[n], double b[n], double C[n])
 {
-    double C[n];
-    #pragma omp parallel for
+    omp_set_num_threads(NUM_THREADS);
+    #pragma omp parallel
     {
         int i, id, nthreads;
         id = omp_get_thread_num();
@@ -19,5 +19,4 @@ double* hadamard_par(int n, double A[n], double b[n])
             C[i] = A[i] * b[i];
         }
     }
-    return C;
 }
