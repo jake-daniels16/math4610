@@ -3,39 +3,38 @@
 #include <math.h>
 
 void jacobi_iter(int n, double A[n][n], double b[n], double x[n], double tol, int max_iter);
+void matrix_vector_mult(int n, double A[n][n], double x[n], double y[n]);
+double dot_product(int n, double x[n], double y[n]);
 
 void jacobi_iter(int n, double A[n][n], double b[n], double x[n], double tol, int max_iter)
 {
-    int i, j, k;
-    double sum, error;
-    double x_new[n];
-    for (i = 0; i < n; i++)
-    {
-        x_new[i] = 0.0;
-    }
-    error = tol * 10.0;
     int iter = 0;
+    double error = 10.0 * tol;
+    double c[n], y[n], r[n];
+    matrix_vector_mult(n, A, x, c);
+    for (int i = 0; i < n; i++)
+    {
+        r[i] = b[i] - c[i];
+    }
     while (error > tol && iter < max_iter)
     {
-        for (i = 0; i < n; i++)
+        for (int i = 0; i < n; i++)
         {
-            sum = 0.0;
-            for (j = 0; j < n; j++)
-            {
-                if (i != j)
-                {
-                    sum += A[i][j] * x[j];
-                }
-            }
-            x_new[i] = (b[i] - sum) / A[i][i];
+            y[i] = x[i] + r[i] / A[i][i];
         }
-        for (i = 0; i < n; i++)
+        error = dot_product(n, r, r);
+        if (error < tol)
         {
-            error += fabs(x_new[i] - x[i]);
+            break;
         }
-        for (i = 0; i < n; i++)
+        for (int i = 0; i < n; i++)
         {
-            x[i] = x_new[i];
+            x[i] = y[i];
+        }
+        matrix_vector_mult(n, A, x, c);
+        for (int i = 0; i < n; i++)
+        {
+            r[i] = b[i] - c[i];
         }
         iter++;
     }

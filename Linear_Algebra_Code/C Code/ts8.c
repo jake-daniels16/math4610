@@ -62,6 +62,26 @@ void jacobi_iter(int n, double A[n][n], double b[n], double x[n], double tol, in
 //    printf("%f", lambda_2);
 //}
 
+void main() //task 2a
+{
+    int n = 10;
+    double A[n][n], x[n], y[n];
+    int i, j;
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < n; j++)
+        {
+            A[i][j] = i + 1.0;
+        }
+        x[i] = 1.0;
+    }
+    double lambda = 0.0;
+    double tol = 1e-6;
+    int max_iter = 100;
+    double lambda_2 = power_method(n, A, x, lambda, tol, max_iter);
+    printf("%f", lambda_2);
+}
+
 //void main() //task 3 part 1
 //{
 //    int n = 5;
@@ -104,30 +124,30 @@ void jacobi_iter(int n, double A[n][n], double b[n], double x[n], double tol, in
 //    printf("%f", lambda_4);
 //}
 
-void main() //task 5
-{
-    int n = 3;
-    double A[n][n], b[n], x[n];
-    int i, j;
-    for (i = 0; i < n; i++)
-    {
-        for (j = 0; j < n; j++)
-        {
-            if (i == j)
-            {
-                A[i][j] = 3.0;
-            } else {
-                A[i][j] = 1.0;
-            }
-        }
-        b[i] = 1.0;
-        x[i] = 0.0;
-    }
-    double tol = 1e-6;
-    int max_iter = 100;
-    jacobi_iter(n, A, b, x, tol, max_iter);
-    for (i = 0; i < n; i++)
-    {
-        printf("\n%f ", x[i]);
-    }
-}
+//void main() //task 5
+//{
+//    int n = 100;
+//    double A[n][n], b[n], x[n];
+//    int i, j;
+//    for (i = 0; i < n; i++)
+//    {
+//        for (j = 0; j < n; j++)
+//        {
+//            if (i == j)
+//            {
+//                A[i][j] = 100.0;
+//            } else {
+//                A[i][j] = 1.0;
+//            }
+//        }
+//        b[i] = 1.0;
+//        x[i] = 0.0;
+//    }
+//    double tol = 1e-6;
+//    int max_iter = 1000;
+//    jacobi_iter(n, A, b, x, tol, max_iter);
+//    for (i = 0; i < n; i++)
+//    {
+//        printf("\n%f ", x[i]);
+//    }
+//}
