@@ -17,11 +17,11 @@ void matMult_par(int n, int m, int k, double A[n][m], double B[m][k], double C[n
         }
     }
     omp_set_num_threads(NUM_THREADS);
+    nthrds = omp_get_num_threads();
     #pragma omp parallel
     {
         id = omp_get_thread_num();
-        nthrds = omp_get_num_threads();
-        for (i = 0; i < n; i = i++)
+        for (i = 0; i < n; i++)
             {
                 for (j = 0; j < k; j++)
                 {   
