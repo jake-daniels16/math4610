@@ -11,19 +11,19 @@ void outerProduct_vec(int n, int m, double A[n], double B[m], double C[n][m]);
 
 void main() //task 1
 {
-    double A[8][8], B[8][8], C[8][8];
-    for (int i = 0; i < 8; i++)
+    double A[3][3], B[3][3], C[3][3];
+    for (int i = 0; i < 3; i++)
     {
-        for (int j = 0; j < 8; j++)
+        for (int j = 0; j < 3; j++)
         {
             A[i][j] = i + 1.0;
             B[i][j] = j + 1.0;
         }
     }
-    matMult_par(8, 8, 8, A, B, C);
-    for (int i = 0; i < 8; i++)
+    matMult_par(3, 3, 3, A, B, C);
+    for (int i = 0; i < 3; i++)
     {
-        for (int j = 0; j < 8; j++)
+        for (int j = 0; j < 3; j++)
         {
             printf("%f ", C[i][j]);
         }
