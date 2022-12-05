@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
-void jacobi_iter(int n, double A[n][n], double b[n], double x[n], double tol, int max_iter);
+void jacobi_iter(int n, double A[n][n], double x[n], double b[n], double tol, int max_iter);
 void matrix_vector_mult(int n, double A[n][n], double x[n], double y[n]);
 double dot_product(int n, double x[n], double y[n]);
 
-void jacobi_iter(int n, double A[n][n], double b[n], double x[n], double tol, int max_iter)
+void jacobi_iter(int n, double A[n][n], double x[n], double b[n], double tol, int max_iter)
 {
     int iter = 0;
     double error = 10.0 * tol;

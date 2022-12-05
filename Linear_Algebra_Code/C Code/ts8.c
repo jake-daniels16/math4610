@@ -13,7 +13,7 @@ double dot_product(int n, double x[n], double y[n]);
 void vecScalar(int n, double a, double x[n], double y[n]);
 double power_method_par(int n, double A[n][n], double x[n], double lambda, double tol, int max_iter);
 void mv_par(int n, double A[n][n], double x[n], double y[n]);
-void jacobi_iter(int n, double A[n][n], double b[n], double x[n], double tol, int max_iter);
+void jacobi_iter(int n, double A[n][n], double x[n], double b[n], double tol, int max_iter);
 
 //void main() //task 1
 //{
@@ -143,9 +143,9 @@ void main() //task 2a
 //        b[i] = 1.0;
 //        x[i] = 0.0;
 //    }
-//    double tol = 1e-6;
+//    double tol = 1e-6;  
 //    int max_iter = 1000;
-//    jacobi_iter(n, A, b, x, tol, max_iter);
+//    jacobi_iter(n, A, x, b, tol, max_iter);
 //    for (i = 0; i < n; i++)
 //    {
 //        printf("\n%f ", x[i]);
