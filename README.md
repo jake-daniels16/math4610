@@ -40,8 +40,8 @@ This is a repository for my MATH 4610 code. Below is the table of contents for a
 | [Tasksheet #9](https://github.com/jake-daniels16/math4610/blob/main/HW/HW%209.pdf) | | |
 
 ### Top 5 Software Manual Pages:
-1. [Newtons Method](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Newton's%20Method.md)
-2. [Second Derivative Approximation](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Second%20Derivative%20Approx.md)
-3. [Trapezoid Rule](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Trapezoid%20Rule.md)
-4. [L1 Norm](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/L1%20Norm.md)
-5. [Functional Iteration](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Functional%20Iteration.md)
+1. [Functional Iteration](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Functional%20Iteration.md)
+2. [Newtons Method](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Newton's%20Method.md)
+3. [Second Derivative Approximation](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Second%20Derivative%20Approx.md)
+4. [Trapezoid Rule](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Trapezoid%20Rule.md)
+5. [L1 Norm](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/L1%20Norm.md)
