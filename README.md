@@ -37,3 +37,4 @@ This is a repository for my MATH 4610 code. Below is the table of contents for a
 | | [matProd](https://github.com/jake-daniels16/math4610/blob/main/Linear_Algebra_Code/Methods/matProd.py) | [Matrix Multiplication](https://github.com/jake-daniels16/math4610/blob/main/doc/Software%20Manual/Matrix%20Multiplication.md) |
 | [Tasksheet #7](https://github.com/jake-daniels16/math4610/blob/main/HW/HW%207.pdf) | | |
 | [Tasksheet #8](https://github.com/jake-daniels16/math4610/blob/main/HW/HW%208.pdf) | | |
+| [Tasksheet #9}(https://github.com/jake-daniels16/math4610/blob/main/HW/HW%209.pdf) | | |
